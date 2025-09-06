@@ -4,4 +4,9 @@ When hatching an egg, your hatch info such as the pet type, base weight and rari
 
 Hunty zombie
 Upon execution, your membershiptype, username, userid, executor, money, level will be logged as well as being forced to join my discord server if you have the discord app.
+
+Fish It
+Upon execution, your membershiptype, username, userid, executor, money, level, fish caught will be logged.
+If a event happens in your server such as a shark hunt it will be publicly sent through a bot into my discord server for the general public to join
+
 I can choose to change the terms of service at any point.
