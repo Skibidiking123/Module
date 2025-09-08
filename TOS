@@ -1,3 +1,4 @@
+Grow A Garden
 Upon execution, your membershiptype, username, userid, executor, money will be logged as well as being forced to join my discord server if you have the discord app.
 Your data will only be seen by me for analytics such as checking my demographic and more. I will not sell your data to any 3rd party company nor sell your information to the devs.
 When hatching an egg, your hatch info such as the pet type, base weight and rarity will be sent through my bot into my discord where everyone can view it publicly. In addition to this, half of your username(ex: blackhub = blac**) will be included in the hatch data
@@ -5,7 +6,7 @@ When hatching an egg, your hatch info such as the pet type, base weight and rari
 Hunty zombie
 Upon execution, your membershiptype, username, userid, executor, money, level will be logged as well as being forced to join my discord server if you have the discord app.
 
-Fish It
+Fish It/Fisch
 Upon execution, your membershiptype, username, userid, executor, money, level, fish caught will be logged.
 If a event happens in your server such as a shark hunt it will be publicly sent through a bot into my discord server for the general public to join
 
