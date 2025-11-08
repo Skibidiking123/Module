@@ -4,10 +4,50 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Abyss Dart"] = {
+        ["WeightPool"] = { 650, 1800 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Abyss Flicker"] = {
+        ["WeightPool"] = { 420, 1140 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Abyss Snapper"] = {
+        ["WeightPool"] = { 15, 40 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Atlantean Storm"
+    },
+    ["Abyssacuda"] = {
+        ["WeightPool"] = { 55, 110 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Vertigo"
+    },
+    ["Abyssal Bearded Seadevil"] = {
+        ["WeightPool"] = { 180, 400 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Abyssal Zenith"
+    },
+    ["Abyssal Devourer"] = {
+        ["WeightPool"] = { 12000, 24000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Atlantis"
+    },
+    ["Abyssal Goliath"] = {
+        ["WeightPool"] = { 7000, 12000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Atlantis"
+    },
     ["Abyssal Grenadier"] = {
-        ["WeightPool"] = { 800, 2500 },
+        ["WeightPool"] = { 700, 2500 },
         ["Rarity"] = "Mythical",
         ["From"] = "Cultist Lair"
+    },
+    ["Abyssal King"] = {
+        ["WeightPool"] = { 3000, 6000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Atlantis"
     },
     ["Abyssal Maw"] = {
         ["WeightPool"] = { 6000, 17000 },
@@ -15,14 +55,29 @@ return {
         ["From"] = "Cults Curse"
     },
     ["Abyssal Slickhead"] = {
-        ["WeightPool"] = { 20, 65 },
+        ["WeightPool"] = { 20, 70 },
         ["Rarity"] = "Common",
         ["From"] = "Cultist Lair"
+    },
+    ["Abyssborn Monstrosity"] = {
+        ["WeightPool"] = { 24000, 57600 },
+        ["Rarity"] = "Secret",
+        ["From"] = "Cursed Isle"
+    },
+    ["Acanthodii"] = {
+        ["WeightPool"] = { 130, 160 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Ancient Isle"
     },
     ["Akkorokamui"] = {
         ["WeightPool"] = { 10000000, 40000000 },
         ["Rarity"] = "Apex",
         ["From"] = "Ocean"
+    },
+    ["Algae Lurker"] = {
+        ["WeightPool"] = { 720, 1800 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Alien Buddy"] = {
         ["WeightPool"] = { 1, 4 },
@@ -34,40 +89,260 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
-    ["Amblyopsis"] = {
-        ["WeightPool"] = { 18, 55 },
+    ["Alligator"] = {
+        ["WeightPool"] = { 1500, 3000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Mushgrove"
+    },
+    ["Alligator Gar"] = {
+        ["WeightPool"] = { 200, 450 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Roslit"
+    },
+    ["Amberjack"] = {
+        ["WeightPool"] = { 200, 400 },
         ["Rarity"] = "Uncommon",
-        ["From"] = "Cultist Lair"
+        ["From"] = "Ocean"
+    },
+    ["Amblypterus"] = {
+        ["WeightPool"] = { 700, 1800 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ancient Archives"
+    },
+    ["Amethyst"] = {
+        ["WeightPool"] = { 8, 16 },
+        ["Rarity"] = "Gemstone",
+        ["From"] = "Ancient Isle"
+    },
+    ["Anchovy"] = {
+        ["WeightPool"] = { 1, 3 },
+        ["Rarity"] = "Common",
+        ["From"] = "Moosewood"
+    },
+    ["Ancient Depth Serpent"] = {
+        ["WeightPool"] = { 5000, 10000 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "The Depths"
+    },
+    ["Ancient Eel"] = {
+        ["WeightPool"] = { 1000, 2000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "The Depths"
+    },
+    ["Ancient Fragment"] = {
+        ["WeightPool"] = { 1, 1 },
+        ["Rarity"] = "Fragment",
+        ["From"] = "Ancient Isle"
+    },
+    ["Ancient Kraken"] = {
+        ["WeightPool"] = { 1000000, 2500000 },
+        ["Rarity"] = "Secret",
+        ["From"] = "Atlantis"
+    },
+    ["Ancient Megalodon"] = {
+        ["WeightPool"] = { 500000, 700000 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Ancient Isle"
+    },
+    ["Ancient Orca"] = {
+        ["WeightPool"] = { 20000, 25000 },
+        ["Rarity"] = "Secret",
+        ["From"] = "Ocean"
+    },
+    ["Ancient Serpent Skull"] = {
+        ["WeightPool"] = { 50, 100 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Archeological Site"
+    },
+    ["Ancient Serpent Spine"] = {
+        ["WeightPool"] = { 30, 80 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Archeological Site"
+    },
+    ["Ancient Wood"] = {
+        ["WeightPool"] = { 1, 2 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Sunstone"
+    },
+    ["Angelfish"] = {
+        ["WeightPool"] = { 5, 20 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Roslit"
+    },
+    ["Anglerfish"] = {
+        ["WeightPool"] = { 5, 20 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Ocean"
     },
     ["Anglers Lantern"] = {
         ["WeightPool"] = { 18, 20 },
         ["Rarity"] = "Exotic",
         ["From"] = "None"
     },
+    ["Anomalocaris"] = {
+        ["WeightPool"] = { 100, 400 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Ancient Isle"
+    },
     ["Apex Leviathan"] = {
         ["WeightPool"] = { 3000000, 10000000 },
         ["Rarity"] = "Extinct",
         ["From"] = "Second Sea"
+    },
+    ["Aqua Scribe"] = {
+        ["WeightPool"] = { 4, 11 },
+        ["Rarity"] = "Common",
+        ["From"] = "Atlantis"
+    },
+    ["Arapaima"] = {
+        ["WeightPool"] = { 1000, 2000 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Roslit"
+    },
+    ["Arctic Char"] = {
+        ["WeightPool"] = { 20, 60 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Snowcap"
     },
     ["Ashclaw"] = {
         ["WeightPool"] = { 2000000, 5000000 },
         ["Rarity"] = "Apex",
         ["From"] = "Roslit Volcano"
     },
+    ["Ashcloud Archerfish"] = {
+        ["WeightPool"] = { 10000, 16000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Ashfall"
+    },
+    ["Ashscale Minnow"] = {
+        ["WeightPool"] = { 90, 210 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Atlantean Alchemist"] = {
+        ["WeightPool"] = { 200, 400 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantis"
+    },
+    ["Atlantean Anchovy"] = {
+        ["WeightPool"] = { 2, 8 },
+        ["Rarity"] = "Common",
+        ["From"] = "Atlantis"
+    },
+    ["Atlantean Guardian"] = {
+        ["WeightPool"] = { 40, 80 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantis"
+    },
+    ["Atlantean Sardine"] = {
+        ["WeightPool"] = { 3, 10 },
+        ["Rarity"] = "Common",
+        ["From"] = "Atlantis"
+    },
     ["Atolla Jellyfish"] = {
         ["WeightPool"] = { 200, 500 },
         ["Rarity"] = "Mythical",
         ["From"] = "Luminescent Cavern"
+    },
+    ["Aurora Pearl"] = {
+        ["WeightPool"] = { 1, 4 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Roslit"
+    },
+    ["Aurora Trout"] = {
+        ["WeightPool"] = { 2000, 4000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Cryogenic Canal"
+    },
+    ["Axolotl"] = {
+        ["WeightPool"] = { 5, 15 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Roslit"
+    },
+    ["Azure Prowler"] = {
+        ["WeightPool"] = { 960, 2400 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Azure Studfish"] = {
+        ["WeightPool"] = { 9, 25 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
+    ["Azureback Haddock School"] = {
+        ["WeightPool"] = { 180, 750 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Baby Bloop Fish"] = {
         ["WeightPool"] = { 500, 2000 },
         ["Rarity"] = "Secret",
         ["From"] = "None"
     },
+    ["Baby Nessie"] = {
+        ["WeightPool"] = { 100, 400 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Baby Pond Emperor"] = {
+        ["WeightPool"] = { 5, 20 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Snowcap"
+    },
     ["Baby\'s First Balloon"] = {
         ["WeightPool"] = { 1, 3 },
         ["Rarity"] = "Limited",
         ["From"] = "Anniversary"
+    },
+    ["Bait Crate"] = {
+        ["WeightPool"] = { 80, 80 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "None"
+    },
+    ["Banana"] = {
+        ["WeightPool"] = { 4, 10 },
+        ["Rarity"] = "Secret",
+        ["From"] = "Ancient Isle"
+    },
+    ["Banditfish"] = {
+        ["WeightPool"] = { 150, 200 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Desolate Deep"
+    },
+    ["Barbed Shark"] = {
+        ["WeightPool"] = { 7000, 9500 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Desolate Deep"
+    },
+    ["Barracuda"] = {
+        ["WeightPool"] = { 55, 110 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Ocean"
+    },
+    ["Barracuda\'s Spine"] = {
+        ["WeightPool"] = { 25, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Archeological Site"
+    },
+    ["Barreleye Fish"] = {
+        ["WeightPool"] = { 50, 150 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "The Depths"
+    },
+    ["Basalt"] = {
+        ["WeightPool"] = { 150, 210 },
+        ["Rarity"] = "Trash",
+        ["From"] = "Roslit Volcano"
+    },
+    ["Basalt Pike"] = {
+        ["WeightPool"] = { 930, 2190 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Basic Present"] = {
+        ["WeightPool"] = { 90, 90 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
     },
     ["Beach Ball Pufferfish"] = {
         ["WeightPool"] = { 5, 30 },
@@ -79,10 +354,25 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Fischfest"
     },
+    ["Bearded Toadfish"] = {
+        ["WeightPool"] = { 40, 180 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Beluga"] = {
         ["WeightPool"] = { 8000, 30000 },
         ["Rarity"] = "Apex",
         ["From"] = "Ocean"
+    },
+    ["Bigfin Squid"] = {
+        ["WeightPool"] = { 950, 2300 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Birgeria"] = {
+        ["WeightPool"] = { 500, 1200 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Ancient Archives"
     },
     ["Birthday Cake"] = {
         ["WeightPool"] = { 18, 27 },
@@ -114,6 +404,11 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Anniversary"
     },
+    ["Black Dragon Fish"] = {
+        ["WeightPool"] = { 150, 400 },
+        ["Rarity"] = "Rare",
+        ["From"] = "The Depths"
+    },
     ["Black Ghost Knifefish"] = {
         ["WeightPool"] = { 50, 150 },
         ["Rarity"] = "Rare",
@@ -129,13 +424,33 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Black Swallower"] = {
+        ["WeightPool"] = { 130, 320 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Black Veil Ray"] = {
+        ["WeightPool"] = { 10, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Crypt"
+    },
+    ["Blackfish"] = {
+        ["WeightPool"] = { 5, 20 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Snowcap"
+    },
     ["Blarney McBreeze"] = {
         ["WeightPool"] = { 650, 1600 },
         ["Rarity"] = "Limited",
         ["From"] = "Lucky Event"
     },
+    ["Blazebelly"] = {
+        ["WeightPool"] = { 4800, 12600 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Blind Swamp Eel"] = {
-        ["WeightPool"] = { 22, 70 },
+        ["WeightPool"] = { 18, 60 },
         ["Rarity"] = "Unusual",
         ["From"] = "Cultist Lair"
     },
@@ -144,15 +459,45 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Blisterback Blenny"] = {
+        ["WeightPool"] = { 10000, 28000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Volcanic Vents"
+    },
+    ["Blistered Eel"] = {
+        ["WeightPool"] = { 115, 190 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Ashfall"
+    },
+    ["Blisterfish"] = {
+        ["WeightPool"] = { 8, 20 },
+        ["Rarity"] = "Common",
+        ["From"] = "Cursed Isle"
+    },
     ["Blobfish"] = {
         ["WeightPool"] = { 8, 80 },
         ["Rarity"] = "Exotic",
         ["From"] = "Ocean"
     },
+    ["Blobfish School"] = {
+        ["WeightPool"] = { 200, 880 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Bloodscript Eel"] = {
         ["WeightPool"] = { 180, 450 },
         ["Rarity"] = "Limited",
         ["From"] = "Cults Curse"
+    },
+    ["Bloomtail"] = {
+        ["WeightPool"] = { 1200, 3000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Bloop Cosmetic Crate"] = {
+        ["WeightPool"] = { 100, 101 },
+        ["Rarity"] = "Secret",
+        ["From"] = "None"
     },
     ["Bloop Fish"] = {
         ["WeightPool"] = { 2000000, 5000000 },
@@ -163,6 +508,16 @@ return {
         ["WeightPool"] = { 14, 100 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Blue Energy Crystal"] = {
+        ["WeightPool"] = { 25, 50 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "None"
+    },
+    ["Blue Foamtail"] = {
+        ["WeightPool"] = { 20, 60 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Blue Langanose"] = {
         ["WeightPool"] = { 600, 1800 },
@@ -179,6 +534,41 @@ return {
         ["Rarity"] = "Secret",
         ["From"] = "Luminescent Cavern"
     },
+    ["Blue Tang"] = {
+        ["WeightPool"] = { 3, 15 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Roslit"
+    },
+    ["Blue Whale"] = {
+        ["WeightPool"] = { 1300000, 3000000 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Ocean"
+    },
+    ["Bluefin Tuna"] = {
+        ["WeightPool"] = { 1000, 2200 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Ocean"
+    },
+    ["Bluefin Tuna School"] = {
+        ["WeightPool"] = { 125, 400 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Bluefish"] = {
+        ["WeightPool"] = { 4, 9 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Keepers Altar"
+    },
+    ["Bluegem Angelfish"] = {
+        ["WeightPool"] = { 30, 100 },
+        ["Rarity"] = "Common",
+        ["From"] = "Treasure Island"
+    },
+    ["Bluegill"] = {
+        ["WeightPool"] = { 1, 6 },
+        ["Rarity"] = "Common",
+        ["From"] = "Snowcap"
+    },
     ["Bluehead Wrasse"] = {
         ["WeightPool"] = { 2, 8 },
         ["Rarity"] = "Extinct",
@@ -194,20 +584,65 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Boarfish"] = {
+        ["WeightPool"] = { 220, 540 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Bog Lantern Goby"] = {
         ["WeightPool"] = { 15, 40 },
         ["Rarity"] = "Legendary",
         ["From"] = "Blue Moon - First Sea"
+    },
+    ["Bogscale"] = {
+        ["WeightPool"] = { 30, 70 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Bombastic Egg"] = {
         ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Bone"] = {
+        ["WeightPool"] = { 10, 25 },
+        ["Rarity"] = "Trash",
+        ["From"] = "Brine Pool"
+    },
+    ["Bone Lanternfish"] = {
+        ["WeightPool"] = { 10, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Crypt"
+    },
+    ["Boot"] = {
+        ["WeightPool"] = { 12, 12 },
+        ["Rarity"] = "Trash",
+        ["From"] = "None"
+    },
+    ["Boots"] = {
+        ["WeightPool"] = { 12, 13 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Ocean"
+    },
+    ["Borealis Snapper"] = {
+        ["WeightPool"] = { 800, 1600 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Glacial Grotto"
+    },
     ["Bouncing Egg"] = {
         ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Bowfin"] = {
+        ["WeightPool"] = { 30, 60 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Mushgrove"
+    },
+    ["Brackscale"] = {
+        ["WeightPool"] = { 240, 600 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Brainfreeze Egg"] = {
         ["WeightPool"] = { 10, 40 },
@@ -219,10 +654,40 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Smurf Event Pool"
     },
+    ["Breaker Moth"] = {
+        ["WeightPool"] = { 300, 800 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Bream"] = {
+        ["WeightPool"] = { 11, 27 },
+        ["Rarity"] = "Common",
+        ["From"] = "Moosewood"
+    },
+    ["Brickhorse"] = {
+        ["WeightPool"] = { 20, 55 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
     ["Brighteyes Egg"] = {
         ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Brimstone Angler"] = {
+        ["WeightPool"] = { 1860, 4830 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Brine Phantom"] = {
+        ["WeightPool"] = { 4800, 6500 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Brine Pool"
+    },
+    ["Brine Shrimp"] = {
+        ["WeightPool"] = { 1, 3 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Brine Pool"
     },
     ["Broken Scylla"] = {
         ["WeightPool"] = { 200000000, 500000000 },
@@ -234,15 +699,90 @@ return {
         ["Rarity"] = "Uncommon",
         ["From"] = "Lost Jungle"
     },
+    ["Buccaneer Barracuda"] = {
+        ["WeightPool"] = { 90, 250 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Forsaken Shores"
+    },
+    ["Bull Shark"] = {
+        ["WeightPool"] = { 900, 1300 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Ocean"
+    },
+    ["Burbot"] = {
+        ["WeightPool"] = { 10, 35 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Snowcap"
+    },
+    ["Burnt Betta"] = {
+        ["WeightPool"] = { 2000, 8000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Ashfall"
+    },
+    ["Butterflyfish"] = {
+        ["WeightPool"] = { 2, 15 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Roslit"
+    },
+    ["Candle Carp"] = {
+        ["WeightPool"] = { 20, 70 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Candy Cane Carp"] = {
+        ["WeightPool"] = { 10, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
+    ["Candy Corn Cod"] = {
+        ["WeightPool"] = { 20, 100 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Candy Fish"] = {
+        ["WeightPool"] = { 5, 10 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright"
+    },
+    ["Canopy Tetra"] = {
+        ["WeightPool"] = { 60, 160 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Captain\'s Goldfish"] = {
+        ["WeightPool"] = { 10, 25 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Forsaken Shores"
+    },
     ["Capybass"] = {
         ["WeightPool"] = { 250, 750 },
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
     },
+    ["Caramel Chub"] = {
+        ["WeightPool"] = { 10, 30 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Carbon Crate"] = {
+        ["WeightPool"] = { 160, 160 },
+        ["Rarity"] = "Rare",
+        ["From"] = "None"
+    },
+    ["Cardinal Studfish"] = {
+        ["WeightPool"] = { 19, 54 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
     ["Cardinal Tetra"] = {
         ["WeightPool"] = { 10, 30 },
         ["Rarity"] = "Common",
         ["From"] = "Lost Jungle"
+    },
+    ["Carp"] = {
+        ["WeightPool"] = { 10, 50 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Moosewood"
     },
     ["Carrot Eel"] = {
         ["WeightPool"] = { 28, 58 },
@@ -284,45 +824,135 @@ return {
         ["Rarity"] = "Legendary",
         ["From"] = "Carrot Garden"
     },
+    ["Catfish"] = {
+        ["WeightPool"] = { 50, 150 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Mushgrove"
+    },
     ["Cathulid"] = {
-        ["WeightPool"] = { 40, 110 },
+        ["WeightPool"] = { 35, 100 },
         ["Rarity"] = "Exotic",
         ["From"] = "Cultist Lair"
     },
     ["Cathulith"] = {
-        ["WeightPool"] = { 1200, 4000 },
+        ["WeightPool"] = { 1000, 4000 },
         ["Rarity"] = "Exotic",
         ["From"] = "Cultist Lair"
     },
     ["Cave Angel Fish"] = {
-        ["WeightPool"] = { 45, 120 },
+        ["WeightPool"] = { 40, 110 },
         ["Rarity"] = "Exotic",
         ["From"] = "Cultist Lair"
     },
     ["Cave Loach"] = {
-        ["WeightPool"] = { 8, 35 },
+        ["WeightPool"] = { 8, 30 },
         ["Rarity"] = "Common",
         ["From"] = "Cultist Lair"
+    },
+    ["Celestial Koi"] = {
+        ["WeightPool"] = { 5000, 10000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Atlantis"
     },
     ["Charybdis"] = {
         ["WeightPool"] = { 10000000, 40000000 },
         ["Rarity"] = "Apex",
         ["From"] = "Ocean"
     },
+    ["Chasm Leech"] = {
+        ["WeightPool"] = { 12, 28 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Cursed Isle"
+    },
     ["Cheezburger"] = {
         ["WeightPool"] = { 14, 100 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Chillback Whitefish"] = {
+        ["WeightPool"] = { 25, 55 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Glacial Grotto"
+    },
+    ["Chillfin Chimaera"] = {
+        ["WeightPool"] = { 9000, 26000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Challenger\'s Deep"
+    },
+    ["Chillfin Herring"] = {
+        ["WeightPool"] = { 30, 70 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Cryogenic Canal"
+    },
+    ["Chillshadow Chub"] = {
+        ["WeightPool"] = { 6, 16 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Challenger\'s Deep"
+    },
+    ["Chinfish"] = {
+        ["WeightPool"] = { 20, 40 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Sunstone"
+    },
+    ["Chinook Salmon"] = {
+        ["WeightPool"] = { 100, 400 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Terrapin"
+    },
+    ["Chronos Deep Swimmer"] = {
+        ["WeightPool"] = { 55, 100 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantis"
+    },
+    ["Chub"] = {
+        ["WeightPool"] = { 10, 30 },
+        ["Rarity"] = "Common",
+        ["From"] = "Roslit"
+    },
+    ["Cinder Carp"] = {
+        ["WeightPool"] = { 50, 80 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Ashfall"
+    },
+    ["Cinder Dart"] = {
+        ["WeightPool"] = { 1080, 2730 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Cladoselache"] = {
+        ["WeightPool"] = { 180, 240 },
+        ["Rarity"] = "Common",
+        ["From"] = "Ancient Isle"
+    },
+    ["Clam"] = {
+        ["WeightPool"] = { 9, 10 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Roslit"
+    },
+    ["Claw Gill"] = {
+        ["WeightPool"] = { 15, 30 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Archeological Site"
     },
     ["Cloud"] = {
         ["WeightPool"] = { 150, 210 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Clown Brickfish"] = {
+        ["WeightPool"] = { 3, 8 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
     ["Clowned Triggerfish"] = {
         ["WeightPool"] = { 14, 55 },
         ["Rarity"] = "Common",
         ["From"] = "Castaway Cliffs"
+    },
+    ["Clownfish"] = {
+        ["WeightPool"] = { 1, 6 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Roslit"
     },
     ["Cluckfin"] = {
         ["WeightPool"] = { 95, 390 },
@@ -339,10 +969,50 @@ return {
         ["Rarity"] = "Uncommon",
         ["From"] = "Castaway Cliffs"
     },
+    ["Cobia"] = {
+        ["WeightPool"] = { 400, 700 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Ancient Isle"
+    },
+    ["Cockatoo Squid"] = {
+        ["WeightPool"] = { 4, 20 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Desolate Deep"
+    },
     ["Coconut"] = {
         ["WeightPool"] = { 5, 15 },
         ["Rarity"] = "Limited",
         ["From"] = "Fischfest"
+    },
+    ["Cod"] = {
+        ["WeightPool"] = { 20, 100 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Ocean"
+    },
+    ["Coelacanth"] = {
+        ["WeightPool"] = { 70, 100 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Ocean"
+    },
+    ["Coffin Crab"] = {
+        ["WeightPool"] = { 50, 150 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Coin Piranha"] = {
+        ["WeightPool"] = { 100, 300 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Treasure Island"
+    },
+    ["Coin Squid"] = {
+        ["WeightPool"] = { 100, 300 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Treasure Island"
+    },
+    ["Coin Triggerfish"] = {
+        ["WeightPool"] = { 28, 90 },
+        ["Rarity"] = "Common",
+        ["From"] = "Treasure Island"
     },
     ["Colossal Ancient Dragon"] = {
         ["WeightPool"] = { 1000000, 4000000 },
@@ -354,13 +1024,78 @@ return {
         ["Rarity"] = "Exotic",
         ["From"] = "Luminescent Cavern"
     },
+    ["Colossal Carp"] = {
+        ["WeightPool"] = { 20, 50 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Atlantis"
+    },
     ["Colossal Ethereal Dragon"] = {
         ["WeightPool"] = { 1000000, 4000000 },
         ["Rarity"] = "Secret",
         ["From"] = "Luminescent Cavern"
     },
+    ["Colossal Saccopharynx"] = {
+        ["WeightPool"] = { 800, 2000 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Abyssal Zenith"
+    },
+    ["Colossal Squid"] = {
+        ["WeightPool"] = { 7000, 12000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ocean"
+    },
+    ["Column Crawler"] = {
+        ["WeightPool"] = { 5, 12 },
+        ["Rarity"] = "Common",
+        ["From"] = "Atlantis"
+    },
+    ["Common Crate"] = {
+        ["WeightPool"] = { 80, 80 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "None"
+    },
     ["Coney Grouper"] = {
         ["WeightPool"] = { 140, 550 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Confetti Shark"] = {
+        ["WeightPool"] = { 800, 1200 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Golden Tide"
+    },
+    ["Cookie"] = {
+        ["WeightPool"] = { 1, 6 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
+    ["Cookiecutter Shark"] = {
+        ["WeightPool"] = { 5, 15 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Ocean"
+    },
+    ["Coral Chromis"] = {
+        ["WeightPool"] = { 5, 20 },
+        ["Rarity"] = "Common",
+        ["From"] = "Grand Reef"
+    },
+    ["Coral Emperor"] = {
+        ["WeightPool"] = { 150, 300 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Grand Reef"
+    },
+    ["Coral Geode"] = {
+        ["WeightPool"] = { 180, 180 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Desolate Deep"
+    },
+    ["Coral Guard"] = {
+        ["WeightPool"] = { 40, 90 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Grand Reef"
+    },
+    ["Coralwing Guppy School"] = {
+        ["WeightPool"] = { 180, 580 },
         ["Rarity"] = "Extinct",
         ["From"] = "Second Sea"
     },
@@ -389,30 +1124,105 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Corsair Grouper"] = {
+        ["WeightPool"] = { 50, 200 },
+        ["Rarity"] = "Common",
+        ["From"] = "Forsaken Shores"
+    },
+    ["Cosmic Relic"] = {
+        ["WeightPool"] = { 500, 500 },
+        ["Rarity"] = "Relic",
+        ["From"] = "None"
+    },
+    ["Countdown Perch"] = {
+        ["WeightPool"] = { 3000, 5000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Golden Tide"
+    },
     ["Cousin Tentacles"] = {
         ["WeightPool"] = { 14, 14 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Crab"] = {
+        ["WeightPool"] = { 6, 14 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Ocean"
+    },
+    ["Crab Stud"] = {
+        ["WeightPool"] = { 23, 80 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
     },
     ["Cracked Egg"] = {
         ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Cragscale"] = {
+        ["WeightPool"] = { 2130, 5760 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Crawling Angler"] = {
+        ["WeightPool"] = { 45, 130 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Cursed Isle"
+    },
     ["Crescent Madtom"] = {
         ["WeightPool"] = { 30, 90 },
         ["Rarity"] = "Rare",
         ["From"] = "Blue Moon - First Sea"
+    },
+    ["Crestscale"] = {
+        ["WeightPool"] = { 120, 300 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Crocokoi"] = {
         ["WeightPool"] = { 5000, 14000 },
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
     },
+    ["Crown Bass"] = {
+        ["WeightPool"] = { 20, 60 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Ocean"
+    },
     ["Crowned Anglerfish"] = {
         ["WeightPool"] = { 500000, 1400000 },
         ["Rarity"] = "Exotic",
         ["From"] = "Abyssal Zenith"
+    },
+    ["Crowned Royal Gramma"] = {
+        ["WeightPool"] = { 90, 300 },
+        ["Rarity"] = "Common",
+        ["From"] = "Treasure Island"
+    },
+    ["Cryo Coelacanth"] = {
+        ["WeightPool"] = { 70, 210 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Challenger\'s Deep"
+    },
+    ["Cryoskin"] = {
+        ["WeightPool"] = { 30, 80 },
+        ["Rarity"] = "Common",
+        ["From"] = "Challenger\'s Deep"
+    },
+    ["Crystal Carp"] = {
+        ["WeightPool"] = { 10, 18 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Winter\'s Edge"
+    },
+    ["Crystal Chorus"] = {
+        ["WeightPool"] = { 25, 50 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Atlantis"
+    },
+    ["Crystal Corydoras"] = {
+        ["WeightPool"] = { 1500, 4000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Calm Zone"
     },
     ["Crystal Frilled Shark"] = {
         ["WeightPool"] = { 14000, 60000 },
@@ -424,40 +1234,255 @@ return {
         ["Rarity"] = "Legendary",
         ["From"] = "Crystal Cove"
     },
+    ["Crystal Wrasse"] = {
+        ["WeightPool"] = { 40, 90 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Grand Reef"
+    },
     ["Crystallized Seadragon"] = {
         ["WeightPool"] = { 500000, 1700000 },
         ["Rarity"] = "Exotic",
         ["From"] = "Calm Zone"
+    },
+    ["Cursed Eel"] = {
+        ["WeightPool"] = { 80, 250 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Forsaken Shores"
+    },
+    ["Cursed Thread"] = {
+        ["WeightPool"] = { 105, 105 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Cutlass Fish"] = {
+        ["WeightPool"] = { 80, 250 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Forsaken Shores"
+    },
+    ["Cyclone Mako"] = {
+        ["WeightPool"] = { 400, 800 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantean Storm"
+    },
+    ["Cyclone Scorpionfish"] = {
+        ["WeightPool"] = { 460, 1200 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Veil of the Forsaken"
     },
     ["DJ Spinopus"] = {
         ["WeightPool"] = { 30000, 120000 },
         ["Rarity"] = "Mythical",
         ["From"] = "Crystal Cove"
     },
+    ["Dasyatis"] = {
+        ["WeightPool"] = { 500, 3000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Jurassic Island"
+    },
+    ["Deep Behemoth"] = {
+        ["WeightPool"] = { 3000, 6000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Atlantis"
+    },
+    ["Deep Crownfish"] = {
+        ["WeightPool"] = { 500, 1000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Atlantis"
+    },
+    ["Deep Emperor"] = {
+        ["WeightPool"] = { 2500, 5000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Atlantis"
+    },
+    ["Deep Freeze Devilfish"] = {
+        ["WeightPool"] = { 90, 190 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Challenger\'s Deep"
+    },
+    ["Deep One"] = {
+        ["WeightPool"] = { 200, 450 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantis"
+    },
+    ["Deep Pearl"] = {
+        ["WeightPool"] = { 1, 4 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Roslit"
+    },
+    ["Deep Sea Fragment"] = {
+        ["WeightPool"] = { 1, 1 },
+        ["Rarity"] = "Fragment",
+        ["From"] = "Ancient Isle"
+    },
+    ["Deep-sea Dragonfish"] = {
+        ["WeightPool"] = { 8, 40 },
+        ["Rarity"] = "Common",
+        ["From"] = "The Depths"
+    },
+    ["Deep-sea Hatchetfish"] = {
+        ["WeightPool"] = { 5, 35 },
+        ["Rarity"] = "Common",
+        ["From"] = "The Depths"
+    },
+    ["Deeplight Footballfish"] = {
+        ["WeightPool"] = { 175, 400 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Abyssal Zenith"
+    },
+    ["Depth Drifter"] = {
+        ["WeightPool"] = { 7200, 18000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Depth Lurker"] = {
+        ["WeightPool"] = { 250, 600 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Depth Octopus"] = {
+        ["WeightPool"] = { 30, 80 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "The Depths"
+    },
+    ["Destroyed Fossil"] = {
+        ["WeightPool"] = { 10, 45 },
+        ["Rarity"] = "Trash",
+        ["From"] = "The Depths"
+    },
+    ["Diamond Discus"] = {
+        ["WeightPool"] = { 800, 1750 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Calm Zone"
+    },
     ["Dinoflagellates"] = {
         ["WeightPool"] = { 1, 2 },
         ["Rarity"] = "Unusual",
         ["From"] = "Luminescent Cavern"
+    },
+    ["Diplomystus"] = {
+        ["WeightPool"] = { 100, 500 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Jurassic Island"
+    },
+    ["Diplurus"] = {
+        ["WeightPool"] = { 800, 1600 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Ancient Archives"
     },
     ["Doctorfish Tang"] = {
         ["WeightPool"] = { 30, 90 },
         ["Rarity"] = "Extinct",
         ["From"] = "Second Sea"
     },
+    ["Dogefin"] = {
+        ["WeightPool"] = { 105, 500 },
+        ["Rarity"] = "Secret",
+        ["From"] = "None"
+    },
+    ["Dolphin"] = {
+        ["WeightPool"] = { 1500, 2000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Ocean"
+    },
     ["Dr. Ishmael"] = {
         ["WeightPool"] = { 14, 14 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Dreaming Aberration"] = {
+        ["WeightPool"] = { 180, 430 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Cursed Isle"
+    },
+    ["Drift Claw"] = {
+        ["WeightPool"] = { 460, 1200 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Driftfin"] = {
+        ["WeightPool"] = { 240, 660 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Drifting Gildfin"] = {
+        ["WeightPool"] = { 15, 45 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Driftwood"] = {
+        ["WeightPool"] = { 6, 6 },
+        ["Rarity"] = "Trash",
+        ["From"] = "None"
     },
     ["Duckfin Tuna"] = {
         ["WeightPool"] = { 850, 3900 },
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
     },
+    ["Dumbo Octopus"] = {
+        ["WeightPool"] = { 15, 40 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Roslit"
+    },
+    ["Dunkleosteus"] = {
+        ["WeightPool"] = { 12000, 30000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Ancient Isle"
+    },
+    ["Duskwave Herring School"] = {
+        ["WeightPool"] = { 230, 620 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Dweller Catfish"] = {
+        ["WeightPool"] = { 100, 160 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Brine Pool"
+    },
+    ["Earth Fragment"] = {
+        ["WeightPool"] = { 1, 1 },
+        ["Rarity"] = "Fragment",
+        ["From"] = "Ancient Isle"
+    },
+    ["Echo Fisher"] = {
+        ["WeightPool"] = { 30, 65 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Atlantis"
+    },
+    ["Echo Koi"] = {
+        ["WeightPool"] = { 350, 900 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Ectoplasm Eel"] = {
+        ["WeightPool"] = { 150, 450 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Edestus"] = {
+        ["WeightPool"] = { 1000, 5000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Jurassic Island"
+    },
+    ["Eel"] = {
+        ["WeightPool"] = { 8, 45 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Moosewood"
+    },
+    ["Eerie Relic"] = {
+        ["WeightPool"] = { 210, 210 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
     ["Elder Mossjaw"] = {
         ["WeightPool"] = { 6000000, 14000000 },
         ["Rarity"] = "Secret",
         ["From"] = "Lost Jungle"
+    },
+    ["Eldritch Horror"] = {
+        ["WeightPool"] = { 400, 800 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantis"
     },
     ["Eldritch Spineback"] = {
         ["WeightPool"] = { 700, 1800 },
@@ -474,20 +1499,95 @@ return {
         ["Rarity"] = "Legendary",
         ["From"] = "Lost Jungle"
     },
+    ["Ember Catfish"] = {
+        ["WeightPool"] = { 130, 200 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Ashfall"
+    },
+    ["Ember Perch"] = {
+        ["WeightPool"] = { 4, 15 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Roslit Volcano"
+    },
+    ["Ember Snapper"] = {
+        ["WeightPool"] = { 60, 120 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Roslit Volcano"
+    },
+    ["Embertail Eel"] = {
+        ["WeightPool"] = { 18, 40 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Volcanic Vents"
+    },
+    ["Emberwing"] = {
+        ["WeightPool"] = { 1980, 4860 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Emerald Angelfish"] = {
+        ["WeightPool"] = { 43, 129 },
+        ["Rarity"] = "Common",
+        ["From"] = "Treasure Island"
+    },
+    ["Emerald Elephantnose"] = {
+        ["WeightPool"] = { 600, 1600 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Calm Zone"
+    },
+    ["Emperor Jellyfish"] = {
+        ["WeightPool"] = { 5000, 8000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Desolate Deep"
+    },
+    ["Enchant Relic"] = {
+        ["WeightPool"] = { 210, 210 },
+        ["Rarity"] = "Relic",
+        ["From"] = "None"
+    },
+    ["Exalted Relic"] = {
+        ["WeightPool"] = { 210, 210 },
+        ["Rarity"] = "Relic",
+        ["From"] = "None"
+    },
     ["Experimental Salmon"] = {
         ["WeightPool"] = { 20, 70 },
         ["Rarity"] = "Secret",
         ["From"] = "None"
+    },
+    ["Fangborn Gar"] = {
+        ["WeightPool"] = { 170, 380 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Vertigo"
+    },
+    ["Fangtooth"] = {
+        ["WeightPool"] = { 360, 900 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Fern"] = {
         ["WeightPool"] = { 2500, 5000 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Festive Bait Crate"] = {
+        ["WeightPool"] = { 80, 80 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
+    ["Firecrest"] = {
+        ["WeightPool"] = { 1440, 3600 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Fischipedia Accurate Pickle"] = {
         ["WeightPool"] = { 4, 10 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Fish Barrel"] = {
+        ["WeightPool"] = { 150, 150 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "None"
     },
     ["Flamangler"] = {
         ["WeightPool"] = { 720, 2800 },
@@ -504,10 +1604,50 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Floppy"] = {
+        ["WeightPool"] = { 80, 100 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Ancient Isle"
+    },
+    ["Flounder"] = {
+        ["WeightPool"] = { 15, 55 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Moosewood"
+    },
+    ["Flying Fish"] = {
+        ["WeightPool"] = { 15, 50 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Ocean"
+    },
+    ["Foamrunner"] = {
+        ["WeightPool"] = { 500, 1350 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Fogstripe"] = {
+        ["WeightPool"] = { 300, 700 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Fossil Fan"] = {
+        ["WeightPool"] = { 25, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Archeological Site"
+    },
+    ["Four Eyes Fish"] = {
+        ["WeightPool"] = { 50, 260 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Frank"] = {
         ["WeightPool"] = { 1, 4 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Frankenshrimp"] = {
+        ["WeightPool"] = { 1, 2 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
     },
     ["Freezing Shroom"] = {
         ["WeightPool"] = { 2, 7 },
@@ -534,10 +1674,115 @@ return {
         ["Rarity"] = "Secret",
         ["From"] = "None"
     },
+    ["Frightful Crate"] = {
+        ["WeightPool"] = { 80, 80 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Frightful Relic"] = {
+        ["WeightPool"] = { 210, 210 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Frigid Antlers"] = {
+        ["WeightPool"] = { 500, 1000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Overgrowth Caves"
+    },
+    ["Frigid Crab"] = {
+        ["WeightPool"] = { 15, 35 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Overgrowth Caves"
+    },
+    ["Frigid Mammoth Tusk"] = {
+        ["WeightPool"] = { 2500, 5000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Frigid Cavern"
+    },
+    ["Frigid Shrimp"] = {
+        ["WeightPool"] = { 3, 8 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Frigid Cavern"
+    },
+    ["Frigid Taco"] = {
+        ["WeightPool"] = { 100, 250 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Frigid Cavern"
+    },
+    ["Frilled Shark"] = {
+        ["WeightPool"] = { 40, 90 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "The Depths"
+    },
+    ["Frost Minnow"] = {
+        ["WeightPool"] = { 8, 16 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Cryogenic Canal"
+    },
     ["Frost Ray"] = {
         ["WeightPool"] = { 800, 2400 },
         ["Rarity"] = "Uncommon",
         ["From"] = "Blue Moon - First Sea"
+    },
+    ["Frostbite Flounder"] = {
+        ["WeightPool"] = { 150, 300 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Glacial Grotto"
+    },
+    ["Frostjaw Cod"] = {
+        ["WeightPool"] = { 500, 1000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Cryogenic Canal"
+    },
+    ["Frostling Goby"] = {
+        ["WeightPool"] = { 12, 28 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Glacial Grotto"
+    },
+    ["Frostscale Fangtooth"] = {
+        ["WeightPool"] = { 30, 70 },
+        ["Rarity"] = "Common",
+        ["From"] = "Challenger\'s Deep"
+    },
+    ["Frozen Fangfish"] = {
+        ["WeightPool"] = { 50, 80 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Winter\'s Edge"
+    },
+    ["Frozen Leviathan"] = {
+        ["WeightPool"] = { 500000, 1400000 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Challenger\'s Deep"
+    },
+    ["Frozen Pike"] = {
+        ["WeightPool"] = { 100, 250 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Cryogenic Canal"
+    },
+    ["Frozen Walnut"] = {
+        ["WeightPool"] = { 500, 1000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Overgrowth Caves"
+    },
+    ["Fungal Cluster"] = {
+        ["WeightPool"] = { 9, 9 },
+        ["Rarity"] = "Trash",
+        ["From"] = "Mushgrove"
+    },
+    ["Furnace Leaper"] = {
+        ["WeightPool"] = { 2340, 5940 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Gale Snapper"] = {
+        ["WeightPool"] = { 20, 55 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Galleon Goliath"] = {
+        ["WeightPool"] = { 50, 200 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Forsaken Shores"
     },
     ["Gargantuan Taco"] = {
         ["WeightPool"] = { 1000, 3000 },
@@ -545,29 +1790,174 @@ return {
         ["From"] = "Admin-Exclusive"
     },
     ["Garra Andruzzii"] = {
-        ["WeightPool"] = { 14, 48 },
+        ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Rare",
         ["From"] = "Cultist Lair"
     },
     ["Garra Typhlops"] = {
-        ["WeightPool"] = { 16, 52 },
+        ["WeightPool"] = { 12, 45 },
         ["Rarity"] = "Legendary",
         ["From"] = "Cultist Lair"
+    },
+    ["Gazerfish"] = {
+        ["WeightPool"] = { 80, 140 },
+        ["Rarity"] = "Common",
+        ["From"] = "Brine Pool"
+    },
+    ["Gem Anchovy"] = {
+        ["WeightPool"] = { 8, 20 },
+        ["Rarity"] = "Common",
+        ["From"] = "Treasure Island"
+    },
+    ["Gem Blobfish"] = {
+        ["WeightPool"] = { 10, 100 },
+        ["Rarity"] = "Secret",
+        ["From"] = "Treasure Island"
+    },
+    ["Gem Dolphin"] = {
+        ["WeightPool"] = { 80, 280 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Treasure Island"
+    },
+    ["Gem Eel"] = {
+        ["WeightPool"] = { 18, 50 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Treasure Island"
+    },
+    ["Gem Marlin"] = {
+        ["WeightPool"] = { 50000, 180000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Treasure Island"
+    },
+    ["Gem Salmon"] = {
+        ["WeightPool"] = { 30, 110 },
+        ["Rarity"] = "Common",
+        ["From"] = "Treasure Island"
+    },
+    ["Gemscale Mandarinfish"] = {
+        ["WeightPool"] = { 40, 110 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Treasure Island"
+    },
+    ["Gemstone Whale Shark"] = {
+        ["WeightPool"] = { 1200, 4000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Treasure Island"
     },
     ["Ghost"] = {
         ["WeightPool"] = { 1, 10 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Ghost Minnow"] = {
+        ["WeightPool"] = { 1, 6 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
     ["Ghoul"] = {
         ["WeightPool"] = { 2, 20 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Ghoulfish"] = {
+        ["WeightPool"] = { 45, 120 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright"
+    },
+    ["Giant Lamprey"] = {
+        ["WeightPool"] = { 200, 1000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Jurassic Island"
+    },
+    ["Giant Manta"] = {
+        ["WeightPool"] = { 60, 120 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantis"
+    },
+    ["Giant Moray"] = {
+        ["WeightPool"] = { 110, 400 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Giant Seadevil"] = {
+        ["WeightPool"] = { 20000, 50000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Abyssal Zenith"
+    },
+    ["Gilded Pearl"] = {
+        ["WeightPool"] = { 1, 4 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Roslit"
+    },
+    ["Gillicus"] = {
+        ["WeightPool"] = { 500, 2000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Jurassic Island"
+    },
+    ["Gingerbread Fish"] = {
+        ["WeightPool"] = { 20, 35 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
+    ["Ginsu Shark"] = {
+        ["WeightPool"] = { 7800, 10000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Ancient Isle"
+    },
     ["Glacial Fragment"] = {
         ["WeightPool"] = { 10, 10 },
         ["Rarity"] = "Fragment",
         ["From"] = "Snowburrow"
+    },
+    ["Glacial Sturgeon"] = {
+        ["WeightPool"] = { 2500, 5000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Cryogenic Canal"
+    },
+    ["Glacier Glowfish"] = {
+        ["WeightPool"] = { 80, 150 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Winter\'s Edge"
+    },
+    ["Glacier Pike"] = {
+        ["WeightPool"] = { 12, 35 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Snowcap"
+    },
+    ["Glacier Swordfish"] = {
+        ["WeightPool"] = { 200, 450 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Glacial Grotto"
+    },
+    ["Glacierfish"] = {
+        ["WeightPool"] = { 400, 600 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Snowcap"
+    },
+    ["Glade Lurker"] = {
+        ["WeightPool"] = { 650, 1600 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Glass Diamond"] = {
+        ["WeightPool"] = { 25, 50 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Overgrowth Caves"
+    },
+    ["Glass of Milk"] = {
+        ["WeightPool"] = { 1, 6 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
+    ["Glassfish"] = {
+        ["WeightPool"] = { 1, 4 },
+        ["Rarity"] = "Common",
+        ["From"] = "Sunstone"
+    },
+    ["Glimmer Guppy"] = {
+        ["WeightPool"] = { 360, 960 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Glitch Cap"] = {
         ["WeightPool"] = { 1, 1 },
@@ -584,10 +1974,50 @@ return {
         ["Rarity"] = "Common",
         ["From"] = "Blue Moon - First Sea"
     },
+    ["Globe Jellyfish"] = {
+        ["WeightPool"] = { 140, 240 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Brine Pool"
+    },
+    ["Gloombiter"] = {
+        ["WeightPool"] = { 9, 22 },
+        ["Rarity"] = "Common",
+        ["From"] = "Cursed Isle"
+    },
+    ["Glow Brick"] = {
+        ["WeightPool"] = { 90, 300 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
+    ["Glowfin Skipper"] = {
+        ["WeightPool"] = { 1500, 3900 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Goblin Shark"] = {
+        ["WeightPool"] = { 200, 450 },
+        ["Rarity"] = "Rare",
+        ["From"] = "The Depths"
+    },
+    ["Goldband Butterflyfish"] = {
+        ["WeightPool"] = { 70, 220 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Treasure Island"
+    },
+    ["Goldbrick"] = {
+        ["WeightPool"] = { 15, 40 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
     ["Golden Coin"] = {
         ["WeightPool"] = { 3, 15 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Golden Dorado"] = {
+        ["WeightPool"] = { 30, 100 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Treasure Island"
     },
     ["Golden Egg"] = {
         ["WeightPool"] = { 10, 40 },
@@ -604,10 +2034,60 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Golden Sea Pearl"] = {
+        ["WeightPool"] = { 1, 4 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Roslit"
+    },
+    ["Golden Seahorse"] = {
+        ["WeightPool"] = { 3, 8 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Forsaken Shores"
+    },
+    ["Golden Smallmouth Bass"] = {
+        ["WeightPool"] = { 15, 45 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Terrapin"
+    },
+    ["Goldfin Octopus"] = {
+        ["WeightPool"] = { 300, 1000 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Treasure Island"
+    },
+    ["Goldfish"] = {
+        ["WeightPool"] = { 2, 7 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Moosewood"
+    },
     ["Goliath Tigerfish"] = {
         ["WeightPool"] = { 10000, 50000 },
         ["Rarity"] = "Mythical",
         ["From"] = "Lost Jungle"
+    },
+    ["Gollum Snakehead"] = {
+        ["WeightPool"] = { 15, 50 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Cultist Lair"
+    },
+    ["Gorgon Grouper"] = {
+        ["WeightPool"] = { 600, 1650 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Veil of the Forsaken"
+    },
+    ["Grand Reef Guardian"] = {
+        ["WeightPool"] = { 400, 800 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Grand Reef"
+    },
+    ["Gravestone Stingray"] = {
+        ["WeightPool"] = { 2000, 5000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Grayling"] = {
+        ["WeightPool"] = { 5, 20 },
+        ["Rarity"] = "Common",
+        ["From"] = "Snowcap"
     },
     ["Great Barracuda"] = {
         ["WeightPool"] = { 1500, 5000 },
@@ -619,15 +2099,80 @@ return {
         ["Rarity"] = "Secret",
         ["From"] = "Castaway Cliffs"
     },
+    ["Great Hammerhead Shark"] = {
+        ["WeightPool"] = { 2300, 5000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ocean"
+    },
+    ["Great White Shark"] = {
+        ["WeightPool"] = { 7000, 12000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ocean"
+    },
+    ["Green Energy Crystal"] = {
+        ["WeightPool"] = { 25, 50 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "None"
+    },
+    ["Grey Carp"] = {
+        ["WeightPool"] = { 20, 70 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Mushgrove"
+    },
     ["Grouchy Smurf"] = {
         ["WeightPool"] = { 90, 210 },
         ["Rarity"] = "Limited",
         ["From"] = "Smurf Event Pool"
     },
+    ["Gudgeon"] = {
+        ["WeightPool"] = { 1, 3 },
+        ["Rarity"] = "Common",
+        ["From"] = "Terrapin"
+    },
+    ["Gulf Toadfish"] = {
+        ["WeightPool"] = { 90, 300 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Gummy Guppy"] = {
+        ["WeightPool"] = { 5, 15 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Gust Tail"] = {
+        ["WeightPool"] = { 5500, 12000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Gygax Egg"] = {
         ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Haddock"] = {
+        ["WeightPool"] = { 15, 40 },
+        ["Rarity"] = "Common",
+        ["From"] = "Ocean"
+    },
+    ["Halibut"] = {
+        ["WeightPool"] = { 1000, 2000 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Ocean"
+    },
+    ["Hallucigenia"] = {
+        ["WeightPool"] = { 30, 100 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Ancient Isle"
+    },
+    ["Handfish"] = {
+        ["WeightPool"] = { 20, 60 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Mushgrove"
+    },
+    ["Harbinger Koi"] = {
+        ["WeightPool"] = { 10, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Crypt"
     },
     ["Hawaiian Bobtail Squid"] = {
         ["WeightPool"] = { 5, 20 },
@@ -639,6 +2184,41 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Smurf Event Pool"
     },
+    ["Helicoprion"] = {
+        ["WeightPool"] = { 2500, 4200 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ancient Isle"
+    },
+    ["Helios Ray"] = {
+        ["WeightPool"] = { 30, 60 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantis"
+    },
+    ["Hellfire Haddock"] = {
+        ["WeightPool"] = { 25, 60 },
+        ["Rarity"] = "Common",
+        ["From"] = "Volcanic Vents"
+    },
+    ["Hellmaw Eel"] = {
+        ["WeightPool"] = { 210, 510 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Herring"] = {
+        ["WeightPool"] = { 5, 11 },
+        ["Rarity"] = "Common",
+        ["From"] = "Snowcap"
+    },
+    ["Hexeye Snapper"] = {
+        ["WeightPool"] = { 10, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Crypt"
+    },
+    ["Hidden Filefish"] = {
+        ["WeightPool"] = { 60, 190 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Treasure Island"
+    },
     ["Hidden Pipefish"] = {
         ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Legendary",
@@ -649,20 +2229,195 @@ return {
         ["Rarity"] = "Secret",
         ["From"] = "None"
     },
+    ["Hogchoker"] = {
+        ["WeightPool"] = { 40, 100 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Hollow Flake Catfish"] = {
+        ["WeightPool"] = { 20, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Winter\'s Edge"
+    },
     ["Hollow Gazer"] = {
         ["WeightPool"] = { 300, 780 },
         ["Rarity"] = "Limited",
         ["From"] = "Cults Curse"
+    },
+    ["Hollow Snapper"] = {
+        ["WeightPool"] = { 800, 2000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Hollowfin"] = {
+        ["WeightPool"] = { 40, 90 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Cursed Isle"
+    },
+    ["Hollyscale Trout"] = {
+        ["WeightPool"] = { 5, 10 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Winter\'s Edge"
+    },
+    ["Horizon Tetra"] = {
+        ["WeightPool"] = { 150, 390 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Horseshoe Crab"] = {
+        ["WeightPool"] = { 40, 90 },
+        ["Rarity"] = "Common",
+        ["From"] = "Desolate Deep"
+    },
+    ["Hourglass Bass"] = {
+        ["WeightPool"] = { 8000, 12000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Golden Tide"
+    },
+    ["Hydra Haddock"] = {
+        ["WeightPool"] = { 210, 470 },
+        ["Rarity"] = "Common",
+        ["From"] = "Veil of the Forsaken"
+    },
+    ["Hyneria"] = {
+        ["WeightPool"] = { 10000, 18000 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Ancient Isle"
+    },
+    ["Ice"] = {
+        ["WeightPool"] = { 40, 60 },
+        ["Rarity"] = "Trash",
+        ["From"] = "Snowcap"
+    },
+    ["Ice Anchovy"] = {
+        ["WeightPool"] = { 2, 6 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Overgrowth Caves"
+    },
+    ["Ice Eel"] = {
+        ["WeightPool"] = { 8, 20 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Frigid Cavern"
+    },
+    ["Ice Jellyfish"] = {
+        ["WeightPool"] = { 20, 45 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Frigid Cavern"
+    },
+    ["Ice Octopus"] = {
+        ["WeightPool"] = { 30, 80 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Frigid Cavern"
+    },
+    ["Icebeard Shark"] = {
+        ["WeightPool"] = { 3000, 6000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Glacial Grotto"
+    },
+    ["Iceberg Isopod"] = {
+        ["WeightPool"] = { 95, 240 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Challenger\'s Deep"
+    },
+    ["Icebreaker Haddock"] = {
+        ["WeightPool"] = { 200, 400 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Cryogenic Canal"
+    },
+    ["Iced Perch"] = {
+        ["WeightPool"] = { 20, 45 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Cryogenic Canal"
+    },
+    ["Icefang Barracuda"] = {
+        ["WeightPool"] = { 200, 450 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Glacial Grotto"
+    },
+    ["Icicle"] = {
+        ["WeightPool"] = { 4, 12 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
+    ["Icy Carp"] = {
+        ["WeightPool"] = { 30, 70 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Overgrowth Caves"
     },
     ["Icy Daggerfish"] = {
         ["WeightPool"] = { 80, 235 },
         ["Rarity"] = "Legendary",
         ["From"] = "Blue Moon - First Sea"
     },
+    ["Icy Goldfish"] = {
+        ["WeightPool"] = { 200, 400 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Overgrowth Caves"
+    },
+    ["Icy Salmon"] = {
+        ["WeightPool"] = { 40, 100 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Overgrowth Caves"
+    },
+    ["Icy Tuna"] = {
+        ["WeightPool"] = { 100, 250 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Overgrowth Caves"
+    },
+    ["Icy Walleye"] = {
+        ["WeightPool"] = { 40, 90 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Glacial Grotto"
+    },
+    ["Idolfish"] = {
+        ["WeightPool"] = { 7100, 17000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Infant Giant Seadevil"] = {
+        ["WeightPool"] = { 6000, 17000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Abyssal Zenith"
+    },
+    ["Infernal Halibut School"] = {
+        ["WeightPool"] = { 250, 670 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Infernal Iguanafish"] = {
+        ["WeightPool"] = { 8, 20 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Volcanic Vents"
+    },
+    ["Inferno Chaser"] = {
+        ["WeightPool"] = { 2040, 5610 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Inferno Hide"] = {
+        ["WeightPool"] = { 30, 80 },
+        ["Rarity"] = "Common",
+        ["From"] = "Volcanic Vents"
+    },
+    ["Inferno Wood"] = {
+        ["WeightPool"] = { 1, 2 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Roslit Volcano"
+    },
     ["Islandhopper Butterflyfish"] = {
         ["WeightPool"] = { 29, 87 },
         ["Rarity"] = "Extinct",
         ["From"] = "Second Sea"
+    },
+    ["Isonade"] = {
+        ["WeightPool"] = { 6000, 13000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Vertigo"
+    },
+    ["Jack-o-Lantern"] = {
+        ["WeightPool"] = { 210, 350 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
     },
     ["Japanese Dragon Eel"] = {
         ["WeightPool"] = { 800, 2500 },
@@ -674,15 +2429,65 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Jellystud"] = {
+        ["WeightPool"] = { 15, 40 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
+    ["Jungle Phantom"] = {
+        ["WeightPool"] = { 600, 1600 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Jurassic Helicoprion"] = {
+        ["WeightPool"] = { 2000, 8000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Jurassic Island"
+    },
+    ["Jurassic Mosasaurus"] = {
+        ["WeightPool"] = { 40000, 150000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Jurassic Island"
+    },
+    ["Keepers Guardian"] = {
+        ["WeightPool"] = { 200, 400 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Keepers Altar"
+    },
+    ["Kelpie"] = {
+        ["WeightPool"] = { 500, 1500 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
     ["Ken"] = {
         ["WeightPool"] = { 90, 210 },
         ["Rarity"] = "Limited",
         ["From"] = "Smurf Event Pool"
     },
+    ["Key of Oaths"] = {
+        ["WeightPool"] = { 5, 10 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Cultist Lair"
+    },
+    ["Key of Whispers"] = {
+        ["WeightPool"] = { 5, 10 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Cultist Lair"
+    },
     ["Kind Egg"] = {
         ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["King Jellyfish"] = {
+        ["WeightPool"] = { 3000, 5000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Atlantis"
+    },
+    ["King Oyster"] = {
+        ["WeightPool"] = { 4, 10 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Terrapin"
     },
     ["Kitefin Shark"] = {
         ["WeightPool"] = { 1000, 3000 },
@@ -694,20 +2499,95 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
     },
+    ["Knifefish"] = {
+        ["WeightPool"] = { 700, 1700 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Krabbit"] = {
         ["WeightPool"] = { 7500, 22000 },
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
+    },
+    ["Kraken Koi"] = {
+        ["WeightPool"] = { 1000, 2800 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Veil of the Forsaken"
+    },
+    ["Kraken\'s Herald"] = {
+        ["WeightPool"] = { 2500, 5000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Atlantis"
+    },
+    ["Lagoon Dart"] = {
+        ["WeightPool"] = { 300, 720 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Lagoon Lobster"] = {
+        ["WeightPool"] = { 12, 50 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Lantern Snapper"] = {
+        ["WeightPool"] = { 330, 900 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Lapis Lazuli"] = {
+        ["WeightPool"] = { 4, 14 },
+        ["Rarity"] = "Gemstone",
+        ["From"] = "Ancient Isle"
+    },
+    ["Lapisjack"] = {
+        ["WeightPool"] = { 200, 400 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Keepers Altar"
+    },
+    ["Largemouth Bass"] = {
+        ["WeightPool"] = { 10, 45 },
+        ["Rarity"] = "Common",
+        ["From"] = "Moosewood"
+    },
+    ["Lava Bream"] = {
+        ["WeightPool"] = { 360, 1020 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Lava Bucket"] = {
         ["WeightPool"] = { 150, 210 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Lava Lamprey"] = {
+        ["WeightPool"] = { 450, 750 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Ashfall"
+    },
+    ["Leedsichthys"] = {
+        ["WeightPool"] = { 9000, 11000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Ancient Isle"
+    },
+    ["Lepidotes"] = {
+        ["WeightPool"] = { 900, 2000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ancient Archives"
+    },
     ["Leviathan"] = {
         ["WeightPool"] = { 80000, 220000 },
         ["Rarity"] = "Exotic",
         ["From"] = "Cultist Lair"
+    },
+    ["Leviathan Bass"] = {
+        ["WeightPool"] = { 80, 160 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantis"
+    },
+    ["Leviathan Humpback Anglerfish"] = {
+        ["WeightPool"] = { 350, 800 },
+        ["Rarity"] = "Common",
+        ["From"] = "Abyssal Zenith"
     },
     ["Lifeguard Whistle"] = {
         ["WeightPool"] = { 1, 3 },
@@ -719,15 +2599,80 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Lightning Minnow"] = {
+        ["WeightPool"] = { 5, 15 },
+        ["Rarity"] = "Common",
+        ["From"] = "Atlantis"
+    },
+    ["Lightning Pike"] = {
+        ["WeightPool"] = { 200, 450 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantis"
+    },
+    ["Lingcod"] = {
+        ["WeightPool"] = { 40, 140 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Snowcap"
+    },
     ["Lithodes Megacantha"] = {
         ["WeightPool"] = { 50, 150 },
         ["Rarity"] = "Exotic",
         ["From"] = "Crimson Cavern"
     },
+    ["Lobster King"] = {
+        ["WeightPool"] = { 900000, 4000000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Log"] = {
+        ["WeightPool"] = { 45, 75 },
+        ["Rarity"] = "Trash",
+        ["From"] = "None"
+    },
+    ["Lollipop Lamprey"] = {
+        ["WeightPool"] = { 10, 40 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Long Pike"] = {
+        ["WeightPool"] = { 12, 35 },
+        ["Rarity"] = "Secret",
+        ["From"] = "Ocean"
+    },
+    ["Longtail Bass"] = {
+        ["WeightPool"] = { 20, 40 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Sunstone"
+    },
+    ["Lovestorm Eel"] = {
+        ["WeightPool"] = { 100000, 270000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Love"
+    },
+    ["Lovestorm Eel Supercharged"] = {
+        ["WeightPool"] = { 100000, 285000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Love"
+    },
+    ["Luminescent Minnow"] = {
+        ["WeightPool"] = { 2, 8 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "The Depths"
+    },
+    ["Lumpclinger"] = {
+        ["WeightPool"] = { 200, 500 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Lunar Monkfish"] = {
         ["WeightPool"] = { 800, 2500 },
         ["Rarity"] = "Mythical",
         ["From"] = "Blue Moon - First Sea"
+    },
+    ["Lurkerfish"] = {
+        ["WeightPool"] = { 5, 20 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright"
     },
     ["Lurking Crescent Pike"] = {
         ["WeightPool"] = { 70, 180 },
@@ -739,6 +2684,21 @@ return {
         ["Rarity"] = "Apex",
         ["From"] = "Ocean"
     },
+    ["Mackerel"] = {
+        ["WeightPool"] = { 10, 40 },
+        ["Rarity"] = "Common",
+        ["From"] = "Ocean"
+    },
+    ["Maelstorm Shark"] = {
+        ["WeightPool"] = { 2500, 5000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Atlantean Storm"
+    },
+    ["Mage Marlin"] = {
+        ["WeightPool"] = { 1000, 2000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Atlantis"
+    },
     ["Magician Narwhal"] = {
         ["WeightPool"] = { 1000000, 2500000 },
         ["Rarity"] = "Apex",
@@ -748,6 +2708,21 @@ return {
         ["WeightPool"] = { 500000, 1400000 },
         ["Rarity"] = "Exotic",
         ["From"] = "Volcanic Vents"
+    },
+    ["Magma Pike"] = {
+        ["WeightPool"] = { 390, 1050 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Magma Tang"] = {
+        ["WeightPool"] = { 6, 30 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Roslit Volcano"
+    },
+    ["Mahi Mahi"] = {
+        ["WeightPool"] = { 70, 150 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Sunstone"
     },
     ["Mained Lionfish"] = {
         ["WeightPool"] = { 1500, 4500 },
@@ -784,15 +2759,70 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Manta Ray"] = {
+        ["WeightPool"] = { 7750, 10000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Roslit"
+    },
+    ["Marble Maiden"] = {
+        ["WeightPool"] = { 15, 35 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Atlantis"
+    },
+    ["Marsh Gar"] = {
+        ["WeightPool"] = { 170, 380 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Mushgrove"
+    },
+    ["Marshmallow Mackerel"] = {
+        ["WeightPool"] = { 50, 200 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Massive Marlin"] = {
+        ["WeightPool"] = { 200, 450 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantis"
+    },
+    ["Mauve Pearl"] = {
+        ["WeightPool"] = { 1, 4 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Roslit"
+    },
+    ["Meg\'s Fang"] = {
+        ["WeightPool"] = { 10, 20 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ancient Isle"
+    },
+    ["Meg\'s Spine"] = {
+        ["WeightPool"] = { 25, 50 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ancient Isle"
+    },
+    ["Megalodon"] = {
+        ["WeightPool"] = { 500000, 670000 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Ancient Isle"
+    },
     ["Message in a Bottle"] = {
         ["WeightPool"] = { 3, 10 },
         ["Rarity"] = "Limited",
         ["From"] = "Fischfest"
     },
     ["Mexican Tetra"] = {
-        ["WeightPool"] = { 10, 40 },
+        ["WeightPool"] = { 5, 15 },
         ["Rarity"] = "Common",
         ["From"] = "Cultist Lair"
+    },
+    ["Midnight Axolotl"] = {
+        ["WeightPool"] = { 10, 30 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Desolate Deep"
+    },
+    ["Minnow"] = {
+        ["WeightPool"] = { 1, 6 },
+        ["Rarity"] = "Common",
+        ["From"] = "Roslit"
     },
     ["Minnowse"] = {
         ["WeightPool"] = { 5, 17 },
@@ -803,6 +2833,36 @@ return {
         ["WeightPool"] = { 1500, 5000 },
         ["Rarity"] = "Mythical",
         ["From"] = "Castaway Cliffs"
+    },
+    ["Moby"] = {
+        ["WeightPool"] = { 1000000, 2000000 },
+        ["Rarity"] = "Secret",
+        ["From"] = "Ocean"
+    },
+    ["Molten Banshee"] = {
+        ["WeightPool"] = { 3000, 5500 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Roslit Volcano"
+    },
+    ["Molten Minnow"] = {
+        ["WeightPool"] = { 4, 7 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Ashfall"
+    },
+    ["Molten Moray"] = {
+        ["WeightPool"] = { 80, 230 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Volcanic Vents"
+    },
+    ["Molten Ripple"] = {
+        ["WeightPool"] = { 13500, 36000 },
+        ["Rarity"] = "Secret",
+        ["From"] = "Roslit Volcano"
+    },
+    ["Moltenstripe"] = {
+        ["WeightPool"] = { 180, 480 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Moon"] = {
         ["WeightPool"] = { 10000000, 30000000 },
@@ -819,15 +2879,45 @@ return {
         ["Rarity"] = "Secret",
         ["From"] = "Blue Moon - First Sea"
     },
+    ["Moon Wood"] = {
+        ["WeightPool"] = { 1, 2 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "None"
+    },
+    ["Moonfish"] = {
+        ["WeightPool"] = { 2500, 5000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Ocean"
+    },
     ["Moonridge Catfish"] = {
         ["WeightPool"] = { 20, 60 },
         ["Rarity"] = "Unusual",
         ["From"] = "Blue Moon - First Sea"
     },
+    ["Moonstone"] = {
+        ["WeightPool"] = { 5, 28 },
+        ["Rarity"] = "Gemstone",
+        ["From"] = "Ancient Isle"
+    },
     ["Moonveil Killifish"] = {
         ["WeightPool"] = { 40, 120 },
         ["Rarity"] = "Common",
         ["From"] = "Blue Moon - First Sea"
+    },
+    ["Moonveil Salmon School"] = {
+        ["WeightPool"] = { 235, 615 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Mosaic Swimmer"] = {
+        ["WeightPool"] = { 20, 40 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Atlantis"
+    },
+    ["Mosasaurus"] = {
+        ["WeightPool"] = { 100000, 140000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ancient Isle"
     },
     ["Mossjaw"] = {
         ["WeightPool"] = { 3000000, 7000000 },
@@ -869,6 +2959,11 @@ return {
         ["Rarity"] = "Mythical",
         ["From"] = "Lost Jungle"
     },
+    ["Mourning Manta Ray"] = {
+        ["WeightPool"] = { 7750, 10000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
     ["Moxie"] = {
         ["WeightPool"] = { 90, 210 },
         ["Rarity"] = "Limited",
@@ -884,10 +2979,45 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Mullet"] = {
+        ["WeightPool"] = { 5, 20 },
+        ["Rarity"] = "Common",
+        ["From"] = "Ocean"
+    },
+    ["Murkdrifter"] = {
+        ["WeightPool"] = { 500, 1300 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Murkfin"] = {
+        ["WeightPool"] = { 180, 450 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Murkslither"] = {
+        ["WeightPool"] = { 17, 40 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Cursed Isle"
+    },
+    ["Mushgrove Crab"] = {
+        ["WeightPool"] = { 6, 14 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Mushgrove"
+    },
     ["Musical Crab"] = {
         ["WeightPool"] = { 14, 60 },
         ["Rarity"] = "Mythical",
         ["From"] = "Crystal Cove"
+    },
+    ["Mussel"] = {
+        ["WeightPool"] = { 1, 2 },
+        ["Rarity"] = "Common",
+        ["From"] = "Ocean"
+    },
+    ["Mustard"] = {
+        ["WeightPool"] = { 10, 40 },
+        ["Rarity"] = "Secret",
+        ["From"] = "Ocean"
     },
     ["Mustard Hat"] = {
         ["WeightPool"] = { 14, 14 },
@@ -899,15 +3029,60 @@ return {
         ["Rarity"] = "Rare",
         ["From"] = "Crystal Cove"
     },
+    ["Mutated Shark"] = {
+        ["WeightPool"] = { 2000, 4000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "The Depths"
+    },
+    ["Mythic Fish"] = {
+        ["WeightPool"] = { 6, 14 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ocean"
+    },
+    ["Napoleonfish"] = {
+        ["WeightPool"] = { 250, 350 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Sunstone"
+    },
     ["Narwhal"] = {
         ["WeightPool"] = { 5400, 20000 },
         ["Rarity"] = "Apex",
         ["From"] = "Ocean"
     },
+    ["Nautilus"] = {
+        ["WeightPool"] = { 400, 800 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "The Depths"
+    },
     ["Neon Tetra"] = {
         ["WeightPool"] = { 10, 25 },
         ["Rarity"] = "Common",
         ["From"] = "Lost Jungle"
+    },
+    ["Neptune\'s Nibbler"] = {
+        ["WeightPool"] = { 5, 15 },
+        ["Rarity"] = "Common",
+        ["From"] = "Atlantis"
+    },
+    ["Nessie"] = {
+        ["WeightPool"] = { 20000, 40000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright"
+    },
+    ["Nessie\'s Spine"] = {
+        ["WeightPool"] = { 40, 80 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Archeological Site"
+    },
+    ["Net Wolffish"] = {
+        ["WeightPool"] = { 400, 1500 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Treasure Island"
+    },
+    ["Night Shrimp"] = {
+        ["WeightPool"] = { 1, 2 },
+        ["Rarity"] = "Common",
+        ["From"] = "Vertigo"
     },
     ["No Name"] = {
         ["WeightPool"] = { 90, 210 },
@@ -919,15 +3094,50 @@ return {
         ["Rarity"] = "Rare",
         ["From"] = "Lost Jungle"
     },
+    ["Northstar Serpent"] = {
+        ["WeightPool"] = { 140000, 200000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
+    ["Nurse Shark"] = {
+        ["WeightPool"] = { 1000, 1500 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Ocean"
+    },
     ["O\'Mango Goldgrin"] = {
         ["WeightPool"] = { 800, 2400 },
         ["Rarity"] = "Limited",
         ["From"] = "Lucky Event"
     },
+    ["Oak Stripetail"] = {
+        ["WeightPool"] = { 40, 100 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Oarfish"] = {
+        ["WeightPool"] = { 1500, 2500 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ocean"
+    },
     ["Obsidian"] = {
         ["WeightPool"] = { 150, 210 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Obsidian Koi"] = {
+        ["WeightPool"] = { 1740, 4680 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Obsidian Salmon"] = {
+        ["WeightPool"] = { 40, 180 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Roslit Volcano"
+    },
+    ["Obsidian Swordfish"] = {
+        ["WeightPool"] = { 1000, 2500 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Roslit Volcano"
     },
     ["Ocean Triggerfish"] = {
         ["WeightPool"] = { 80, 250 },
@@ -939,30 +3149,90 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Octophant"
     },
+    ["Olm"] = {
+        ["WeightPool"] = { 1, 4 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Terrapin"
+    },
+    ["Olmdeer"] = {
+        ["WeightPool"] = { 1, 4 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
+    ["Onychodus"] = {
+        ["WeightPool"] = { 1000, 1400 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Ancient Isle"
+    },
+    ["Opal"] = {
+        ["WeightPool"] = { 9, 32 },
+        ["Rarity"] = "Gemstone",
+        ["From"] = "Ancient Isle"
+    },
     ["Opalescent Catfish"] = {
         ["WeightPool"] = { 16, 62 },
         ["Rarity"] = "Rare",
         ["From"] = "Crystal Cove"
+    },
+    ["Oracle Minnow"] = {
+        ["WeightPool"] = { 2, 7 },
+        ["Rarity"] = "Common",
+        ["From"] = "Atlantis"
+    },
+    ["Oracle\'s Eye"] = {
+        ["WeightPool"] = { 45, 90 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantis"
     },
     ["Orcanda"] = {
         ["WeightPool"] = { 30000, 100000 },
         ["Rarity"] = "Limited",
         ["From"] = "Octophant"
     },
+    ["Oreochima"] = {
+        ["WeightPool"] = { 300, 1500 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Jurassic Island"
+    },
+    ["Ornament Fish"] = {
+        ["WeightPool"] = { 3, 7 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
     ["Oscar Cichlid"] = {
         ["WeightPool"] = { 30, 120 },
         ["Rarity"] = "Unusual",
         ["From"] = "Lost Jungle"
     },
+    ["Oyster"] = {
+        ["WeightPool"] = { 2, 5 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Ocean"
+    },
+    ["Oyster toadfish"] = {
+        ["WeightPool"] = { 37, 115 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Ozark Cavefish"] = {
-        ["WeightPool"] = { 11, 42 },
-        ["Rarity"] = "Exotic",
+        ["WeightPool"] = { 8, 35 },
+        ["Rarity"] = "Legendary",
         ["From"] = "Cultist Lair"
+    },
+    ["Palaeoniscum"] = {
+        ["WeightPool"] = { 25, 700 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Ancient Archives"
     },
     ["Pale Ghost Lumpfish"] = {
         ["WeightPool"] = { 2, 8 },
         ["Rarity"] = "Uncommon",
         ["From"] = "Blue Moon - First Sea"
+    },
+    ["Pale Tang"] = {
+        ["WeightPool"] = { 3, 15 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Keepers Altar"
     },
     ["Papa Smurf"] = {
         ["WeightPool"] = { 90, 210 },
@@ -974,6 +3244,11 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Parktail Spinesnapper"] = {
+        ["WeightPool"] = { 60, 150 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Parrotfish"] = {
         ["WeightPool"] = { 45, 120 },
         ["Rarity"] = "Limited",
@@ -983,6 +3258,16 @@ return {
         ["WeightPool"] = { 2000, 12000 },
         ["Rarity"] = "Rare",
         ["From"] = "Lost Jungle"
+    },
+    ["Pearl"] = {
+        ["WeightPool"] = { 1, 4 },
+        ["Rarity"] = "Common",
+        ["From"] = "Roslit"
+    },
+    ["Pelican Eel"] = {
+        ["WeightPool"] = { 25000, 60000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Penguin"] = {
         ["WeightPool"] = { 10, 35 },
@@ -994,20 +3279,75 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
     },
+    ["Perch"] = {
+        ["WeightPool"] = { 2, 12 },
+        ["Rarity"] = "Common",
+        ["From"] = "Roslit"
+    },
+    ["Phanerorhynchus"] = {
+        ["WeightPool"] = { 600, 1400 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Ancient Archives"
+    },
+    ["Phantom Brine"] = {
+        ["WeightPool"] = { 840, 2160 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Phantom Jellyfish"] = {
+        ["WeightPool"] = { 100, 300 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Phantom Koi"] = {
+        ["WeightPool"] = { 3600, 9600 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Phantom Megalodon"] = {
+        ["WeightPool"] = { 500000, 670000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Ancient Isle"
+    },
+    ["Phantom Ray"] = {
+        ["WeightPool"] = { 40, 60 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Desolate Deep"
+    },
+    ["Philosopher\'s Fish"] = {
+        ["WeightPool"] = { 35, 70 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantis"
+    },
     ["Piglet Pike"] = {
         ["WeightPool"] = { 115, 410 },
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
+    },
+    ["Pike"] = {
+        ["WeightPool"] = { 12, 35 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Moosewood"
     },
     ["Pine Tree"] = {
         ["WeightPool"] = { 250000, 675000 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Pine Zephyrfish"] = {
+        ["WeightPool"] = { 50, 120 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Piraiba"] = {
         ["WeightPool"] = { 30000, 150000 },
         ["Rarity"] = "Legendary",
         ["From"] = "Lost Jungle"
+    },
+    ["Piranha"] = {
+        ["WeightPool"] = { 20, 50 },
+        ["Rarity"] = "Common",
+        ["From"] = "Ancient Isle"
     },
     ["Piranhamunk"] = {
         ["WeightPool"] = { 750, 2500 },
@@ -1024,10 +3364,30 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Lucky Event"
     },
+    ["Polar Alligator"] = {
+        ["WeightPool"] = { 800, 1500 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Frigid Cavern"
+    },
+    ["Polar Prowler"] = {
+        ["WeightPool"] = { 9000, 23000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Challenger\'s Deep"
+    },
+    ["Pollock"] = {
+        ["WeightPool"] = { 10, 50 },
+        ["Rarity"] = "Common",
+        ["From"] = "Snowcap"
+    },
     ["Poltergeist"] = {
         ["WeightPool"] = { 30, 300 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Pond Emperor"] = {
+        ["WeightPool"] = { 1000, 2500 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Snowcap"
     },
     ["Popsicle"] = {
         ["WeightPool"] = { 1, 4 },
@@ -1039,6 +3399,36 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
     },
+    ["Porgy"] = {
+        ["WeightPool"] = { 5, 30 },
+        ["Rarity"] = "Common",
+        ["From"] = "Ocean"
+    },
+    ["Poseidon\'s Perch"] = {
+        ["WeightPool"] = { 10, 25 },
+        ["Rarity"] = "Common",
+        ["From"] = "Atlantis"
+    },
+    ["Potion Perch"] = {
+        ["WeightPool"] = { 100, 300 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Prawn"] = {
+        ["WeightPool"] = { 1, 5 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Ocean"
+    },
+    ["Primordial Levi"] = {
+        ["WeightPool"] = { 4500, 12000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Prismatic Parrotfish"] = {
+        ["WeightPool"] = { 80, 240 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Calm Zone"
+    },
     ["Profane Leviathan"] = {
         ["WeightPool"] = { 80000, 220000 },
         ["Rarity"] = "Secret",
@@ -1049,20 +3439,95 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Cults Curse"
     },
+    ["Psychedelic Frogfish"] = {
+        ["WeightPool"] = { 80000, 200000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Pufferfish"] = {
+        ["WeightPool"] = { 5, 20 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Ocean"
+    },
     ["Pufferflute"] = {
         ["WeightPool"] = { 16, 62 },
         ["Rarity"] = "Rare",
         ["From"] = "Crystal Cove"
+    },
+    ["Pufferling School"] = {
+        ["WeightPool"] = { 190, 570 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Pumpkin Pufferfish"] = {
+        ["WeightPool"] = { 5, 20 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Pumpkinseed"] = {
+        ["WeightPool"] = { 1, 5 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Roslit"
+    },
+    ["Pupfish"] = {
+        ["WeightPool"] = { 50, 120 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Puzzle Egg"] = {
         ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Pyre Fang"] = {
+        ["WeightPool"] = { 120, 240 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Pyrite Pufferfish"] = {
+        ["WeightPool"] = { 75, 190 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Volcanic Vents"
+    },
+    ["Pyro Pike"] = {
+        ["WeightPool"] = { 25, 45 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Ashfall"
+    },
+    ["Pyrogrub"] = {
+        ["WeightPool"] = { 300, 600 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Roslit Volcano"
+    },
+    ["Quality Bait Crate"] = {
+        ["WeightPool"] = { 120, 120 },
+        ["Rarity"] = "Rare",
+        ["From"] = "None"
+    },
+    ["Quartzfin Queenfish"] = {
+        ["WeightPool"] = { 180, 400 },
+        ["Rarity"] = "Common",
+        ["From"] = "Calm Zone"
+    },
+    ["Queen Angelfish"] = {
+        ["WeightPool"] = { 24, 80 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Treasure Island"
+    },
+    ["Rabbitfish"] = {
+        ["WeightPool"] = { 25, 60 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Ocean"
+    },
     ["Racuda"] = {
         ["WeightPool"] = { 65, 250 },
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
+    },
+    ["Radiant Triplewart Seadevil"] = {
+        ["WeightPool"] = { 100, 210 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Abyssal Zenith"
     },
     ["Rainbow Grouper"] = {
         ["WeightPool"] = { 130, 400 },
@@ -1079,23 +3544,123 @@ return {
         ["Rarity"] = "Uncommon",
         ["From"] = "Crimson Cavern"
     },
+    ["Red Drum"] = {
+        ["WeightPool"] = { 10, 25 },
+        ["Rarity"] = "Common",
+        ["From"] = "Snowcap"
+    },
     ["Red Fangtooth"] = {
         ["WeightPool"] = { 15, 50 },
         ["Rarity"] = "Rare",
         ["From"] = "Crimson Cavern"
+    },
+    ["Red Snapper"] = {
+        ["WeightPool"] = { 10, 70 },
+        ["Rarity"] = "Common",
+        ["From"] = "Moosewood"
     },
     ["Red Spotted Blenny"] = {
         ["WeightPool"] = { 5, 25 },
         ["Rarity"] = "Common",
         ["From"] = "Crimson Cavern"
     },
+    ["Red Tang"] = {
+        ["WeightPool"] = { 3, 15 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Sunstone"
+    },
+    ["Redeye Bass"] = {
+        ["WeightPool"] = { 3, 15 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Terrapin"
+    },
     ["Redeye Piranha"] = {
         ["WeightPool"] = { 10, 35 },
         ["Rarity"] = "Rare",
         ["From"] = "Lost Jungle"
     },
+    ["Redwood Duskray"] = {
+        ["WeightPool"] = { 30, 80 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Reed Striker"] = {
+        ["WeightPool"] = { 600, 1560 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Reef Goby"] = {
+        ["WeightPool"] = { 10, 30 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Grand Reef"
+    },
+    ["Reef Minnow"] = {
+        ["WeightPool"] = { 1, 6 },
+        ["Rarity"] = "Common",
+        ["From"] = "Grand Reef"
+    },
+    ["Reef Parrotfish"] = {
+        ["WeightPool"] = { 70, 200 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Grand Reef"
+    },
+    ["Reefdart"] = {
+        ["WeightPool"] = { 90, 180 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Reefrunner Snapper"] = {
+        ["WeightPool"] = { 80, 250 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Forsaken Shores"
+    },
+    ["Relic Dart"] = {
+        ["WeightPool"] = { 700, 1900 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Resin"] = {
+        ["WeightPool"] = { 30, 80 },
+        ["Rarity"] = "Secret",
+        ["From"] = "Mushgrove"
+    },
+    ["Rhizodus"] = {
+        ["WeightPool"] = { 3000, 10000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Jurassic Island"
+    },
+    ["Ribbon Eel"] = {
+        ["WeightPool"] = { 5, 150 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Roslit"
+    },
+    ["Ringle"] = {
+        ["WeightPool"] = { 1, 4 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Snowcap"
+    },
+    ["Ripple Spine"] = {
+        ["WeightPool"] = { 750, 1900 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Rock"] = {
+        ["WeightPool"] = { 150, 210 },
+        ["Rarity"] = "Trash",
+        ["From"] = "None"
+    },
+    ["Rock Gunnel"] = {
+        ["WeightPool"] = { 50, 140 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Rock Hind"] = {
         ["WeightPool"] = { 20000, 80000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Rock Lobster"] = {
+        ["WeightPool"] = { 20, 68 },
         ["Rarity"] = "Extinct",
         ["From"] = "Second Sea"
     },
@@ -1103,6 +3668,31 @@ return {
         ["WeightPool"] = { 1000000, 3000000 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["RocketFuel"] = {
+        ["WeightPool"] = { 12, 13 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Mushgrove"
+    },
+    ["Rockstar Hermit Crab"] = {
+        ["WeightPool"] = { 4, 12 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Desolate Deep"
+    },
+    ["Rose Pearl"] = {
+        ["WeightPool"] = { 1, 4 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Roslit"
+    },
+    ["Rotfin Eel"] = {
+        ["WeightPool"] = { 10, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Crypt"
+    },
+    ["Rotjaw"] = {
+        ["WeightPool"] = { 15, 36 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Cursed Isle"
     },
     ["Rowdy McCharm"] = {
         ["WeightPool"] = { 600, 1500 },
@@ -1119,6 +3709,36 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Octophant"
     },
+    ["Rubber Ducky"] = {
+        ["WeightPool"] = { 1, 7 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Vertigo"
+    },
+    ["Ruby"] = {
+        ["WeightPool"] = { 7, 20 },
+        ["Rarity"] = "Gemstone",
+        ["From"] = "Ancient Isle"
+    },
+    ["Ruby Lionfish"] = {
+        ["WeightPool"] = { 55, 170 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Treasure Island"
+    },
+    ["Ruby Rasbora"] = {
+        ["WeightPool"] = { 395, 1000 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Calm Zone"
+    },
+    ["Sailfish"] = {
+        ["WeightPool"] = { 400, 600 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Ocean"
+    },
+    ["Salmon"] = {
+        ["WeightPool"] = { 40, 100 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Ocean"
+    },
     ["Salmoose"] = {
         ["WeightPool"] = { 950, 3000 },
         ["Rarity"] = "Limited",
@@ -1129,10 +3749,60 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Fischfest"
     },
+    ["Sand Dollar"] = {
+        ["WeightPool"] = { 1, 2 },
+        ["Rarity"] = "Common",
+        ["From"] = "Ocean"
+    },
     ["Sandslasher"] = {
         ["WeightPool"] = { 140000, 200000 },
         ["Rarity"] = "Limited",
         ["From"] = "Fischfest"
+    },
+    ["Santa Pufferfish"] = {
+        ["WeightPool"] = { 8, 25 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
+    ["Santa Salmon"] = {
+        ["WeightPool"] = { 80, 200 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
+    ["Sapphire Stargazer"] = {
+        ["WeightPool"] = { 500, 1400 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Calm Zone"
+    },
+    ["Sarcastic Fringehead"] = {
+        ["WeightPool"] = { 550, 1400 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Sardine"] = {
+        ["WeightPool"] = { 1, 3 },
+        ["Rarity"] = "Common",
+        ["From"] = "Ocean"
+    },
+    ["Sardines School"] = {
+        ["WeightPool"] = { 50, 350 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Sawfish"] = {
+        ["WeightPool"] = { 4000, 6000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Ocean"
+    },
+    ["Scalding Swordfish"] = {
+        ["WeightPool"] = { 10000, 25000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Volcanic Vents"
+    },
+    ["Scallop"] = {
+        ["WeightPool"] = { 2, 5 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Ocean"
     },
     ["Scalloped Hammerhead"] = {
         ["WeightPool"] = { 55000, 150000 },
@@ -1140,44 +3810,164 @@ return {
         ["From"] = "Castaway Cliffs"
     },
     ["Scaly Dragonfish"] = {
-        ["WeightPool"] = { 25, 75 },
-        ["Rarity"] = "Uncommon",
+        ["WeightPool"] = { 100, 280 },
+        ["Rarity"] = "Mythical",
         ["From"] = "Cultist Lair"
+    },
+    ["Scarecrow"] = {
+        ["WeightPool"] = { 200, 600 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Scooty Salmon"] = {
+        ["WeightPool"] = { 70, 130 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Ashfall"
+    },
+    ["Scorchray"] = {
+        ["WeightPool"] = { 1020, 2640 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Scrap Metal"] = {
+        ["WeightPool"] = { 10, 50 },
+        ["Rarity"] = "Trash",
+        ["From"] = "The Depths"
     },
     ["Scrawled Filefish"] = {
         ["WeightPool"] = { 150, 500 },
         ["Rarity"] = "Extinct",
         ["From"] = "Second Sea"
     },
+    ["Screaming Fluke"] = {
+        ["WeightPool"] = { 80, 192 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Cursed Isle"
+    },
+    ["Scurvy Sailfish"] = {
+        ["WeightPool"] = { 150, 700 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Forsaken Shores"
+    },
+    ["Sea Bass"] = {
+        ["WeightPool"] = { 20, 60 },
+        ["Rarity"] = "Common",
+        ["From"] = "Ocean"
+    },
+    ["Sea Mine"] = {
+        ["WeightPool"] = { 2000, 3250 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Desolate Deep"
+    },
+    ["Sea Pickle"] = {
+        ["WeightPool"] = { 4, 10 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ocean"
+    },
     ["Sea Raven"] = {
         ["WeightPool"] = { 20, 70 },
         ["Rarity"] = "Uncommon",
         ["From"] = "Crimson Cavern"
+    },
+    ["Sea Snake"] = {
+        ["WeightPool"] = { 300, 800 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "The Depths"
     },
     ["Sea Sponge"] = {
         ["WeightPool"] = { 2, 10 },
         ["Rarity"] = "Limited",
         ["From"] = "Fischfest"
     },
+    ["Sea Turtle"] = {
+        ["WeightPool"] = { 700, 1500 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Terrapin"
+    },
+    ["Sea Urchin"] = {
+        ["WeightPool"] = { 2, 9 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Ocean"
+    },
     ["Seacow"] = {
         ["WeightPool"] = { 7500, 35000 },
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
+    },
+    ["Searfin"] = {
+        ["WeightPool"] = { 2520, 6300 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Seaspawn Shrimp School"] = {
+        ["WeightPool"] = { 350, 1500 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Seaweed"] = {
+        ["WeightPool"] = { 1, 3 },
+        ["Rarity"] = "Trash",
+        ["From"] = "None"
     },
     ["Sergeant Major"] = {
         ["WeightPool"] = { 35, 125 },
         ["Rarity"] = "Extinct",
         ["From"] = "Second Sea"
     },
+    ["Serpent Surgeonfish"] = {
+        ["WeightPool"] = { 850, 2100 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Veil of the Forsaken"
+    },
     ["Shadow Egg"] = {
         ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Shadowfang Snapper"] = {
+        ["WeightPool"] = { 20, 50 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Atlantis"
+    },
+    ["Shark Fang"] = {
+        ["WeightPool"] = { 30, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Archeological Site"
+    },
     ["Shellphone"] = {
         ["WeightPool"] = { 2, 8 },
         ["Rarity"] = "Limited",
         ["From"] = "Fischfest"
+    },
+    ["Shimmering Silverside"] = {
+        ["WeightPool"] = { 250, 700 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Calm Zone"
+    },
+    ["Shipwreck Barracuda"] = {
+        ["WeightPool"] = { 100, 300 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Forsaken Shores"
+    },
+    ["Shiver Swarmfish School"] = {
+        ["WeightPool"] = { 200, 600 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Shiverfin Haddock"] = {
+        ["WeightPool"] = { 50, 120 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Glacial Grotto"
+    },
+    ["Shortfin Mako Shark"] = {
+        ["WeightPool"] = { 250, 1000 },
+        ["Rarity"] = "Common",
+        ["From"] = "Forsaken Shores"
+    },
+    ["Shrimp"] = {
+        ["WeightPool"] = { 1, 2 },
+        ["Rarity"] = "Common",
+        ["From"] = "Ocean"
     },
     ["Shrimpanzee"] = {
         ["WeightPool"] = { 80000, 250000 },
@@ -1200,27 +3990,72 @@ return {
         ["From"] = "Admin-Exclusive"
     },
     ["Sinocyclocheilus"] = {
-        ["WeightPool"] = { 12, 45 },
+        ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Uncommon",
         ["From"] = "Cultist Lair"
+    },
+    ["Siren Sculpin"] = {
+        ["WeightPool"] = { 900, 2500 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Veil of the Forsaken"
     },
     ["Siren Sheep"] = {
         ["WeightPool"] = { 3000, 8000 },
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
     },
+    ["Siren Singer"] = {
+        ["WeightPool"] = { 50, 95 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantis"
+    },
+    ["Siren\226\128\153s Guppy"] = {
+        ["WeightPool"] = { 10, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Crypt"
+    },
+    ["Skelefish"] = {
+        ["WeightPool"] = { 5, 10 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright"
+    },
+    ["Skeletal Nessie"] = {
+        ["WeightPool"] = { 5000, 15000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
     ["Skeletal Serpent"] = {
         ["WeightPool"] = { 100000, 400000 },
         ["Rarity"] = "Apex",
         ["From"] = "None"
+    },
+    ["Skipjack Tuna"] = {
+        ["WeightPool"] = { 70, 160 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Snowcap"
+    },
+    ["Slain Maw"] = {
+        ["WeightPool"] = { 10, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Crypt"
+    },
+    ["Slate Tuna"] = {
+        ["WeightPool"] = { 300, 600 },
+        ["Rarity"] = "Common",
+        ["From"] = "Desolate Deep"
     },
     ["Slenderfish"] = {
         ["WeightPool"] = { 40, 175 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Slipper Lobster"] = {
+        ["WeightPool"] = { 90, 280 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Sloane\'s Viperfish"] = {
-        ["WeightPool"] = { 35, 95 },
+        ["WeightPool"] = { 30, 90 },
         ["Rarity"] = "Rare",
         ["From"] = "Cultist Lair"
     },
@@ -1229,30 +4064,185 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Octophant"
     },
+    ["Small Spine Chimera"] = {
+        ["WeightPool"] = { 800, 1500 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "The Depths"
+    },
+    ["Smallmouth Bass"] = {
+        ["WeightPool"] = { 5, 17 },
+        ["Rarity"] = "Common",
+        ["From"] = "Terrapin"
+    },
+    ["Smogfish"] = {
+        ["WeightPool"] = { 960, 2160 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Smolderfang"] = {
+        ["WeightPool"] = { 990, 2250 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Smoldering Stingray"] = {
+        ["WeightPool"] = { 80, 170 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Volcanic Vents"
+    },
+    ["Smooth toadfish"] = {
+        ["WeightPool"] = { 33, 110 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Snakehead"] = {
+        ["WeightPool"] = { 650, 1600 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Snipefish"] = {
+        ["WeightPool"] = { 180, 460 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Snook"] = {
+        ["WeightPool"] = { 30, 70 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Moosewood"
+    },
+    ["Snowback Char"] = {
+        ["WeightPool"] = { 35, 75 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Cryogenic Canal"
+    },
+    ["Snowfish"] = {
+        ["WeightPool"] = { 200, 450 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Frigid Cavern"
+    },
     ["Snowflake"] = {
         ["WeightPool"] = { 1, 1 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Snowflake Flounder"] = {
+        ["WeightPool"] = { 15, 55 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
+    ["Snowflake Smelt"] = {
+        ["WeightPool"] = { 10, 20 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Cryogenic Canal"
+    },
+    ["Snowgill Dace"] = {
+        ["WeightPool"] = { 10, 25 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Glacial Grotto"
     },
     ["Snowman"] = {
         ["WeightPool"] = { 20, 100 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Sockeye Salmon"] = {
+        ["WeightPool"] = { 20, 70 },
+        ["Rarity"] = "Common",
+        ["From"] = "Moosewood"
+    },
+    ["Solar Fragment"] = {
+        ["WeightPool"] = { 1, 1 },
+        ["Rarity"] = "Fragment",
+        ["From"] = "Ancient Isle"
+    },
+    ["Song of the Deep"] = {
+        ["WeightPool"] = { 210, 210 },
+        ["Rarity"] = "Relic",
+        ["From"] = "None"
+    },
     ["Spadefish"] = {
         ["WeightPool"] = { 75, 245 },
         ["Rarity"] = "Extinct",
         ["From"] = "Second Sea"
     },
+    ["Sparkfin Tetra"] = {
+        ["WeightPool"] = { 50, 120 },
+        ["Rarity"] = "Common",
+        ["From"] = "Atlantis"
+    },
+    ["Spectral Serpent"] = {
+        ["WeightPool"] = { 110000, 130000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Brine Pool"
+    },
+    ["Speed Core"] = {
+        ["WeightPool"] = { 12, 13 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Sunstone"
+    },
+    ["Spider Crab"] = {
+        ["WeightPool"] = { 80, 250 },
+        ["Rarity"] = "Rare",
+        ["From"] = "The Depths"
+    },
+    ["Spider Salmon"] = {
+        ["WeightPool"] = { 300, 800 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Spiderfish"] = {
+        ["WeightPool"] = { 3, 10 },
+        ["Rarity"] = "Common",
+        ["From"] = "Vertigo"
+    },
+    ["Spine Blade"] = {
+        ["WeightPool"] = { 30, 60 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Archeological Site"
+    },
+    ["Spine Bone"] = {
+        ["WeightPool"] = { 30, 60 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Archeological Site"
+    },
+    ["Spined Fin"] = {
+        ["WeightPool"] = { 20, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Archeological Site"
+    },
     ["Spiny Hatchetfish"] = {
-        ["WeightPool"] = { 28, 80 },
+        ["WeightPool"] = { 25, 75 },
         ["Rarity"] = "Rare",
         ["From"] = "Cultist Lair"
+    },
+    ["Splendid toadfish"] = {
+        ["WeightPool"] = { 35, 120 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Split Eye Snapper"] = {
+        ["WeightPool"] = { 25, 60 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Cursed Isle"
+    },
+    ["Spooky Relic"] = {
+        ["WeightPool"] = { 210, 210 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
     },
     ["Spotted Moray Eel"] = {
         ["WeightPool"] = { 300, 1400 },
         ["Rarity"] = "Extinct",
         ["From"] = "Second Sea"
+    },
+    ["Sprayfin"] = {
+        ["WeightPool"] = { 50, 140 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Squid"] = {
+        ["WeightPool"] = { 5, 25 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Roslit"
     },
     ["Squirrelfish"] = {
         ["WeightPool"] = { 18, 50 },
@@ -1264,6 +4254,11 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
     },
+    ["Stalactite"] = {
+        ["WeightPool"] = { 60, 130 },
+        ["Rarity"] = "Trash",
+        ["From"] = "Desolate Deep"
+    },
     ["Star"] = {
         ["WeightPool"] = { 100, 300 },
         ["Rarity"] = "Special",
@@ -1274,20 +4269,55 @@ return {
         ["Rarity"] = "Rare",
         ["From"] = "Blue Moon - First Sea"
     },
+    ["Starfish"] = {
+        ["WeightPool"] = { 20, 70 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Ancient Isle"
+    },
+    ["Starlit Weaver"] = {
+        ["WeightPool"] = { 200, 400 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantis"
+    },
+    ["Static Ray"] = {
+        ["WeightPool"] = { 150, 300 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Atlantis"
+    },
     ["Stationary Egg"] = {
         ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
-    ["Stoplight Loosejaw"] = {
-        ["WeightPool"] = { 30, 85 },
+    ["Stingray"] = {
+        ["WeightPool"] = { 150, 300 },
         ["Rarity"] = "Rare",
+        ["From"] = "Ocean"
+    },
+    ["Stoplight Loosejaw"] = {
+        ["WeightPool"] = { 250, 850 },
+        ["Rarity"] = "Mythical",
         ["From"] = "Cultist Lair"
     },
     ["Stoplight Parrotfish"] = {
         ["WeightPool"] = { 30, 90 },
         ["Rarity"] = "Extinct",
         ["From"] = "Second Sea"
+    },
+    ["Storm Eel"] = {
+        ["WeightPool"] = { 400, 800 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantis"
+    },
+    ["Storm Skipper"] = {
+        ["WeightPool"] = { 500, 1500 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Stormcloud Angelfish"] = {
+        ["WeightPool"] = { 600, 1200 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantis"
     },
     ["String"] = {
         ["WeightPool"] = { 1, 8 },
@@ -1299,15 +4329,90 @@ return {
         ["Rarity"] = "Legendary",
         ["From"] = "Crystal Cove"
     },
+    ["Stud Koi"] = {
+        ["WeightPool"] = { 550, 1900 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
+    ["Stud Shark"] = {
+        ["WeightPool"] = { 40, 140 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
+    ["Stud Turtle"] = {
+        ["WeightPool"] = { 30, 100 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
+    ["Studling Crab"] = {
+        ["WeightPool"] = { 15, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
+    ["Studolodon"] = {
+        ["WeightPool"] = { 350, 1500 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
+    ["Studphin"] = {
+        ["WeightPool"] = { 25, 90 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
+    ["Studster"] = {
+        ["WeightPool"] = { 200, 650 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Sturgeon"] = {
+        ["WeightPool"] = { 200, 800 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Snowcap"
+    },
+    ["Subzero Stargazer"] = {
+        ["WeightPool"] = { 20, 45 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Challenger\'s Deep"
+    },
+    ["Suckermouth Catfish"] = {
+        ["WeightPool"] = { 95, 170 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Roslit"
+    },
+    ["Sulfur Snapper"] = {
+        ["WeightPool"] = { 2400, 6000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Sunfish"] = {
+        ["WeightPool"] = { 4000, 10000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Sunstone"
+    },
+    ["Sunflare Tetra"] = {
+        ["WeightPool"] = { 870, 2040 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Sunglasses"] = {
         ["WeightPool"] = { 1, 1 },
         ["Rarity"] = "Limited",
         ["From"] = "Fischfest"
     },
+    ["Sunken Silverscale"] = {
+        ["WeightPool"] = { 4, 14 },
+        ["Rarity"] = "Common",
+        ["From"] = "Atlantis"
+    },
     ["Sunny O\'Coin"] = {
         ["WeightPool"] = { 900, 2100 },
         ["Rarity"] = "Limited",
         ["From"] = "Lucky Event"
+    },
+    ["Sunray Sunscale"] = {
+        ["WeightPool"] = { 80, 200 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Sunscreen Bottle"] = {
         ["WeightPool"] = { 2, 5 },
@@ -1349,15 +4454,50 @@ return {
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Supreme Present"] = {
+        ["WeightPool"] = { 90, 90 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
     ["Surfboard Ray"] = {
         ["WeightPool"] = { 20, 100 },
         ["Rarity"] = "Limited",
         ["From"] = "Fischfest"
     },
-    ["Swampfish"] = {
+    ["Surge Pike"] = {
+        ["WeightPool"] = { 1500, 4000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Swamp Bass"] = {
         ["WeightPool"] = { 20, 60 },
+        ["Rarity"] = "Common",
+        ["From"] = "Mushgrove"
+    },
+    ["Swamp Scallop"] = {
+        ["WeightPool"] = { 6, 14 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Mushgrove"
+    },
+    ["Swampfish"] = {
+        ["WeightPool"] = { 15, 50 },
         ["Rarity"] = "Legendary",
         ["From"] = "Cultist Lair"
+    },
+    ["Swampjaw"] = {
+        ["WeightPool"] = { 480, 1200 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Sweetfish"] = {
+        ["WeightPool"] = { 2, 5 },
+        ["Rarity"] = "Common",
+        ["From"] = "Sunstone"
+    },
+    ["Swordfish"] = {
+        ["WeightPool"] = { 1000, 2500 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Ocean"
     },
     ["Taco"] = {
         ["WeightPool"] = { 1, 3 },
@@ -1369,15 +4509,100 @@ return {
         ["Rarity"] = "Mythical",
         ["From"] = "Blue Moon - First Sea"
     },
+    ["Tartaruga"] = {
+        ["WeightPool"] = { 9500, 40000 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Sunstone"
+    },
+    ["Telescopefish"] = {
+        ["WeightPool"] = { 400, 1000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Tempest Ray"] = {
+        ["WeightPool"] = { 5, 20 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Atlantean Storm"
+    },
+    ["Temple Drifter"] = {
+        ["WeightPool"] = { 25, 55 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Atlantis"
+    },
+    ["Temple Perch"] = {
+        ["WeightPool"] = { 1600, 4200 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Tentabrick"] = {
+        ["WeightPool"] = { 300, 1000 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
+    ["Tentacle Eel"] = {
+        ["WeightPool"] = { 100, 200 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantis"
+    },
+    ["Tentacled Horror"] = {
+        ["WeightPool"] = { 50, 120 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Atlantis"
+    },
     ["Tentacles Junior"] = {
         ["WeightPool"] = { 14, 14 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["The Depths Key"] = {
+        ["WeightPool"] = { 500, 1000 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Vertigo"
+    },
+    ["The Kraken"] = {
+        ["WeightPool"] = { 500000, 1800000 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Atlantis"
+    },
     ["The Whispering One"] = {
         ["WeightPool"] = { 5000, 14000 },
         ["Rarity"] = "Limited",
         ["From"] = "Cults Curse"
+    },
+    ["Thornfish"] = {
+        ["WeightPool"] = { 100, 300 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Three-eyed Fish"] = {
+        ["WeightPool"] = { 20, 60 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "The Depths"
+    },
+    ["Thunder Bass"] = {
+        ["WeightPool"] = { 300, 600 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantis"
+    },
+    ["Thunder Serpent"] = {
+        ["WeightPool"] = { 1000, 2000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Atlantis"
+    },
+    ["Tidal Pike"] = {
+        ["WeightPool"] = { 1500, 2500 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Golden Tide"
+    },
+    ["Tidallow"] = {
+        ["WeightPool"] = { 60, 150 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Tide Fang"] = {
+        ["WeightPool"] = { 600, 1500 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Tidepopper"] = {
         ["WeightPool"] = { 50, 150 },
@@ -1394,25 +4619,140 @@ return {
         ["Rarity"] = "Extinct",
         ["From"] = "Second Sea"
     },
+    ["Tire"] = {
+        ["WeightPool"] = { 110, 110 },
+        ["Rarity"] = "Trash",
+        ["From"] = "None"
+    },
+    ["Titan Tuna"] = {
+        ["WeightPool"] = { 30, 70 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Atlantis"
+    },
+    ["Titanfang Grouper"] = {
+        ["WeightPool"] = { 300, 600 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantis"
+    },
+    ["Titanic Black Seadevil"] = {
+        ["WeightPool"] = { 55, 105 },
+        ["Rarity"] = "Common",
+        ["From"] = "Abyssal Zenith"
+    },
+    ["Titanic Sturgeon"] = {
+        ["WeightPool"] = { 250, 500 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantis"
+    },
+    ["Toilet Fish"] = {
+        ["WeightPool"] = { 105, 500 },
+        ["Rarity"] = "Secret",
+        ["From"] = "None"
+    },
+    ["Treble Bass"] = {
+        ["WeightPool"] = { 10, 45 },
+        ["Rarity"] = "Exotic",
+        ["From"] = "Moosewood"
+    },
     ["Trevally"] = {
         ["WeightPool"] = { 20, 80 },
         ["Rarity"] = "Unusual",
         ["From"] = "Castaway Cliffs"
+    },
+    ["Tripod Fish"] = {
+        ["WeightPool"] = { 900, 2200 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Triton\'s Herald"] = {
+        ["WeightPool"] = { 100, 200 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantis"
+    },
+    ["Tropical Bait Crate"] = {
+        ["WeightPool"] = { 70, 70 },
+        ["Rarity"] = "Rare",
+        ["From"] = "None"
+    },
+    ["Tropicspike"] = {
+        ["WeightPool"] = { 21300, 51000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Trout"] = {
+        ["WeightPool"] = { 9, 50 },
+        ["Rarity"] = "Common",
+        ["From"] = "Moosewood"
+    },
+    ["Trumpetfish"] = {
+        ["WeightPool"] = { 9, 20 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Sunstone"
+    },
+    ["Tumor Pike"] = {
+        ["WeightPool"] = { 28, 66 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Cursed Isle"
+    },
+    ["Turkey"] = {
+        ["WeightPool"] = { 80, 300 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischgiving"
     },
     ["Turkey Leg"] = {
         ["WeightPool"] = { 14, 100 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
     },
+    ["Twilight Eel"] = {
+        ["WeightPool"] = { 100, 200 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Vertigo"
+    },
+    ["Twilight Glowfish"] = {
+        ["WeightPool"] = { 150, 300 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantis"
+    },
+    ["Twilight Tentaclefish"] = {
+        ["WeightPool"] = { 2800, 7500 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Veil of the Forsaken"
+    },
     ["Typhleotris"] = {
-        ["WeightPool"] = { 15, 50 },
+        ["WeightPool"] = { 12, 45 },
         ["Rarity"] = "Uncommon",
         ["From"] = "Cultist Lair"
+    },
+    ["Typhoon Tailfin"] = {
+        ["WeightPool"] = { 12000, 34000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Veil of the Forsaken"
+    },
+    ["Typhoon Tuna"] = {
+        ["WeightPool"] = { 200, 450 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantean Storm"
     },
     ["UFO"] = {
         ["WeightPool"] = { 10000, 40000 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Umbral Shark"] = {
+        ["WeightPool"] = { 1050, 1550 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Keepers Altar"
+    },
+    ["Unique Present"] = {
+        ["WeightPool"] = { 90, 90 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Fischmas"
+    },
+    ["Vampire Perch"] = {
+        ["WeightPool"] = { 200, 600 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
     },
     ["Vampire Squid"] = {
         ["WeightPool"] = { 150, 400 },
@@ -1429,40 +4769,250 @@ return {
         ["Rarity"] = "Limited",
         ["From"] = "Cults Curse"
     },
+    ["Veinfin Tetra School"] = {
+        ["WeightPool"] = { 220, 660 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Veinspawn"] = {
+        ["WeightPool"] = { 60, 140 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Cursed Isle"
+    },
+    ["Velvet Belly Lanternshark"] = {
+        ["WeightPool"] = { 600, 1500 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
     ["Venoblossom"] = {
         ["WeightPool"] = { 500000, 850000 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Verdant Mirage"] = {
+        ["WeightPool"] = { 4800, 12000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Vinefish"] = {
+        ["WeightPool"] = { 120, 340 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Viperfish"] = {
         ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Rare",
         ["From"] = "Crimson Cavern"
     },
+    ["Void Angler"] = {
+        ["WeightPool"] = { 7000, 12000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Atlantean Storm"
+    },
+    ["Void Emperor"] = {
+        ["WeightPool"] = { 7000, 12000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Atlantis"
+    },
+    ["Void Wood"] = {
+        ["WeightPool"] = { 1, 2 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Keepers Altar"
+    },
+    ["Voidfin Mahi"] = {
+        ["WeightPool"] = { 75, 155 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Vertigo"
+    },
+    ["Voidglow Ghostfish"] = {
+        ["WeightPool"] = { 8000, 23000 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Abyssal Zenith"
+    },
+    ["Voidscale Guppy"] = {
+        ["WeightPool"] = { 150, 300 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Atlantis"
+    },
+    ["Volcanic Geode"] = {
+        ["WeightPool"] = { 200, 200 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Roslit Volcano"
+    },
+    ["Volcanic Prowler"] = {
+        ["WeightPool"] = { 4650, 12300 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Voltfin Carp"] = {
+        ["WeightPool"] = { 100, 250 },
+        ["Rarity"] = "Common",
+        ["From"] = "Atlantis"
+    },
+    ["Voltfish"] = {
+        ["WeightPool"] = { 8, 16 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Sunstone"
+    },
+    ["Vortex Barracuda"] = {
+        ["WeightPool"] = { 80, 160 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantean Storm"
+    },
+    ["Vortex Ray"] = {
+        ["WeightPool"] = { 4000, 11000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Walleye"] = {
+        ["WeightPool"] = { 18, 40 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Terrapin"
+    },
     ["Wanwood Egg"] = {
         ["WeightPool"] = { 10, 40 },
         ["Rarity"] = "Special",
         ["From"] = "Admin-Exclusive"
+    },
+    ["Warty Angler"] = {
+        ["WeightPool"] = { 50, 280 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
     },
     ["Warty Frogfish"] = {
         ["WeightPool"] = { 13, 40 },
         ["Rarity"] = "Rare",
         ["From"] = "Castaway Cliffs"
     },
+    ["Watching Glowfin"] = {
+        ["WeightPool"] = { 10, 40 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Wave Piercer"] = {
+        ["WeightPool"] = { 500, 1400 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Waveborne Lobster"] = {
+        ["WeightPool"] = { 130, 480 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Werewolf Walleye"] = {
+        ["WeightPool"] = { 400, 1200 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Western Rock Lobster"] = {
+        ["WeightPool"] = { 19, 50 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Whale Shark"] = {
+        ["WeightPool"] = { 100000, 150000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Ocean"
+    },
+    ["Whiptail Catfish"] = {
+        ["WeightPool"] = { 10, 30 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Moosewood"
+    },
+    ["Whirlpool Marlin"] = {
+        ["WeightPool"] = { 40, 90 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Atlantean Storm"
+    },
+    ["Whisker Bill"] = {
+        ["WeightPool"] = { 350, 1000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Moosewood"
+    },
+    ["Whisper Eel"] = {
+        ["WeightPool"] = { 6000, 15000 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["White Bass"] = {
+        ["WeightPool"] = { 3, 25 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Terrapin"
+    },
+    ["White Perch"] = {
+        ["WeightPool"] = { 2, 12 },
+        ["Rarity"] = "Common",
+        ["From"] = "Mushgrove"
+    },
     ["White Sturgeon"] = {
         ["WeightPool"] = { 2000, 7000 },
         ["Rarity"] = "Exotic",
         ["From"] = "Snowburrow"
+    },
+    ["Wiifish"] = {
+        ["WeightPool"] = { 200, 400 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Sunstone"
+    },
+    ["Wraithfin"] = {
+        ["WeightPool"] = { 10, 50 },
+        ["Rarity"] = "Limited",
+        ["From"] = "Crypt"
     },
     ["Wretched Guppy"] = {
         ["WeightPool"] = { 80, 180 },
         ["Rarity"] = "Limited",
         ["From"] = "Cults Curse"
     },
+    ["X-ray Tetra"] = {
+        ["WeightPool"] = { 3000, 7500 },
+        ["Rarity"] = "Extinct",
+        ["From"] = "Second Sea"
+    },
+    ["Xiphactinus"] = {
+        ["WeightPool"] = { 1400, 2000 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Ancient Isle"
+    },
+    ["Xtra Sour Gummy Pack"] = {
+        ["WeightPool"] = { 8, 8 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright 2"
+    },
+    ["Yellow Boxfish"] = {
+        ["WeightPool"] = { 5, 20 },
+        ["Rarity"] = "Unusual",
+        ["From"] = "Roslit"
+    },
+    ["Yellow Energy Crystal"] = {
+        ["WeightPool"] = { 25, 50 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "None"
+    },
+    ["Yellow Studfish"] = {
+        ["WeightPool"] = { 13, 39 },
+        ["Rarity"] = "Limited",
+        ["From"] = "LEGO"
+    },
+    ["Yellowfin Tuna"] = {
+        ["WeightPool"] = { 450, 1360 },
+        ["Rarity"] = "Uncommon",
+        ["From"] = "Moosewood"
+    },
     ["Zebrafishlet"] = {
         ["WeightPool"] = { 85, 350 },
         ["Rarity"] = "Limited",
         ["From"] = "Animals1"
+    },
+    ["Zeus\' Herald"] = {
+        ["WeightPool"] = { 1500, 3000 },
+        ["Rarity"] = "Mythical",
+        ["From"] = "Atlantis"
+    },
+    ["Zombiefish"] = {
+        ["WeightPool"] = { 15, 30 },
+        ["Rarity"] = "Limited",
+        ["From"] = "FischFright"
     },
     ["\240\159\144\139"] = {
         ["WeightPool"] = { 1, 100000 },
@@ -1488,5 +5038,5 @@ return {
         ["WeightPool"] = { 1, 100000 },
         ["Rarity"] = "Secret",
         ["From"] = "None"
-    }
+    },
 }
