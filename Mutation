@@ -1,4 +1,3 @@
-
 getgenv().MutationHook = {
     ["Abyssal"] = {
         Color3.fromRGB(39, 57, 173),
