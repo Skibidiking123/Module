@@ -595,7 +595,6 @@ getgenv().MutationHook = {
     ["Sunken"] = {
         Color3.fromRGB(34, 53, 66),
         Color3.fromRGB(134, 195, 141),
-        Color3.fromRGB(134, 195, 141),
     },
     ["Surreal"] = {
         Color3.fromRGB(0, 0, 0),
