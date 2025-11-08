@@ -154,7 +154,7 @@ getgenv().MutationHook = {
         Color3.fromRGB(85, 177, 127),
     },
     ["Electric Shock"] = {
-        Color3.fromRGB(0, 0, 0),
+        Color3.fromRGB(7, 6, 6),
     },
     ["Ember"] = {
         Color3.fromRGB(255, 144, 8),
