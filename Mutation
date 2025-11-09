@@ -441,9 +441,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(193, 154, 0),
         Color3.fromRGB(255, 200, 34),
     },
-    ["Part"] = {
-        Color3.fromRGB(163, 162, 165),
-    },
     ["Patriotic"] = {
         Color3.fromRGB(0, 0, 255),
         Color3.fromRGB(255, 255, 255),
