@@ -1,5 +1,6 @@
 getgenv().MutationHook = {
     ["Abyssal"] = {
+        Color3.fromRGB(4, 4, 4),
         Color3.fromRGB(39, 57, 173),
         Color3.fromRGB(83, 41, 173),
     },
@@ -590,7 +591,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(83, 129, 255),
     },
     ["Sunken"] = {
-        Color3.fromRGB(34, 53, 66),
         Color3.fromRGB(134, 195, 141),
     },
     ["Surreal"] = {
