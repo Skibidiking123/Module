@@ -57,46 +57,13 @@ getgenv().MutationHook = {
         Color3.fromRGB(255, 252, 212),
         Color3.fromRGB(207, 195, 134),
     },
-    ["Brother"] = {
-        Color3.fromRGB(60, 60, 255),
-        Color3.fromRGB(115, 211, 255),
-    },
-    ["Brown Wood"] = {
-        Color3.fromRGB(106, 82, 67),
-        Color3.fromRGB(114, 89, 73),
-        Color3.fromRGB(100, 77, 63),
-        Color3.fromRGB(127, 99, 82),
-        Color3.fromRGB(144, 113, 94),
-    },
     ["Bubblegum"] = {
         Color3.fromRGB(244, 179, 255),
         Color3.fromRGB(255, 148, 221),
     },
-    ["Carrot"] = {
-        Color3.fromRGB(255, 234, 0),
-        Color3.fromRGB(255, 191, 0),
-        Color3.fromRGB(255, 140, 0),
-        Color3.fromRGB(255, 106, 0),
-        Color3.fromRGB(255, 255, 127),
-    },
-    ["Cement"] = {
-        Color3.fromRGB(93, 93, 93),
-        Color3.fromRGB(108, 108, 108),
-        Color3.fromRGB(100, 100, 100),
-        Color3.fromRGB(127, 127, 127),
-        Color3.fromRGB(134, 134, 134),
-    },
     ["Chilled"] = {
         Color3.fromRGB(255, 255, 255),
         Color3.fromRGB(210, 251, 255),
-    },
-    ["Chocolate"] = {
-        Color3.fromRGB(77, 61, 53),
-    },
-    ["Clover"] = {
-        Color3.fromRGB(13, 255, 0),
-        Color3.fromRGB(0, 0, 0),
-        Color3.fromRGB(255, 238, 0),
     },
     ["Cracked"] = {
         Color3.fromRGB(255, 170, 0),
@@ -205,29 +172,6 @@ getgenv().MutationHook = {
     },
     ["Galactic"] = {
         Color3.fromRGB(255, 251, 140),
-    },
-    ["Galaxy"] = {
-        Color3.fromRGB(0, 0, 0),
-        Color3.fromRGB(120, 120, 200),
-        Color3.fromRGB(0, 0, 0),
-        Color3.fromRGB(93, 87, 149),
-        Color3.fromRGB(89, 39, 255),
-        Color3.fromRGB(79, 76, 176),
-    },
-    ["Gemstone"] = {
-        Color3.fromRGB(0, 255, 255),
-        Color3.fromRGB(0, 170, 255),
-        Color3.fromRGB(85, 170, 255),
-        Color3.fromRGB(0, 55, 255),
-        Color3.fromRGB(106, 255, 6),
-        Color3.fromRGB(120, 255, 124),
-        Color3.fromRGB(159, 255, 130),
-        Color3.fromRGB(60, 163, 15),
-        Color3.fromRGB(255, 7, 94),
-        Color3.fromRGB(255, 2, 48),
-        Color3.fromRGB(255, 16, 112),
-        Color3.fromRGB(163, 18, 52),
-        Color3.fromRGB(255, 0, 255),
     },
     ["Glacial"] = {
         Color3.fromRGB(255, 255, 255),
@@ -387,12 +331,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(161, 149, 255),
         Color3.fromRGB(125, 125, 255),
         Color3.fromRGB(89, 85, 197),
-    },
-    ["Nullified"] = {
-        Color3.fromRGB(0, 0, 0),
-        Color3.fromRGB(255, 0, 0),
-        Color3.fromRGB(0, 255, 0),
-        Color3.fromRGB(0, 0, 255),
     },
     ["Oak"] = {
         Color3.fromRGB(93, 72, 59),
@@ -566,9 +504,6 @@ getgenv().MutationHook = {
     },
     ["Sunken"] = {
         Color3.fromRGB(134, 195, 141),
-    },
-    ["Surreal"] = {
-        Color3.fromRGB(0, 0, 0),
     },
     ["Tentacle Surge"] = {
         Color3.fromRGB(29, 0, 43),
