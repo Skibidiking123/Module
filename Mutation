@@ -408,9 +408,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(139, 0, 0),
         Color3.fromRGB(178, 34, 34),
     },
-    ["SixSeven"] = {
-        Color3.fromRGB(225, 0, 255),
-    },
     ["Skrunkly"] = {
         Color3.fromRGB(226, 227, 202),
         Color3.fromRGB(146, 146, 127),
