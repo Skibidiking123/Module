@@ -86,10 +86,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(127, 127, 127),
         Color3.fromRGB(134, 134, 134),
     },
-    ["Chaotic"] = {
-        Color3.fromRGB(0, 0, 0),
-        Color3.fromRGB(255, 255, 255),
-    },
     ["Chilled"] = {
         Color3.fromRGB(255, 255, 255),
         Color3.fromRGB(210, 251, 255),
