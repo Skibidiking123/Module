@@ -26,24 +26,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(65, 46, 46),
         Color3.fromRGB(27, 5, 5),
         Color3.fromRGB(255, 128, 130),
-        Color3.fromRGB(104, 58, 58),
-    },
-    ["Beachy"] = {
-        Color3.fromRGB(221, 195, 159),
-        Color3.fromRGB(199, 176, 144),
-        Color3.fromRGB(55, 96, 231),
-        Color3.fromRGB(67, 119, 231),
-    },
-    ["Birthday"] = {
-        Color3.fromRGB(255, 255, 255),
-        Color3.fromRGB(255, 222, 169),
-        Color3.fromRGB(229, 185, 255),
-        Color3.fromRGB(255, 252, 216),
-    },
-    ["Blarney"] = {
-        Color3.fromRGB(13, 255, 0),
-        Color3.fromRGB(0, 242, 255),
-        Color3.fromRGB(255, 238, 0),
     },
     ["Bloom"] = {
         Color3.fromRGB(118, 102, 153),
@@ -75,7 +57,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(157, 0, 0),
         Color3.fromRGB(66, 0, 0),
         Color3.fromRGB(255, 174, 174),
-        Color3.fromRGB(176, 68, 68),
     },
     ["Crystalized"] = {
         Color3.fromRGB(255, 115, 0),
@@ -150,8 +131,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(255, 107, 253),
         Color3.fromRGB(192, 123, 235),
         Color3.fromRGB(141, 91, 217),
-        Color3.fromRGB(207, 130, 255),
-        Color3.fromRGB(192, 169, 197),
     },
     ["Fortune"] = {
         Color3.fromRGB(255, 185, 88),
@@ -205,7 +184,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(255, 109, 5),
         Color3.fromRGB(217, 69, 0),
         Color3.fromRGB(255, 96, 23),
-        Color3.fromRGB(197, 47, 27),
     },
     ["Jack's Curse"] = {
         Color3.fromRGB(255, 155, 89),
@@ -213,7 +191,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(65, 49, 38),
         Color3.fromRGB(27, 19, 15),
         Color3.fromRGB(255, 145, 94),
-        Color3.fromRGB(104, 69, 51),
     },
     ["Jackpot"] = {
         Color3.fromRGB(79, 229, 97),
@@ -221,7 +198,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(207, 180, 80),
         Color3.fromRGB(193, 159, 118),
         Color3.fromRGB(165, 255, 188),
-        Color3.fromRGB(212, 193, 119),
     },
     ["Jolly"] = {
         Color3.fromRGB(255, 46, 46),
@@ -287,7 +263,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(65, 46, 46),
         Color3.fromRGB(56, 62, 99),
         Color3.fromRGB(255, 128, 130),
-        Color3.fromRGB(119, 157, 207),
     },
     ["Minty"] = {
         Color3.fromRGB(147, 255, 192),
@@ -307,7 +282,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(65, 36, 36),
         Color3.fromRGB(27, 5, 5),
         Color3.fromRGB(255, 97, 100),
-        Color3.fromRGB(104, 45, 45),
     },
     ["Nico's Nyantics"] = {
         Color3.fromRGB(252, 140, 164),
@@ -322,7 +296,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(26, 43, 76),
         Color3.fromRGB(25, 40, 72),
         Color3.fromRGB(255, 154, 107),
-        Color3.fromRGB(229, 138, 96),
     },
     ["Nova"] = {
         Color3.fromRGB(244, 255, 255),
@@ -330,7 +303,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(215, 224, 255),
         Color3.fromRGB(161, 149, 255),
         Color3.fromRGB(125, 125, 255),
-        Color3.fromRGB(89, 85, 197),
     },
     ["Oak"] = {
         Color3.fromRGB(93, 72, 59),
@@ -345,7 +317,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(38, 0, 0),
         Color3.fromRGB(39, 20, 0),
         Color3.fromRGB(255, 102, 0),
-        Color3.fromRGB(255, 42, 0),
     },
     ["Oscar"] = {
         Color3.fromRGB(167, 0, 0),
@@ -379,7 +350,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(208, 233, 255),
         Color3.fromRGB(180, 210, 255),
         Color3.fromRGB(139, 176, 255),
-        Color3.fromRGB(113, 153, 197),
     },
     ["Phantom"] = {
         Color3.fromRGB(99, 99, 99),
@@ -414,22 +384,12 @@ getgenv().MutationHook = {
         Color3.fromRGB(176, 194, 255),
         Color3.fromRGB(150, 165, 217),
         Color3.fromRGB(74, 83, 255),
-        Color3.fromRGB(90, 113, 197),
-    },
-    ["Sandy"] = {
-        Color3.fromRGB(221, 195, 159),
-        Color3.fromRGB(199, 176, 144),
-        Color3.fromRGB(185, 163, 134),
-        Color3.fromRGB(252, 221, 181),
-        Color3.fromRGB(227, 199, 163),
     },
     ["Sanguine"] = {
         Color3.fromRGB(54, 0, 0),
         Color3.fromRGB(27, 0, 0),
         Color3.fromRGB(168, 0, 0),
         Color3.fromRGB(74, 0, 0),
-        Color3.fromRGB(148, 0, 0),
-        Color3.fromRGB(255, 0, 0),
     },
     ["Seasonal"] = {
         Color3.fromRGB(252, 166, 255),
@@ -494,14 +454,6 @@ getgenv().MutationHook = {
     ["Subspace"] = {
         Color3.fromRGB(232, 42, 42),
     },
-    ["Summer"] = {
-        Color3.fromRGB(221, 207, 149),
-        Color3.fromRGB(199, 187, 141),
-        Color3.fromRGB(185, 169, 130),
-        Color3.fromRGB(252, 227, 169),
-        Color3.fromRGB(227, 208, 158),
-        Color3.fromRGB(83, 129, 255),
-    },
     ["Sunken"] = {
         Color3.fromRGB(134, 195, 141),
     },
@@ -517,14 +469,11 @@ getgenv().MutationHook = {
         Color3.fromRGB(194, 119, 255),
         Color3.fromRGB(195, 146, 255),
         Color3.fromRGB(169, 82, 255),
-        Color3.fromRGB(173, 79, 255),
-        Color3.fromRGB(138, 89, 197),
     },
     ["Tryhard"] = {
         Color3.fromRGB(238, 0, 4),
         Color3.fromRGB(147, 20, 20),
         Color3.fromRGB(126, 12, 12),
-        Color3.fromRGB(65, 18, 18),
         Color3.fromRGB(255, 0, 0),
         Color3.fromRGB(255, 60, 60),
     },
@@ -539,7 +488,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(65, 65, 65),
         Color3.fromRGB(27, 27, 27),
         Color3.fromRGB(255, 255, 255),
-        Color3.fromRGB(104, 104, 104),
     },
     ["Vined"] = {
         Color3.fromRGB(80, 52, 28),
@@ -554,7 +502,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(93, 66, 38),
         Color3.fromRGB(116, 84, 67),
         Color3.fromRGB(200, 148, 65),
-        Color3.fromRGB(104, 91, 60),
     },
     ["Wisp"] = {
         Color3.fromRGB(107, 255, 233),
