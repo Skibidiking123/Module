@@ -93,9 +93,15 @@ getgenv().MutationHook = {
     },
     ["Evil"] = {
         Color3.fromRGB(88, 20, 20),
-    },
-    ["Female"] = {
-        Color3.fromRGB(255, 170, 255),
+        Color3.fromRGB(51, 7, 7),
+        Color3.fromRGB(51, 12, 12),
+        Color3.fromRGB(63, 9, 9),
+        Color3.fromRGB(63, 15, 15),
+        Color3.fromRGB(76, 11, 11),
+        Color3.fromRGB(76, 19, 19),
+        Color3.fromRGB(97, 78, 78),
+        Color3.fromRGB(130, 104, 104),
+        Color3.fromRGB(165, 132, 132),
     },
     ["Festive"] = {
         Color3.fromRGB(238, 0, 0),
