@@ -332,13 +332,11 @@ getgenv().MutationHook = {
         Color3.fromRGB(255, 229, 124),
         Color3.fromRGB(238, 222, 197),
     },
-    ["RainbowCluster"] = {
+    ["Rainbow Cluster"] = {
         Color3.fromRGB(255, 112, 112),
         Color3.fromRGB(255, 184, 112),
         Color3.fromRGB(255, 231, 112),
         Color3.fromRGB(193, 255, 112),
-        Color3.fromRGB(112, 255, 136),
-        Color3.fromRGB(112, 255, 203),
         Color3.fromRGB(112, 138, 255),
         Color3.fromRGB(148, 112, 255),
     },
