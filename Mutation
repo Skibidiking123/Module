@@ -206,13 +206,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(51, 167, 255),
         Color3.fromRGB(21, 75, 18),
     },
-    ["LEGO"] = {
-        Color3.fromRGB(255, 0, 0),
-        Color3.fromRGB(13, 255, 0),
-        Color3.fromRGB(255, 255, 0),
-        Color3.fromRGB(0, 55, 255),
-        Color3.fromRGB(255, 255, 127),
-    },
     ["Levitas"] = {
         Color3.fromRGB(208, 222, 255),
         Color3.fromRGB(201, 206, 255),
