@@ -446,6 +446,7 @@ getgenv().MutationHook = {
     },
     ["Sunken"] = {
         Color3.fromRGB(134, 195, 141),
+        Color3.fromRGB(134, 195, 141),
         Color3.fromRGB(119, 119, 119),
     },
     ["Tentacle Surge"] = {
