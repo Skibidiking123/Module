@@ -69,27 +69,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(0, 255, 0),
         Color3.fromRGB(27, 0, 42),
     },
-    ["Dirty"] = {
-        Color3.fromRGB(135, 113, 102),
-        Color3.fromRGB(144, 121, 109),
-        Color3.fromRGB(118, 99, 89),
-        Color3.fromRGB(102, 85, 77),
-        Color3.fromRGB(173, 145, 131),
-    },
-    ["Distraught"] = {
-        Color3.fromRGB(40, 40, 40),
-        Color3.fromRGB(33, 33, 33),
-        Color3.fromRGB(20, 20, 20),
-        Color3.fromRGB(12, 12, 12),
-    },
-    ["Doomsday"] = {
-        Color3.fromRGB(255, 95, 0),
-    },
-    ["Duncan"] = {
-        Color3.fromRGB(170, 255, 255),
-        Color3.fromRGB(255, 255, 255),
-        Color3.fromRGB(255, 85, 0),
-    },
     ["Easter"] = {
         Color3.fromRGB(255, 201, 236),
         Color3.fromRGB(142, 255, 151),
@@ -379,12 +358,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(27, 0, 0),
         Color3.fromRGB(168, 0, 0),
         Color3.fromRGB(74, 0, 0),
-    },
-    ["Seasonal"] = {
-        Color3.fromRGB(252, 166, 255),
-        Color3.fromRGB(255, 217, 129),
-        Color3.fromRGB(207, 77, 34),
-        Color3.fromRGB(189, 252, 255),
     },
     ["Serene"] = {
         Color3.fromRGB(0, 47, 255),
