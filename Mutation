@@ -474,13 +474,6 @@ getgenv().MutationHook = {
         Color3.fromRGB(171, 125, 0),
         Color3.fromRGB(72, 86, 171),
     },
-    ["Unlucky"] = {
-        Color3.fromRGB(61, 61, 61),
-        Color3.fromRGB(40, 40, 40),
-        Color3.fromRGB(65, 65, 65),
-        Color3.fromRGB(27, 27, 27),
-        Color3.fromRGB(255, 255, 255),
-    },
     ["Vined"] = {
         Color3.fromRGB(80, 52, 28),
         Color3.fromRGB(71, 52, 20),
