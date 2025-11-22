@@ -5039,4 +5039,29 @@ return {
         ["Rarity"] = "Secret",
         ["From"] = "None"
     },
+    ["Rusty Bolt"] = {
+        ["WeightPool"] = { 2,4 },
+        ["Rarity"] = "Trash",
+        ["From"] = "Mineshaft"
+    },
+    ["Iron Chunk"] = {
+        ["WeightPool"] = { 10, 40 },
+        ["Rarity"] = "Common",
+        ["From"] = "Mineshaft"
+    },
+    ["Gold Piece"] = {
+        ["WeightPool"] = { 2, 16 },
+        ["Rarity"] = "Rare",
+        ["From"] = "Mineshaft"
+    },
+    ["Crystal Geode"] = {
+        ["WeightPool"] = { 80, 120 },
+        ["Rarity"] = "Legendary",
+        ["From"] = "Mineshaft"
+    },
+    ["Radiant Crystal"] = {
+        ["WeightPool"] = { 20, 20 },
+        ["Rarity"] = "Gemstone",
+        ["From"] = "Mineshaft"
+    },
 }
