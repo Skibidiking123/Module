@@ -14,7 +14,7 @@ end
 
 local license = ({...})[1] or {}
 local developer = license.Developer or getgenv().catvapedev or false
-local closet = true
+local closet = false
 local commit = 'main'
 
 local loadstring = function(...)
