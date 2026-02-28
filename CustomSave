@@ -43,7 +43,7 @@ local SaveManager = {} do
     SaveManager.Library = nil
 
     SaveManager.AutoSave = true
-    SaveManager.AutoSaveName = "default"
+    SaveManager.AutoSaveName = "Default"
     SaveManager._AutoSaveDebounce = false
 
     SaveManager.Parser = {
