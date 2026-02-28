@@ -147,6 +147,7 @@ local SaveManager = {} do
     function SaveManager:_HookAutoSave()
         for idx, toggle in pairs(self.Library.Toggles) do
             if self.Ignore[idx] then continue end
+            if idx == "SaveManager_AutoSave" then continue end
             if not toggle.OnChanged then continue end
             toggle:OnChanged(function()
                 self:_TriggerAutoSave()
