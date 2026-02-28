@@ -465,6 +465,16 @@ local SaveManager = {} do
             Tooltip = "Automatically saves when any option changes",
             Callback = function(value)
                 self:SetAutoSave(value)
+                if not value then
+                    local name = self.AutoSaveName
+                    if self.Library and self.Library.Options.SaveManager_ConfigList then
+                        local selected = self.Library.Options.SaveManager_ConfigList.Value
+                        if selected and selected ~= "" then
+                            name = selected
+                        end
+                    end
+                    self:Save(name)
+                end
             end
         })
 
