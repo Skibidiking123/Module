@@ -418,7 +418,9 @@ local SaveManager = {} do
                 self.Library:Notify("Failed to load autoload config: " .. err)
                 return
             end
-
+            if self.Library.Options.SaveManager_ConfigList then
+                self.Library.Options.SaveManager_ConfigList:SetValue(name)
+            end
             self.Library:Notify(string.format("Auto loaded config %q", name))
         end
     end
