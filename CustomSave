@@ -43,9 +43,8 @@ local SaveManager = {} do
     SaveManager.Library = nil
 
     SaveManager.AutoSave = true
-    SaveManager.AutoSaveInterval = 30
     SaveManager.AutoSaveName = "default"
-    SaveManager._AutoSaveThread = nil
+    SaveManager._AutoSaveDebounce = false
 
     SaveManager.Parser = {
         Toggle = {
@@ -125,44 +124,46 @@ local SaveManager = {} do
         })
     end
 
-    function SaveManager:StartAutoSave()
-        self:StopAutoSave()
+    function SaveManager:_TriggerAutoSave()
+        if not self.AutoSave then return end
+        if self._AutoSaveDebounce then return end
 
-        self._AutoSaveThread = task.spawn(function()
-            while self.AutoSave do
-                task.wait(self.AutoSaveInterval)
-                if not self.AutoSave then break end
+        self._AutoSaveDebounce = true
+        task.defer(function()
+            self._AutoSaveDebounce = false
 
-                local name = self.AutoSaveName
-                if self.Library and self.Library.Options.SaveManager_ConfigList then
-                    local selected = self.Library.Options.SaveManager_ConfigList.Value
-                    if selected and selected ~= "" then
-                        name = selected
-                    end
-                end
-
-                local success, err = self:Save(name)
-                if not success and self.Library then
-                    self.Library:Notify("Auto save failed: " .. tostring(err))
+            local name = self.AutoSaveName
+            if self.Library and self.Library.Options.SaveManager_ConfigList then
+                local selected = self.Library.Options.SaveManager_ConfigList.Value
+                if selected and selected ~= "" then
+                    name = selected
                 end
             end
+
+            self:Save(name)
         end)
     end
 
-    function SaveManager:StopAutoSave()
-        if self._AutoSaveThread then
-            task.cancel(self._AutoSaveThread)
-            self._AutoSaveThread = nil
+    function SaveManager:_HookAutoSave()
+        for idx, toggle in pairs(self.Library.Toggles) do
+            if self.Ignore[idx] then continue end
+            if not toggle.OnChanged then continue end
+            toggle:OnChanged(function()
+                self:_TriggerAutoSave()
+            end)
+        end
+
+        for idx, option in pairs(self.Library.Options) do
+            if self.Ignore[idx] then continue end
+            if not option.OnChanged then continue end
+            option:OnChanged(function()
+                self:_TriggerAutoSave()
+            end)
         end
     end
 
     function SaveManager:SetAutoSave(enabled)
         self.AutoSave = enabled
-        if enabled then
-            self:StartAutoSave()
-        else
-            self:StopAutoSave()
-        end
     end
 
     function SaveManager:SetupDefaultConfig()
@@ -182,11 +183,6 @@ local SaveManager = {} do
         local writeSuccess = pcall(writefile, autoLoadPath, self.AutoSaveName)
         if not writeSuccess then
             warn("SaveManager: Failed to write autoload for default config")
-            return
-        end
-
-        if self.Library then
-            self.Library:Notify(string.format("First run: created and set %q as autoload config", self.AutoSaveName))
         end
     end
 
@@ -413,7 +409,7 @@ local SaveManager = {} do
         if isfile(autoLoadPath) then
             local successRead, name = pcall(readfile, autoLoadPath)
             if not successRead then
-                self.Library:Notify("Failed to load autoload config: write file error")
+                self.Library:Notify("Failed to load autoload config: read file error")
                 return
             end
 
@@ -463,7 +459,7 @@ local SaveManager = {} do
         section:AddToggle("SaveManager_AutoSave", {
             Text = "Auto Save",
             Default = true,
-            Tooltip = string.format("Automatically saves every %d seconds", self.AutoSaveInterval),
+            Tooltip = "Automatically saves when any option changes",
             Callback = function(value)
                 self:SetAutoSave(value)
             end
@@ -553,16 +549,12 @@ local SaveManager = {} do
         self.AutoloadConfigLabel = section:AddLabel("Current autoload config: " .. self:GetAutoloadConfig(), true)
 
         self:SetIgnoreIndexes({ "SaveManager_ConfigList", "SaveManager_ConfigName", "SaveManager_AutoSave" })
-
-        self:StartAutoSave()
     end
 
     function SaveManager:Init()
         self:SetupDefaultConfig()
         self:LoadAutoloadConfig()
-        if self.AutoSave then
-            self:StartAutoSave()
-        end
+        self:_HookAutoSave()
     end
 
     SaveManager:BuildFolderTree()
