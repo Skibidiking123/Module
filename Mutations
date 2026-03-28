@@ -1,5 +1,6 @@
 getgenv().MutationHook = {
     "Abyssal",
+    "Aether",
     "Albino",
     "Alien",
     "Amber",
@@ -77,6 +78,7 @@ getgenv().MutationHook = {
     "Firework",
     "Flora",
     "Floral",
+    "Forest Spirit",
     "Forgotten",
     "Fortune",
     "Fossilized",
@@ -190,6 +192,7 @@ getgenv().MutationHook = {
     "Rockstar",
     "Rooted",
     "Rose",
+    "Rotting",
     "Royal",
     "Rusty",
     "Sacratus",
