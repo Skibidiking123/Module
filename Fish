@@ -347,6 +347,7 @@ return {
         ["BaitContents"] = { "Taco", "Golden Coin", "Singularity", "UFO", "Star" },
         ["CrateType"] = "Bait",
         ["IsCrate"] = true,
+        ["NonFish"] = true,
         ["Unpurchasable"] = true,
         ["Unregistered"] = true,
     },
@@ -374,6 +375,7 @@ return {
         ["CrateType"] = "All",
         ["FishContents"] = { "Frank", "Mango", "Bloxy Cola", "Turkey Leg", "Mr. Tentacles", "Star", "Golden Coin", "Ghost", "Snowflake", "Flashlight", "Taco", "Corrupted Megalodon" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
         ["Unpurchasable"] = true,
         ["Unregistered"] = true,
     },
@@ -399,6 +401,7 @@ return {
         ["CrateType"] = "Fish",
         ["FishContents"] = { "Dr. Ishmael", "Golden Nessie", "Black Iron Bucket", "Singularity", "Snowflake", "Mango", "Frank", "Alien Hat", "Cheezburger", "Bloxy Cola", "Turkey Leg", "Golden Coin", "Taco", "Star", "Ghost", "Cousin Tentacles", "Mr. Tentacles", "Mango Smoothie", "Kind Egg", "Parasite", "Flashlight", "Tentacles Junior", "Mrs. Tentacles", "Ghoul", "Snowman", "JellyBop", "Glitched Shades", "Fridge", "Fischipedia Accurate Pickle", "Supersized Floppy", "Poltergeist", "Golden Scylla", "UFO", "Gargantuan Taco", "Rocket Ship", "Broken Scylla", "Moon", "8-Bit Mr. Tentacles", "Corrupted Scylla", "Venoblossom", "Corrupted Megalodon" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
         ["Unpurchasable"] = true,
         ["Unregistered"] = true,
     },
@@ -421,6 +424,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(224, 252, 255),
         ["HoldAnimation"] = "[userdata]",
         ["AdminRelic"] = true,
+        ["NonFish"] = true,
         ["RelicGroup"] = "Admin",
     },
     ["Alien Buddy"] = {
@@ -2572,6 +2576,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
         ["Evaluation"] = "Amethyst forms in volcanic rock cavities called geodes, where mineral-rich water deposits quartz crystals over time. It was once as valuable as diamonds and associated with preventing overindulgence.",
         ["FromMeteor"] = true,
+        ["NonFish"] = true,
     },
     ["Ancient Fragment"] = {
         ["WeightPool"] = { 1, 1 },
@@ -2590,6 +2595,7 @@ return {
         ["Quips"] = { "Woah a bone!" },
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Ancient Megalodon"] = {
         ["BlockPassiveCapture"] = true,
@@ -2648,6 +2654,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(255, 242, 62),
         ["HoldAnimation"] = "[userdata]",
         ["FinalChanceDivisor"] = 2,
+        ["NonFish"] = true,
     },
     ["Cladoselache"] = {
         ["WeightPool"] = { 180, 240 },
@@ -2701,6 +2708,7 @@ return {
         ["Quips"] = { "Woah a bone!" },
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Dunkleosteus"] = {
         ["WeightPool"] = { 12000, 30000 },
@@ -2738,6 +2746,7 @@ return {
         ["Quips"] = { "Woah a bone!" },
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Floppy"] = {
         ["WeightPool"] = { 80, 100 },
@@ -2847,6 +2856,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
         ["Evaluation"] = "Lapis Lazuli has been ground into powder for use in luxurious paints and cosmetics for millennia, symbolizing royalty and spirituality.",
         ["FromMeteor"] = true,
+        ["NonFish"] = true,
     },
     ["Leedsichthys"] = {
         ["WeightPool"] = { 9000, 11000 },
@@ -2883,6 +2893,7 @@ return {
         ["Quips"] = { "Found a Meg Fang!" },
         ["SparkleColor"] = Color3.fromRGB(33, 55, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Meg's Spine"] = {
         ["WeightPool"] = { 25, 50 },
@@ -2900,6 +2911,7 @@ return {
         ["Quips"] = { "Found a Meg Spine!" },
         ["SparkleColor"] = Color3.fromRGB(33, 55, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Megalodon"] = {
         ["BlockPassiveCapture"] = true,
@@ -2940,6 +2952,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
         ["Evaluation"] = "Moonstone's hard, ethereal glow—caused by light scattering within its layers—, often associated with the lunar energy from our lovely moon.",
         ["FromMeteor"] = true,
+        ["NonFish"] = true,
     },
     ["Mosasaurus"] = {
         ["WeightPool"] = { 100000, 140000 },
@@ -2996,6 +3009,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
         ["Evaluation"] = "Opals form in arid, sunstone soils, where water evaporates and leaves behind dazzling mineral deposits.",
         ["FromMeteor"] = true,
+        ["NonFish"] = true,
     },
     ["Phantom Megalodon"] = {
         ["BlockPassiveCapture"] = true,
@@ -3053,8 +3067,9 @@ return {
         ["Quips"] = { "Ouu, shiny!" },
         ["SparkleColor"] = Color3.fromRGB(255, 29, 29),
         ["HoldAnimation"] = "[userdata]",
-        ["Evaluation"] = "Forming in marble or basalt environments under intense heat and pressure of Roslits Volcano. ",
+        ["Evaluation"] = "Forming in marble or basalt environments under intense heat and pressure of Roslits Volcano.",
         ["FromMeteor"] = true,
+        ["NonFish"] = true,
     },
     ["Solar Fragment"] = {
         ["WeightPool"] = { 1, 1 },
@@ -3073,6 +3088,7 @@ return {
         ["Quips"] = { "Woah a bone!" },
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Starfish"] = {
         ["WeightPool"] = { 20, 70 },
@@ -3695,6 +3711,7 @@ return {
         ["Seasons"] = { "None" },
         ["Weather"] = { "None" },
         ["Quips"] = { "Just debris...", "A Broken Arrow.", "Not quite a catch." },
+        ["NonFish"] = true,
     },
     ["Dawnflare Eel"] = {
         ["Icon"] = "rbxassetid://137881623916525",
@@ -3878,6 +3895,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 12, 12),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Ancient Serpent Spine"] = {
         ["WeightPool"] = { 30, 80 },
@@ -3899,6 +3917,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 12, 12),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Barracuda's Spine"] = {
         ["WeightPool"] = { 25, 50 },
@@ -3919,6 +3938,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Claw Gill"] = {
         ["WeightPool"] = { 15, 30 },
@@ -3939,6 +3959,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Fossil Fan"] = {
         ["WeightPool"] = { 25, 50 },
@@ -3959,6 +3980,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Nessie's Spine"] = {
         ["WeightPool"] = { 40, 80 },
@@ -3980,6 +4002,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Shark Fang"] = {
         ["WeightPool"] = { 30, 50 },
@@ -4000,6 +4023,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Spine Blade"] = {
         ["WeightPool"] = { 30, 60 },
@@ -4020,6 +4044,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Spine Bone"] = {
         ["WeightPool"] = { 30, 60 },
@@ -4040,6 +4065,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Spined Fin"] = {
         ["WeightPool"] = { 20, 50 },
@@ -4061,6 +4087,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
 
     -- Ashfall
@@ -5806,6 +5833,7 @@ return {
         ["Seasons"] = { "None" },
         ["Weather"] = { "None" },
         ["Quips"] = { "Just junk...", "A Rusty Hook.", "Not ideal." },
+        ["NonFish"] = true,
     },
     ["Shieldbearer Koi"] = {
         ["Icon"] = "rbxassetid://99545790932490",
@@ -6090,6 +6118,7 @@ return {
         ["Quips"] = { "A MOON IDOL!?!?!", "CELESTIAL GREATNESS!!!", "UNMATCHED POWERS!!!" },
         ["SparkleColor"] = Color3.fromRGB(255, 244, 176),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Moonridge Catfish"] = {
         ["Icon"] = "rbxassetid://106024360957639",
@@ -6538,6 +6567,7 @@ return {
         ["Quips"] = { "Oh.. a Dissolved Bone!", "A.. Dissolved Bone?", "How did I pull this up?", "A Dissolved Bone..?", "Not fully dissolved though!" },
         ["SparkleColor"] = Color3.fromRGB(255, 245, 190),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Dweller Catfish"] = {
         ["WeightPool"] = { 100, 160 },
@@ -9001,6 +9031,7 @@ return {
         ["Quips"] = { "I caught a key!", "Woah, a key!!" },
         ["SparkleColor"] = Color3.fromRGB(126, 126, 126),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Key of Whispers"] = {
         ["Icon"] = "rbxassetid://139759974332159",
@@ -9021,6 +9052,7 @@ return {
         ["Quips"] = { "I caught a key!", "Woah, a key!!" },
         ["SparkleColor"] = Color3.fromRGB(126, 126, 126),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Leviathan"] = {
         ["Icon"] = "rbxassetid://87964387582734",
@@ -9773,6 +9805,7 @@ return {
         ["CrateType"] = "All",
         ["FishContents"] = { "Slate Tuna", "Banditfish", "Globe Jellyfish", "Gazerfish", "Phantom Ray", "Stalactite", "Stalactite", "Cockatoo Squid", "Banditfish", "Brine Shrimp", "Brine Shrimp" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
     },
     ["Emperor Jellyfish"] = {
         ["WeightPool"] = { 5000, 8000 },
@@ -9938,6 +9971,7 @@ return {
         ["Quips"] = { "String?...", "Seems pointless...", "How did I even reel this?", "CURSE YOU POLARIS!", "PLEASE BE SERENE!" },
         ["SparkleColor"] = Color3.fromRGB(255, 255, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
         ["Worlds"] = { "Sea 1" },
     },
 
@@ -9963,7 +9997,6 @@ return {
         ["AnnounceInChat"] = true,
         ["IsLimitedBestiary"] = true,
         ["HoldAnimation"] = "[userdata]",
-        ["GlobalStrictChance"] = 0.2,
     },
     ["Basketback Tortoise"] = {
         ["Icon"] = "rbxassetid://113929580252535",
@@ -10013,7 +10046,6 @@ return {
         ["AnnounceInChat"] = true,
         ["IsLimitedBestiary"] = true,
         ["HoldAnimation"] = "[userdata]",
-        ["GlobalStrictChance"] = 0.1,
     },
 
     -- Everturn Forest
@@ -10687,6 +10719,7 @@ return {
         ["AnnounceInChat"] = true,
         ["IsLimitedBestiary"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
         ["RelicGroup"] = "Eerie",
     },
     ["Frankenshrimp"] = {
@@ -10733,6 +10766,7 @@ return {
         ["Currency"] = "Candy",
         ["FishContents"] = { "Xtra Sour Gummy Pack", "Caramel Chub", "Gummy Guppy", "Licorice Leech", "Marshmallow Mackerel", "Lollipop Lamprey" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
         ["Unpurchasable"] = true,
     },
     ["Frightful Relic"] = {
@@ -10754,6 +10788,7 @@ return {
         ["AnnounceInChat"] = true,
         ["IsLimitedBestiary"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
         ["RelicGroup"] = "Frightful",
     },
     ["Ghost Minnow"] = {
@@ -11089,6 +11124,7 @@ return {
         ["AnnounceInChat"] = true,
         ["IsLimitedBestiary"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
         ["RelicGroup"] = "Spooky",
     },
     ["Vampire Perch"] = {
@@ -11154,6 +11190,7 @@ return {
         ["BaitContents"] = { "Sour Gummy Worm" },
         ["CrateType"] = "Bait",
         ["IsCrate"] = true,
+        ["NonFish"] = true,
         ["Unpurchasable"] = true,
     },
 
@@ -11539,6 +11576,7 @@ return {
         ["BuyMult"] = 2.3,
         ["CrateType"] = "Bait",
         ["IsCrate"] = true,
+        ["NonFish"] = true,
         ["Unpurchasable"] = true,
     },
     ["Coral Turkey"] = {
@@ -11874,6 +11912,7 @@ return {
         ["CrateType"] = "FishAndCoins",
         ["FishContents"] = { "Cookie", "Cookie", "Glass of Milk", "Glass of Milk", "Candy Cane Carp", "Santa Salmon", "Ornament Fish" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
     },
     ["Candy Cane Carp"] = {
         ["WeightPool"] = { 10, 50 },
@@ -11933,6 +11972,7 @@ return {
         ["BuyMult"] = 2.3,
         ["CrateType"] = "Bait",
         ["IsCrate"] = true,
+        ["NonFish"] = true,
         ["Unpurchasable"] = true,
     },
     ["Gingerbread Fish"] = {
@@ -12129,6 +12169,7 @@ return {
         ["CrateType"] = "FishAndCoins",
         ["FishContents"] = { "Icicle", "Icicle", "Icicle", "Icicle", "Icicle", "Icicle", "Candy Cane Carp", "Candy Cane Carp", "Candy Cane Carp", "Candy Cane Carp", "Candy Cane Carp", "Santa Salmon", "Santa Salmon", "Santa Salmon", "Santa Salmon", "Santa Salmon", "Santa Salmon", "Santa Salmon", "Ornament Fish", "Ornament Fish", "Ornament Fish", "Ornament Fish", "Ornament Fish", "Ornament Fish", "Gingerbread Fish", "Gingerbread Fish", "Gingerbread Fish", "Gingerbread Fish", "Gingerbread Fish", "Gingerbread Fish", "Snowflake Flounder", "Snowflake Flounder", "Snowflake Flounder", "Snowflake Flounder", "Olmdeer", "Olmdeer", "Olmdeer", "Santa Pufferfish", "Santa Pufferfish", "Enchant Relic", "Enchant Relic", "Enchant Relic" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
     },
     ["Unique Present"] = {
         ["WeightPool"] = { 90, 90 },
@@ -12151,6 +12192,7 @@ return {
         ["CrateType"] = "FishAndCoins",
         ["FishContents"] = { "Icicle", "Icicle", "Icicle", "Glass of Milk", "Glass of Milk", "Glass of Milk", "Candy Cane Carp", "Candy Cane Carp", "Candy Cane Carp", "Candy Cane Carp", "Candy Cane Carp", "Candy Cane Carp", "Ornament Fish", "Ornament Fish", "Ornament Fish", "Ornament Fish", "Santa Salmon", "Santa Salmon", "Santa Salmon", "Santa Salmon", "Santa Salmon", "Santa Salmon", "Gingerbread Fish", "Gingerbread Fish", "Gingerbread Fish", "Enchant Relic", "Enchant Relic" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
     },
 
     -- Fischmas 2
@@ -12314,6 +12356,7 @@ return {
         ["IsLimitedBestiary"] = true,
         ["HoldAnimation"] = "[userdata]",
         ["FinalChanceDivisor"] = 100,
+        ["NonFish"] = true,
         ["PassiveChanceDivisor"] = 100,
         ["RelicGroup"] = "Festive",
     },
@@ -12434,6 +12477,7 @@ return {
         ["BuyMult"] = 2.3,
         ["CrateType"] = "Bait",
         ["IsCrate"] = true,
+        ["NonFish"] = true,
         ["Unpurchasable"] = true,
     },
     ["Merry Manta Ray"] = {
@@ -12581,6 +12625,7 @@ return {
         ["Currency"] = "Bells",
         ["FishContents"] = { "Hot Cocoa", "Snowball", "Glass of Eggnog", "Gingerbread Man", "Candy Cane", "Fruitcake Flounder", "Ornament Pufferfish" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
         ["Unpurchasable"] = true,
     },
     ["Reindeer Ray"] = {
@@ -12649,6 +12694,7 @@ return {
         ["FinalChanceDivisor"] = 10,
         ["FishContents"] = { "Hot Cocoa", "Snowball", "Glass of Eggnog", "Gingerbread Man", "Candy Cane", "Fruitcake Flounder", "Ornament Pufferfish", "Hot Cocoa", "Snowball", "Glass of Eggnog", "Gingerbread Man", "Candy Cane", "Fruitcake Flounder", "Ornament Pufferfish", "Hot Cocoa", "Snowball", "Glass of Eggnog", "Gingerbread Man", "Candy Cane", "Fruitcake Flounder", "Ornament Pufferfish", "Festive Relic" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
         ["Unpurchasable"] = true,
     },
     ["Santa's Relic"] = {
@@ -12673,6 +12719,7 @@ return {
         ["IsLimitedBestiary"] = true,
         ["FavoritedDefault"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
         ["RelicGroup"] = "Santa",
         ["SkipInBestiary"] = true,
     },
@@ -12745,6 +12792,7 @@ return {
         ["Currency"] = "Bells",
         ["FishContents"] = { "Hot Cocoa", "Snowball", "Glass of Eggnog", "Gingerbread Man", "Candy Cane", "Fruitcake Flounder", "Ornament Pufferfish", "Hot Cocoa", "Snowball", "Glass of Eggnog", "Gingerbread Man", "Candy Cane", "Fruitcake Flounder", "Ornament Pufferfish", "Hot Cocoa", "Snowball", "Glass of Eggnog", "Gingerbread Man", "Candy Cane", "Fruitcake Flounder", "Ornament Pufferfish", "Hot Cocoa", "Snowball", "Glass of Eggnog", "Gingerbread Man", "Candy Cane", "Fruitcake Flounder", "Ornament Pufferfish", "Hot Cocoa", "Snowball", "Glass of Eggnog", "Gingerbread Man", "Candy Cane", "Fruitcake Flounder", "Ornament Pufferfish", "Hot Cocoa", "Snowball", "Glass of Eggnog", "Gingerbread Man", "Candy Cane", "Fruitcake Flounder", "Ornament Pufferfish", "Hot Cocoa", "Snowball", "Glass of Eggnog", "Gingerbread Man", "Candy Cane", "Fruitcake Flounder", "Ornament Pufferfish", "Hot Cocoa", "Snowball", "Glass of Eggnog", "Gingerbread Man", "Candy Cane", "Fruitcake Flounder", "Ornament Pufferfish", "Festive Relic" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
         ["Unpurchasable"] = true,
     },
     ["Stockingfish"] = {
@@ -13045,6 +13093,7 @@ return {
         ["Quips"] = { "A MAMMOTH TUSK!", "ICE AGE RELIC!", "PREHISTORIC TREASURE!" },
         ["SparkleColor"] = Color3.fromRGB(255, 237, 137),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Frigid Shrimp"] = {
         ["WeightPool"] = { 3, 8 },
@@ -13745,6 +13794,7 @@ return {
         ["Seasons"] = { "None" },
         ["Weather"] = { "None" },
         ["Quips"] = { "Just bones...", "A Skull.", "That's unsettling." },
+        ["NonFish"] = true,
     },
     ["Spectral Whale"] = {
         ["Icon"] = "rbxassetid://118143273783620",
@@ -14225,6 +14275,7 @@ return {
         ["Quips"] = { "???" },
         ["SparkleColor"] = Color3.fromRGB(182, 65, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
 
     -- LEGO
@@ -14632,6 +14683,7 @@ return {
         ["Quips"] = { "A Canary Seed!" },
         ["SparkleColor"] = Color3.fromRGB(255, 228, 94),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Colossal Flower"] = {
         ["Icon"] = "rbxassetid://109791272540218",
@@ -14672,6 +14724,7 @@ return {
         ["Quips"] = { "A Cyan Seed!" },
         ["SparkleColor"] = Color3.fromRGB(98, 218, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Dewdrop Dab"] = {
         ["Icon"] = "rbxassetid://99955799791759",
@@ -14829,6 +14882,7 @@ return {
         ["Quips"] = { "A LIVING SEED!!!" },
         ["SparkleColor"] = Color3.fromRGB(165, 255, 92),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Nectar Koi"] = {
         ["Icon"] = "rbxassetid://99972574421210",
@@ -14887,6 +14941,7 @@ return {
         ["Quips"] = { "Leafy trash!", "Too big!", "Salad fail." },
         ["SparkleColor"] = Color3.fromRGB(0, 200, 0),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Petal Ray"] = {
         ["Icon"] = "rbxassetid://124064381246062",
@@ -14969,6 +15024,7 @@ return {
         ["Quips"] = { "A Violet Seed!" },
         ["SparkleColor"] = Color3.fromRGB(184, 103, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
 
     -- Lost Jungle
@@ -15655,6 +15711,7 @@ return {
         ["Quips"] = { "A Crystal Geode!", "Woah!!", "What could be inside?" },
         ["SparkleColor"] = Color3.fromRGB(205, 169, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Gold Piece"] = {
         ["Icon"] = "rbxassetid://74552510080428",
@@ -15674,6 +15731,7 @@ return {
         ["Quips"] = { "A Gold Piece!", "Smelting time!", "Treasure!", "Booyah!", "I'm rich!!!" },
         ["SparkleColor"] = Color3.fromRGB(255, 249, 89),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Iron Chunk"] = {
         ["Icon"] = "rbxassetid://72863476372935",
@@ -15693,9 +15751,11 @@ return {
         ["Quips"] = { "An Iron Chunk!", "Smelting time!", "It's heavy!" },
         ["SparkleColor"] = Color3.fromRGB(126, 126, 126),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Radiant Crystal"] = {
         ["Icon"] = "rbxassetid://115709607213153",
+        ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 20, 20 },
         ["Chance"] = 0.03,
         ["Rarity"] = "Gemstone",
@@ -15713,6 +15773,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
         ["ClientFishingPassives"] = {},
         ["FinalChanceDivisor"] = 5,
+        ["NonFish"] = true,
     },
     ["Rusty Bolt"] = {
         ["Icon"] = "rbxassetid://139151300056129",
@@ -15731,6 +15792,7 @@ return {
         ["Quips"] = { "A Rusty Bolt...", "What a shame...", "Seems useless...", "Who dropped it here?" },
         ["SparkleColor"] = Color3.fromRGB(61, 52, 49),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
 
     -- Moosewood
@@ -16112,6 +16174,7 @@ return {
         ["Quips"] = { "Ermm..?", "Hmm..?" },
         ["SparkleColor"] = Color3.fromRGB(255, 0, 0),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Grey Carp"] = {
         ["WeightPool"] = { 20, 70 },
@@ -16201,6 +16264,7 @@ return {
         ["Quips"] = { "Thats pretty" },
         ["SparkleColor"] = Color3.fromRGB(170, 255, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["RocketFuel"] = {
         ["WeightPool"] = { 12, 13 },
@@ -16220,6 +16284,7 @@ return {
         ["Quips"] = { "Is this fueled?" },
         ["SparkleColor"] = Color3.fromRGB(170, 255, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Swamp Bass"] = {
         ["WeightPool"] = { 20, 60 },
@@ -16293,6 +16358,7 @@ return {
         ["Quips"] = { "A BEE!!!", "IT STUNG ME!" },
         ["SparkleColor"] = Color3.fromRGB(255, 200, 0),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Comb Cluster"] = {
         ["Icon"] = "rbxassetid://127779684473000",
@@ -16313,6 +16379,7 @@ return {
         ["Quips"] = { "Comb crew!", "Honey clump!", "Sticky squad!" },
         ["SparkleColor"] = Color3.fromRGB(255, 220, 150),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Combscale Bass"] = {
         ["Icon"] = "rbxassetid://90064267302576",
@@ -16352,6 +16419,7 @@ return {
         ["Quips"] = { "Honey blob!", "Sticky mess!", "Sweet trash." },
         ["SparkleColor"] = Color3.fromRGB(255, 255, 150),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Honey Drifter"] = {
         ["Icon"] = "rbxassetid://128156901749422",
@@ -16564,6 +16632,7 @@ return {
         ["BuyMult"] = 1.6,
         ["CrateType"] = "Bait",
         ["IsCrate"] = true,
+        ["NonFish"] = true,
     },
     ["Bloop Cosmetic Crate"] = {
         ["Icon"] = "rbxassetid://73337293410960",
@@ -16586,6 +16655,7 @@ return {
         ["CrateType"] = "CustomByName",
         ["IsCrate"] = true,
         ["NoAnglerQuest"] = true,
+        ["NonFish"] = true,
         ["Unpurchasable"] = true,
         ["Unregistered"] = true,
         ["Worlds"] = { "Sea 1" },
@@ -16606,6 +16676,7 @@ return {
         ["Quips"] = { "Found a Blue Energy Crystal!" },
         ["SparkleColor"] = Color3.fromRGB(33, 55, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Bone"] = {
         ["WeightPool"] = { 10, 25 },
@@ -16623,6 +16694,7 @@ return {
         ["Quips"] = { "Oh.. a Bone!", "A.. Bone?", "How did I pull this up?", "A Bone..?" },
         ["SparkleColor"] = Color3.fromRGB(255, 240, 162),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Boot"] = {
         ["WeightPool"] = { 12, 12 },
@@ -16640,6 +16712,7 @@ return {
         ["Quips"] = { "Ermm..?", "Why only one..?", "A Boot.!", "A Boot...", "I caught!.. a Boot..?", "Erm.. A Boot?" },
         ["SparkleColor"] = Color3.fromRGB(197, 152, 80),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Carbon Crate"] = {
         ["WeightPool"] = { 160, 160 },
@@ -16662,6 +16735,7 @@ return {
         ["CrateType"] = "FishOrCoins",
         ["FishContents"] = { "Alligator Gar", "Nurse Shark", "Ribbon Eel", "Eel", "White Bass", "Longtail Bass", "Yellowfin Tuna", "Bluefin Tuna", "Squid", "Lobster", "Cod", "Pike", "Barracuda", "Arapaima", "Amberjack", "Sturgeon", "Longtail Bass", "Squid", "Mahi Mahi", "Halibut", "Coelacanth", "Abyssacuda" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
     },
     ["Common Crate"] = {
         ["WeightPool"] = { 80, 80 },
@@ -16685,6 +16759,7 @@ return {
         ["CrateType"] = "All",
         ["FishContents"] = { "Sockeye Salmon", "Trout", "Carp", "Minnow", "Mackerel", "Gudgeon", "Cod", "Haddock", "White Bass", "Sea Bass", "Chub", "Pumpkinseed" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
     },
     ["Cosmic Relic"] = {
         ["WeightPool"] = { 500, 500 },
@@ -16702,6 +16777,7 @@ return {
         ["Quips"] = { "I feel it's power..", "Woah.. A Cosmic Relic??", "A Cosmic Relic!!", "I found a Cosmic Relic!" },
         ["SparkleColor"] = Color3.fromRGB(197, 82, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
         ["RelicGroup"] = "Cosmic",
         ["Unregistered"] = true,
     },
@@ -16722,6 +16798,7 @@ return {
         ["Quips"] = { "Oh... A Destroyed Fossil?" },
         ["SparkleColor"] = Color3.fromRGB(126, 116, 78),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Driftwood"] = {
         ["WeightPool"] = { 6, 6 },
@@ -16739,10 +16816,11 @@ return {
         ["Quips"] = { "Ermm..?", "Uhmm..?", "Driftwood!", "Oh. Driftwood.", "It's!- Oh.. Driftwood..", "Driftwood.." },
         ["SparkleColor"] = Color3.fromRGB(197, 107, 62),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Enchant Relic"] = {
         ["WeightPool"] = { 210, 210 },
-        ["Chance"] = 0.2,
+        ["Chance"] = 0.01,
         ["Rarity"] = "Relic",
         ["Resilience"] = 35,
         ["ProgressEfficiency"] = 0.8,
@@ -16758,6 +16836,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 255, 216),
         ["HoldAnimation"] = "[userdata]",
         ["GlobalStrictChance"] = 0.2857142857142857,
+        ["NonFish"] = true,
         ["RelicGroup"] = "Default",
     },
     ["Exalted Relic"] = {
@@ -16778,6 +16857,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(228, 160, 255),
         ["HoldAnimation"] = "[userdata]",
         ["GlobalStrictChance"] = 0.05,
+        ["NonFish"] = true,
         ["RelicGroup"] = "Exalted",
     },
     ["Fish Barrel"] = {
@@ -16799,6 +16879,7 @@ return {
         ["CrateType"] = "Fish",
         ["FishContents"] = { "Sockeye Salmon", "Trout", "Bream", "Sturgeon", "Barracuda", "Carp", "Pufferfish", "Bluefin Tuna", "Yellowfin Tuna", "Sockeye Salmon", "Trout", "Bream", "Barracuda", "Carp", "Pike", "Alligator Gar", "Cod", "Minnow", "Longtail Bass", "Mahi Mahi", "Sardine", "Crab", "Amberjack", "Arapaima", "Perch", "Sea Bass", "Cod", "Haddock", "Sweetfish", "Goldfish", "Halibut", "Minnow", "Pale Tang", "Porgy", "Porgy", "White Bass", "Walleye", "Redeye Bass", "Sockeye Salmon", "Trout", "Bream", "Sturgeon", "Barracuda", "Carp", "Pufferfish", "Bluefin Tuna", "Yellowfin Tuna", "Sockeye Salmon", "Trout", "Bream", "Barracuda", "Carp", "Pike", "Alligator Gar", "Cod", "Minnow", "Longtail Bass", "Mahi Mahi", "Sardine", "Crab", "Amberjack", "Arapaima", "Perch", "Sea Bass", "Cod", "Haddock", "Sweetfish", "Goldfish", "Halibut", "Minnow", "Pale Tang", "Porgy", "Porgy", "White Bass", "Walleye", "Redeye Bass", "Golden Smallmouth Bass" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
     },
     ["Friend Fish"] = {
         ["Icon"] = "rbxassetid://95707933700367",
@@ -16810,7 +16891,7 @@ return {
         ["Description"] = "MY BEST FRIEND!",
         ["Hint"] = "A very friendly fish...",
         ["FavouriteBait"] = "Pizza",
-        ["Price"] = 6908,
+        ["Price"] = 0,
         ["XP"] = 6910,
         ["From"] = "None",
         ["Seasons"] = { "NONE!" },
@@ -16839,6 +16920,7 @@ return {
         ["Quips"] = { "Found a Green Energy Crystal!" },
         ["SparkleColor"] = Color3.fromRGB(33, 55, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Him"] = {
         ["Icon"] = "rbxassetid://120861788678376",
@@ -16885,6 +16967,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
         ["Appraisable"] = false,
         ["HideInBestiary"] = true,
+        ["NonFish"] = true,
         ["RelicGroup"] = "Imprinted",
         ["SkipInBestiary"] = true,
         ["Unregistered"] = true,
@@ -16905,6 +16988,7 @@ return {
         ["Quips"] = { "Oh.. a Log!", "A.. Log?", "How did I pull this up?", "A Log..?" },
         ["SparkleColor"] = Color3.fromRGB(255, 255, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Quality Bait Crate"] = {
         ["WeightPool"] = { 120, 120 },
@@ -16926,6 +17010,7 @@ return {
         ["BuyMult"] = 3.5,
         ["CrateType"] = "Bait",
         ["IsCrate"] = true,
+        ["NonFish"] = true,
     },
     ["Red Energy Crystal"] = {
         ["WeightPool"] = { 25, 50 },
@@ -16944,6 +17029,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(33, 55, 255),
         ["HoldAnimation"] = "[userdata]",
         ["BuyMult"] = 50000,
+        ["NonFish"] = true,
         ["Requirements"] = {},
     },
     ["Rock"] = {
@@ -16962,6 +17048,7 @@ return {
         ["Quips"] = { "Ermm..?", "Uhmm..?", "A Rock!", "Oh. A Rock.", "It's!- Oh.. A Rock..", "A rock.." },
         ["SparkleColor"] = Color3.fromRGB(80, 80, 80),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Scrap Metal"] = {
         ["WeightPool"] = { 10, 50 },
@@ -16980,6 +17067,7 @@ return {
         ["Quips"] = { "Just a piece of scrap metal!" },
         ["SparkleColor"] = Color3.fromRGB(125, 126, 123),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Seaweed"] = {
         ["WeightPool"] = { 1, 3 },
@@ -16997,6 +17085,7 @@ return {
         ["Quips"] = { "Seaweed!", "Oh. Seaweed.", "It's!- Oh.. Seaweed..", "Seaweed.." },
         ["SparkleColor"] = Color3.fromRGB(197, 107, 62),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Seraphfin"] = {
         ["Icon"] = "rbxassetid://99997501497692",
@@ -17059,6 +17148,7 @@ return {
         ["Quips"] = { "I feel it's power..", "Woah.. A Song of the Deep??", "A Song of the Deep!!", "I caught a Song of the Deep!" },
         ["SparkleColor"] = Color3.fromRGB(228, 160, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
         ["RelicGroup"] = "SongOfTheDeep",
         ["Unregistered"] = true,
     },
@@ -17078,6 +17168,7 @@ return {
         ["Quips"] = { "Oh.. a Stalactite!", "A.. Stalactite?", "How did I pull this up?", "A Stalactite..?", "It poked me!", "That was surprisingly heavy.." },
         ["SparkleColor"] = Color3.fromRGB(215, 210, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Tire"] = {
         ["WeightPool"] = { 110, 110 },
@@ -17095,6 +17186,7 @@ return {
         ["Quips"] = { "Ermm..?", "A tire.?", "Who would put this in here?", "Oh. A tire.", "A tire!..?" },
         ["SparkleColor"] = Color3.fromRGB(255, 255, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Tropical Bait Crate"] = {
         ["Icon"] = "rbxassetid://107608220521320",
@@ -17117,6 +17209,7 @@ return {
         ["BuyMult"] = 1.875,
         ["CrateType"] = "Bait",
         ["IsCrate"] = true,
+        ["NonFish"] = true,
         ["Worlds"] = { "Sea 1" },
     },
     ["Twisted Relic"] = {
@@ -17137,6 +17230,7 @@ return {
         ["Quips"] = { "I feel it's power..", "Woah.. A Twisted Relic??", "A Twisted Relic!!", "I caught a Twisted Relic!" },
         ["SparkleColor"] = Color3.fromRGB(85, 81, 121),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
         ["RelicGroup"] = "Twisted",
         ["Unregistered"] = true,
     },
@@ -17156,6 +17250,7 @@ return {
         ["Quips"] = { "Found a Yellow Energy Crystal!" },
         ["SparkleColor"] = Color3.fromRGB(33, 55, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["🐋"] = {
         ["Icon"] = "rbxassetid://131380228822418",
@@ -17515,6 +17610,7 @@ return {
         ["Quips"] = { "Cool", "Found the other one!" },
         ["SparkleColor"] = Color3.fromRGB(170, 255, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Bull Shark"] = {
         ["WeightPool"] = { 900, 1300 },
@@ -17682,6 +17778,7 @@ return {
         ["Quips"] = { "It's so bright!", "AH! It almost electrocuted me" },
         ["SparkleColor"] = Color3.fromRGB(176, 255, 164),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Dolphin"] = {
         ["WeightPool"] = { 1500, 2000 },
@@ -18184,7 +18281,7 @@ return {
     },
     ["Pufferfish"] = {
         ["WeightPool"] = { 5, 20 },
-        ["Chance"] = 12,
+        ["Chance"] = 45,
         ["Rarity"] = "Rare",
         ["Resilience"] = 65,
         ["Description"] = "Pufferfish are clumsy swimmers that can fill their elastic stomachs with huge amounts of water & air to blow themselves up to several times their normal size. They do this to evade and scare of predators. On top of their bloating abilities, they also are one of the most poisonous fish in the sea... Also they are the only bony fish which can close their eyes!",
@@ -18669,6 +18766,7 @@ return {
         ["Quips"] = { "OLYMPIAN DEVIL!", "THIS SHOULDN'T EXIST!", "WHAT IS THAT?!" },
         ["ClientFishingPassives"] = {},
         ["HardPassiveProtection"] = true,
+        ["NoAnglerQuest"] = true,
         ["TrueProgressSpeed"] = -60,
     },
     ["Primordial Devourer"] = {
@@ -18744,6 +18842,7 @@ return {
         ["Quips"] = { "FROZEN ANTLERS!", "AN ANCIENT RELIC!", "INCREDIBLE!" },
         ["SparkleColor"] = Color3.fromRGB(255, 237, 137),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Frigid Crab"] = {
         ["WeightPool"] = { 15, 35 },
@@ -18781,6 +18880,7 @@ return {
         ["Quips"] = { "A FROZEN WALNUT!", "FROM THE AGE OF GIANTS!", "PREHISTORIC TREASURE!" },
         ["SparkleColor"] = Color3.fromRGB(255, 237, 137),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Glass Diamond"] = {
         ["WeightPool"] = { 25, 50 },
@@ -18798,6 +18898,7 @@ return {
         ["Quips"] = { "A Glass Diamond!", "Compressed carbon!", "Two more for a pickaxe!" },
         ["SparkleColor"] = Color3.fromRGB(33, 55, 255),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Ice Anchovy"] = {
         ["WeightPool"] = { 2, 6 },
@@ -18908,6 +19009,7 @@ return {
         ["Seasons"] = { "None" },
         ["Weather"] = { "None" },
         ["Quips"] = { "Just scrap...", "A Chipped Crown.", "Not much of a catch." },
+        ["NonFish"] = true,
     },
     ["Currenttail Bass"] = {
         ["Icon"] = "rbxassetid://136964619567290",
@@ -19196,6 +19298,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(106, 255, 188),
         ["HoldAnimation"] = "[userdata]",
         ["IsPearl"] = true,
+        ["NonFish"] = true,
     },
     ["Axolotl"] = {
         ["WeightPool"] = { 5, 15 },
@@ -19322,6 +19425,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(82, 39, 255),
         ["HoldAnimation"] = "[userdata]",
         ["IsPearl"] = true,
+        ["NonFish"] = true,
     },
     ["Dumbo Octopus"] = {
         ["WeightPool"] = { 15, 40 },
@@ -19359,6 +19463,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(255, 213, 108),
         ["HoldAnimation"] = "[userdata]",
         ["IsPearl"] = true,
+        ["NonFish"] = true,
     },
     ["Golden Sea Pearl"] = {
         ["WeightPool"] = { 1, 4 },
@@ -19378,6 +19483,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
         ["IsPearl"] = true,
         ["NoAnglerQuest"] = true,
+        ["NonFish"] = true,
     },
     ["Manta Ray"] = {
         ["WeightPool"] = { 7750, 10000 },
@@ -19415,6 +19521,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(197, 178, 255),
         ["HoldAnimation"] = "[userdata]",
         ["IsPearl"] = true,
+        ["NonFish"] = true,
     },
     ["Minnow"] = {
         ["WeightPool"] = { 1, 6 },
@@ -19450,6 +19557,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(255, 239, 231),
         ["HoldAnimation"] = "[userdata]",
         ["IsPearl"] = true,
+        ["NonFish"] = true,
     },
     ["Perch"] = {
         ["WeightPool"] = { 2, 12 },
@@ -19519,6 +19627,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(255, 201, 238),
         ["HoldAnimation"] = "[userdata]",
         ["IsPearl"] = true,
+        ["NonFish"] = true,
     },
     ["Squid"] = {
         ["WeightPool"] = { 5, 25 },
@@ -19576,6 +19685,7 @@ return {
         ["Quips"] = { "Uau!", "おお！", "우와!", "¡Guau!", "哇！", "Wauw!", "Gleeb!" },
         ["SparkleColor"] = Color3.fromRGB(176, 255, 164),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Yellow Boxfish"] = {
         ["WeightPool"] = { 5, 20 },
@@ -19633,6 +19743,7 @@ return {
         ["Quips"] = { "Ermm..?", "Uhmm..?", "Some Basalt!", "Oh. A Piece of Basalt.", "It's!- Oh.. Basalt..", "Basalt.." },
         ["SparkleColor"] = Color3.fromRGB(59, 59, 59),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Ember Perch"] = {
         ["WeightPool"] = { 4, 15 },
@@ -19684,6 +19795,7 @@ return {
         ["Quips"] = { "Woah, Inferno Wood!" },
         ["SparkleColor"] = Color3.fromRGB(255, 129, 25),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Magma Tang"] = {
         ["WeightPool"] = { 6, 30 },
@@ -19822,6 +19934,7 @@ return {
         ["CrateType"] = "All",
         ["FishContents"] = { "Ember Snapper", "Pyrogrub", "Sturgeon", "Magma Tang", "Alligator Gar", "Pufferfish", "Sea Urchin", "Sea Urchin", "Perch", "Perch", "Perch", "Angelfish", "Rock", "Rock", "Rock", "Magma Tang" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
     },
 
     -- Scoria Reach
@@ -19844,6 +19957,7 @@ return {
         ["Quips"] = { "AN ASHEN GEM!", "HOT AND GLISTENING!" },
         ["SparkleColor"] = Color3.fromRGB(126, 35, 36),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Ashy Pearl"] = {
         ["Icon"] = "rbxassetid://121048834310590",
@@ -19864,6 +19978,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
         ["IsScoriaPearl"] = true,
         ["NoAnglerQuest"] = true,
+        ["NonFish"] = true,
     },
     ["Basalt Loach"] = {
         ["Icon"] = "rbxassetid://135360656478988",
@@ -19904,6 +20019,7 @@ return {
         ["Quips"] = { "A CINDER CRYSTAL!", "HOT AND SHINY!" },
         ["SparkleColor"] = Color3.fromRGB(126, 67, 32),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Cindercoil Eel"] = {
         ["Icon"] = "rbxassetid://93907022010537",
@@ -19986,6 +20102,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
         ["IsScoriaPearl"] = true,
         ["NoAnglerQuest"] = true,
+        ["NonFish"] = true,
     },
     ["Infernal Fragment"] = {
         ["Icon"] = "rbxassetid://96071876963731",
@@ -20006,6 +20123,7 @@ return {
         ["Quips"] = { "An Infernal Fragment!", "This one's HOT!", "IT'S BURNING!" },
         ["SparkleColor"] = Color3.fromRGB(255, 94, 0),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Infernal Isonade"] = {
         ["Icon"] = "rbxassetid://122636857554987",
@@ -20046,6 +20164,7 @@ return {
         ["Quips"] = { "It's clamped shut!", "Might be a pearl inside...", "Steam is escaping!" },
         ["SparkleColor"] = Color3.fromRGB(255, 102, 0),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Magmatic Hermit Crab"] = {
         ["Icon"] = "rbxassetid://116985026765706",
@@ -20106,6 +20225,7 @@ return {
         ["Quips"] = { "An Obsidian Fragment!", "This one's got sharp edges!", "Clean!" },
         ["SparkleColor"] = Color3.fromRGB(92, 39, 126),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Obsidian Pearl"] = {
         ["Icon"] = "rbxassetid://108301598667131",
@@ -20126,11 +20246,13 @@ return {
         ["HoldAnimation"] = "[userdata]",
         ["IsScoriaPearl"] = true,
         ["NoAnglerQuest"] = true,
+        ["NonFish"] = true,
     },
     ["Obsidian Ray"] = {
         ["Icon"] = "rbxassetid://91140715454116",
         ["WeightPool"] = { 1500, 1800 },
         ["Chance"] = 10,
+        ["ChanceGroup"] = "Exotic",
         ["Rarity"] = "Mythical",
         ["Resilience"] = 8,
         ["ProgressEfficiency"] = 0.15,
@@ -20208,6 +20330,7 @@ return {
         ["Quips"] = { "Just a rock...?", "Still warm!", "Slag happens." },
         ["SparkleColor"] = Color3.fromRGB(179, 179, 179),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Smeltjaw Snapper"] = {
         ["Icon"] = "rbxassetid://72260065439014",
@@ -20247,6 +20370,7 @@ return {
         ["Quips"] = { "A Sulfur Fragment!", "Explosive!" },
         ["SparkleColor"] = Color3.fromRGB(126, 126, 44),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Sulfur Pearl"] = {
         ["Icon"] = "rbxassetid://126147035903276",
@@ -20267,6 +20391,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
         ["IsScoriaPearl"] = true,
         ["NoAnglerQuest"] = true,
+        ["NonFish"] = true,
     },
 
     -- Second Sea
@@ -23805,6 +23930,7 @@ return {
         ["Quips"] = { "A Freezing Shroom?", "Brr, this mushroom's ice-cold!", "Got a frosty shroom!" },
         ["SparkleColor"] = Color3.fromRGB(255, 82, 82),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Glacial Fragment"] = {
         ["Icon"] = "rbxassetid://94168451189554",
@@ -23835,7 +23961,7 @@ return {
         ["ProgressEfficiency"] = 0.3,
         ["Description"] = "A playful penguin, waddling gracefully on the icy slopes. Rarely caught, it's known for its curious nature and habit of stealing from traps.",
         ["Hint"] = "Occasionally caught by traps.",
-        ["FavouriteBait"] = "None",
+        ["FavouriteBait"] = "Krill",
         ["FavouriteTime"] = "Night",
         ["Price"] = 3554,
         ["XP"] = 2840,
@@ -24044,6 +24170,7 @@ return {
         ["Quips"] = { "Ermm..?", "Uhmm..?", "A block of Ice!", "Oh. Ice.", "Ouu! Let me lick it!", "Ice..", "It's not a popsicle, but it will do!" },
         ["SparkleColor"] = Color3.fromRGB(171, 255, 245),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Lingcod"] = {
         ["WeightPool"] = { 40, 140 },
@@ -24080,6 +24207,7 @@ return {
         ["Quips"] = { "Woah, Moon Wood!" },
         ["SparkleColor"] = Color3.fromRGB(151, 255, 212),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Pollock"] = {
         ["WeightPool"] = { 10, 50 },
@@ -24423,6 +24551,7 @@ return {
         ["Quips"] = { "Ancient Wood!" },
         ["SparkleColor"] = Color3.fromRGB(228, 255, 140),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Chinfish"] = {
         ["WeightPool"] = { 20, 40 },
@@ -24460,6 +24589,7 @@ return {
         ["Quips"] = { "W COMMS!" },
         ["SparkleColor"] = Color3.fromRGB(176, 255, 164),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Crustal Colossus"] = {
         ["Icon"] = "rbxassetid://122486974573529",
@@ -25301,6 +25431,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(29, 30, 36),
         ["HoldAnimation"] = "[userdata]",
         ["FinalChanceDivisor"] = 20,
+        ["NonFish"] = true,
     },
     ["Forbidden Plesiosaur"] = {
         ["Icon"] = "rbxassetid://122781517104204",
@@ -25409,6 +25540,7 @@ return {
         ["CrateType"] = "All",
         ["FishContents"] = { "Rock", "Stalactite", "Conger Eel", "Lanternfish", "Pelagic Cod", "Bumpy Snailfish" },
         ["IsCrate"] = true,
+        ["NonFish"] = true,
     },
     ["Moray Eel"] = {
         ["Icon"] = "rbxassetid://77546277641994",
@@ -25514,6 +25646,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(150, 50, 255),
         ["HoldAnimation"] = "[userdata]",
         ["FinalChanceDivisor"] = 10,
+        ["NonFish"] = true,
         ["PassiveChanceDivisor"] = 100,
     },
     ["Blight Pufferfish"] = {
@@ -25713,6 +25846,7 @@ return {
         ["Quips"] = { "A... rotted seed?" },
         ["SparkleColor"] = Color3.fromRGB(96, 55, 135),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Spore Lurker"] = {
         ["Icon"] = "rbxassetid://110456594933074",
@@ -25752,6 +25886,7 @@ return {
         ["Quips"] = { "Jiggly junk!", "Toxic goo!", "Wobble fail." },
         ["SparkleColor"] = Color3.fromRGB(150, 255, 150),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Toxified Crab"] = {
         ["Icon"] = "rbxassetid://70537064090902",
@@ -25833,6 +25968,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(80, 40, 120),
         ["HoldAnimation"] = "[userdata]",
         ["FinalChanceDivisor"] = 3,
+        ["NoAnglerQuest"] = true,
         ["PassiveChanceDivisor"] = 5,
     },
 
@@ -26269,6 +26405,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
         ["Unregistered"] = true,
     },
     ["Ancient Lobster"] = {
@@ -26355,6 +26492,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
         ["Unregistered"] = true,
     },
     ["Langoustine"] = {
@@ -26396,6 +26534,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
         ["Unregistered"] = true,
     },
     ["Rarities"] = {
@@ -26447,6 +26586,28 @@ return {
         ["Unique"] = Color3.fromRGB(255, 255, 255),
         ["Unusual"] = Color3.fromRGB(192, 135, 198),
         ["Whistle"] = Color3.fromRGB(255, 255, 255),
+    },
+    ["Redlip Batfish"] = {
+        ["Icon"] = "rbxassetid://115705899327189",
+        ["WeightPool"] = { 20, 60 },
+        ["Chance"] = 0,
+        ["Rarity"] = "Limited",
+        ["Resilience"] = -401,
+        ["ForcedProgressEfficiency"] = 0,
+        ["Description"] = "A bizarre bottom-dweller with vivid red lips, waddling on cavern sands.",
+        ["Hint"] = "???",
+        ["FavouriteBait"] = "Worm",
+        ["FavouriteTime"] = "Day",
+        ["Price"] = 7401,
+        ["XP"] = 401,
+        ["Seasons"] = { "Winter" },
+        ["Weather"] = { "Rain" },
+        ["Quips"] = { "What" },
+        ["SparkleColor"] = Color3.fromRGB(100, 0, 255),
+        ["HoldAnimation"] = "[userdata]",
+        ["HideInBestiary"] = true,
+        ["SkipInBestiary"] = true,
+        ["Unregistered"] = true,
     },
     ["Roslit Ray Lobster"] = {
         ["WeightPool"] = { 13, 40 },
@@ -26506,6 +26667,7 @@ return {
         ["SparkleColor"] = Color3.fromRGB(126, 124, 123),
         ["AnnounceInChat"] = true,
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
         ["Unregistered"] = true,
     },
     ["Snowcap Lobster"] = {
@@ -26635,6 +26797,7 @@ return {
         ["CrateType"] = "Coins",
         ["Currency"] = "Chocolates",
         ["IsCrate"] = true,
+        ["NonFish"] = true,
     },
     ["Cupid Crab"] = {
         ["WeightPool"] = { 5, 14 },
@@ -26682,6 +26845,7 @@ return {
         ["BuyMult"] = 2,
         ["FinalChanceDivisor"] = 100,
         ["LocalCurrency"] = "Chocolates",
+        ["NonFish"] = true,
         ["PassiveChanceDivisor"] = 100,
         ["RelicGroup"] = "Cupid",
     },
@@ -26732,6 +26896,7 @@ return {
         ["CrateType"] = "Bait",
         ["IsCrate"] = true,
         ["LocalCurrency"] = "Chocolates",
+        ["NonFish"] = true,
     },
     ["Heart Balloon"] = {
         ["WeightPool"] = { 1, 3 },
@@ -27087,6 +27252,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
         ["BuyMult"] = 2,
         ["LocalCurrency"] = "Chocolates",
+        ["NonFish"] = true,
         ["RelicGroup"] = "Valentine",
     },
 
@@ -27379,6 +27545,7 @@ return {
         ["Quips"] = { "I caught a depths key!", "Woah, a key!!" },
         ["SparkleColor"] = Color3.fromRGB(126, 12, 12),
         ["HoldAnimation"] = "[userdata]",
+        ["NonFish"] = true,
     },
     ["Twilight Eel"] = {
         ["WeightPool"] = { 100, 200 },
@@ -27748,6 +27915,7 @@ return {
         ["Seasons"] = { "None" },
         ["Weather"] = { "None" },
         ["Quips"] = { "Just scrap...", "A Broken Gear.", "Not useful." },
+        ["NonFish"] = true,
     },
     ["Chargeback Bass"] = {
         ["Icon"] = "rbxassetid://89664151554051",
