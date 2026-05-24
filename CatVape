@@ -1,75 +1,63 @@
-local loadonscreen = not game:IsLoaded()
-
-repeat
-	task.wait()
-until game:IsLoaded()
-
-if loadonscreen then
-    task.wait(4)
+--!nocheck
+script_key = script_key
+local isfile = isfile or function(file)
+	local suc, res = pcall(function()
+		return readfile(file)
+	end)
+	return suc and res ~= nil and res ~= ''
+end
+local delfile = delfile or function(file)
+	writefile(file, '')
 end
 
-if shared.vape then
-	shared.vape:Uninject()
-end
-
-local license = ({...})[1] or {}
-local developer = license.Developer or getgenv().catvapedev or false
-local closet = false
-local commit = 'main'
-
-local loadstring = function(...)
-	local res, err = loadstring(...)
-	if err then
-		error(err)
-	end
-	return res
-end
-
-local cloneref = cloneref or function(ref) return ref end
-local gethui = gethui or function() return game:GetService('Players').LocalPlayer.PlayerGui end
-
-local canDebug = debug.getupvalue ~= nil
+local downloader = Instance.new('TextLabel')
+downloader.Size = UDim2.new(1, 0, 0, 40)
+downloader.BackgroundTransparency = 1
+downloader.TextStrokeTransparency = 0
+downloader.TextSize = 20
+downloader.TextColor3 = Color3.new(1, 1, 1)
+downloader.Font = Enum.Font.Arial
+downloader.Text = ''
+downloader.Parent = Instance.new('ScreenGui', gethui and gethui() or game:GetService('CoreGui'))
 
 local function downloadFile(path, func)
 	if not isfile(path) then
+		downloader.Text = 'Downloading '.. path
 		local suc, res = pcall(function()
-			local subbed = path:gsub('catrewrite/', '')
-			subbed = subbed:gsub(' ', '%%20')
-			return game:HttpGet('https://raw.githubusercontent.com/new-qwertyui/CatV5/'..commit..'/'..subbed, true)
+			return game:HttpGet('https://raw.githubusercontent.com/MaxlaserTech/CatV6/'..readfile('catrewrite/profiles/commit.txt')..'/'..select(1, path:gsub('catrewrite/', '')), true)
 		end)
 		if not suc or res == '404: Not Found' then
 			error(res)
 		end
+		if path:find('.lua') then
+			res = '--This watermark is used to delete the file if its cached, remove it to make the file persist after vape updates.\n'..res
+		end
 		writefile(path, res)
+		downloader.Text = ''
 	end
 	return (func or readfile)(path)
 end
 
-for _, folder in {'catrewrite', 'catrewrite/communication', 'catrewrite/translations', 'catrewrite/games', 'catrewrite/cache', 'catrewrite/games/bedwars', 'catrewrite/profiles', 'catrewrite/assets', 'catrewrite/libraries', 'catrewrite/libraries/Enviroments', 'catrewrite/guis', 'catrewrite/libraries/Weather', 'catrewrite/libraries/LightningLib', 'catrewrite/libraries/LightningLib/Sparks'} do
+local function wipeFolder(path)
+	if not isfolder(path) then return end
+	for _, file in listfiles(path) do
+		if file:find('init') then continue end
+		if file:find('profile') then continue end
+		if isfile(file) then
+			delfile(file)
+		elseif isfolder(file) then
+			wipeFolder(file)
+		end
+	end
+end
+
+
+for _, folder in {'catrewrite', 'catrewrite/games', 'catrewrite/profiles', 'catrewrite/assets', 'catrewrite/libraries', 'catrewrite/guis'} do
 	if not isfolder(folder) then
+		downloader.Text = 'Downloading '.. folder
 		makefolder(folder)
 	end
 end
 
-pcall(downloadFile, 'catrewrite/libraries/pathfind.lua')
-pcall(downloadFile, 'catrewrite/init.lua')
-pcall(downloadFile, 'catrewrite/libraries/oldpath.lua')
-
-shared.VapeDeveloper = developer
-getgenv().used_init = true
-getgenv().catvapedev = developer
-getgenv().closet = closet
-getgenv().canDebug = canDebug
-
-getgenv().username = license.Username or getgenv().username
-getgenv().password = license.Password or getgenv().password
-
-local success, err = pcall(function()
-	loadstring(downloadFile('catrewrite/main.lua'), 'main')()
-end)
-
-if not success then
-	error('Failed to initalize catvape: '.. err, 8)
-elseif not closet then
-	loadstring(downloadFile('catrewrite/libraries/annc.lua'), 'announcements.lua')() 
-end
+downloader.Text = ''
+return loadstring(downloadFile('catrewrite/main.lua'), 'main')(...)
