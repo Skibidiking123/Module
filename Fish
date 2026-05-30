@@ -138,6 +138,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Colossal Saccopharynx"] = {
+        ["Icon"] = "rbxassetid://117089049309847",
         ["WeightPool"] = { 800, 2000 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -178,6 +179,7 @@ return {
         ["FinalChanceDivisor"] = 2,
     },
     ["Deeplight Footballfish"] = {
+        ["Icon"] = "rbxassetid://137726168792946",
         ["WeightPool"] = { 175, 400 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -195,6 +197,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Giant Seadevil"] = {
+        ["Icon"] = "rbxassetid://132144283542000",
         ["WeightPool"] = { 20000, 50000 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -213,6 +216,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Infant Giant Seadevil"] = {
+        ["Icon"] = "rbxassetid://93607788514463",
         ["WeightPool"] = { 6000, 17000 },
         ["Chance"] = 10,
         ["Rarity"] = "Legendary",
@@ -231,6 +235,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Leviathan Humpback Anglerfish"] = {
+        ["Icon"] = "rbxassetid://84778286908391",
         ["WeightPool"] = { 350, 800 },
         ["Chance"] = 70,
         ["Rarity"] = "Common",
@@ -249,6 +254,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Radiant Triplewart Seadevil"] = {
+        ["Icon"] = "rbxassetid://95754717354097",
         ["WeightPool"] = { 100, 210 },
         ["Chance"] = 35,
         ["Rarity"] = "Unusual",
@@ -266,6 +272,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Titanic Black Seadevil"] = {
+        ["Icon"] = "rbxassetid://106473437819813",
         ["WeightPool"] = { 55, 105 },
         ["Chance"] = 80,
         ["Rarity"] = "Common",
@@ -422,6 +429,7 @@ return {
         ["Weather"] = { "None" },
         ["Quips"] = { "I feel its power..", "Woah.. an Admin Relic??", "An Admin Relic!!", "I caught an Admin Relic!" },
         ["SparkleColor"] = Color3.fromRGB(224, 252, 255),
+        ["FavoritedDefault"] = true,
         ["HoldAnimation"] = "[userdata]",
         ["AdminRelic"] = true,
         ["NonFish"] = true,
@@ -1150,6 +1158,7 @@ return {
         ["ForcedProgressEfficiency"] = 0.01,
         ["Description"] = "BOULDER BOULDER BOULDER",
         ["Hint"] = "???",
+        ["FavouriteBait"] = "Boulder",
         ["Price"] = 100,
         ["XP"] = 50000,
         ["From"] = "Admin-Exclusive",
@@ -2005,6 +2014,28 @@ return {
         ["Appraisable"] = false,
         ["Unregistered"] = true,
     },
+    ["Sandiest Dollar"] = {
+        ["Icon"] = "rbxassetid://89186151666047",
+        ["BlockPassiveCapture"] = true,
+        ["WeightPool"] = { 100, 200 },
+        ["Chance"] = 0,
+        ["Rarity"] = "Special",
+        ["Resilience"] = 250,
+        ["ForcedProgressEfficiency"] = 0.5,
+        ["Description"] = "A very large and valuable Sand Dollar. Must've belonged to the Sand King?",
+        ["Hint"] = "???",
+        ["FavouriteBait"] = "Sand",
+        ["Price"] = 15000,
+        ["XP"] = 15000,
+        ["From"] = "Admin-Exclusive",
+        ["Seasons"] = { "None" },
+        ["Weather"] = { "None" },
+        ["Quips"] = { "It's really sandy!", "A big dolla!" },
+        ["SparkleColor"] = Color3.fromRGB(255, 227, 179),
+        ["HoldAnimation"] = "[userdata]",
+        ["Appraisable"] = false,
+        ["Unregistered"] = true,
+    },
     ["Shadow Egg"] = {
         ["Icon"] = "rbxassetid://77980436603271",
         ["BlockPassiveCapture"] = true,
@@ -2025,6 +2056,34 @@ return {
         ["SparkleColor"] = Color3.fromRGB(136, 136, 136),
         ["HoldAnimation"] = "[userdata]",
         ["Appraisable"] = false,
+        ["Unregistered"] = true,
+    },
+    ["Shady Crate"] = {
+        ["Icon"] = "rbxassetid://112394485685189",
+        ["BlockPassiveCapture"] = true,
+        ["WeightPool"] = { 50, 50 },
+        ["Chance"] = 0,
+        ["Rarity"] = "Special",
+        ["Resilience"] = 120,
+        ["Description"] = "A Shady Crate that seems to have gone missing, but who really knows?",
+        ["Hint"] = "???",
+        ["FavouriteBait"] = "Magnet",
+        ["Price"] = 500,
+        ["XP"] = 400,
+        ["From"] = "Admin-Exclusive",
+        ["Seasons"] = { "None" },
+        ["Weather"] = { "None" },
+        ["Quips"] = { "A Shady Crate!", "A Crate!", "Woah! A Shady Crate!", "Who left this here?", "Sus..." },
+        ["SparkleColor"] = Color3.fromRGB(56, 55, 58),
+        ["HoldAnimation"] = "[userdata]",
+        ["Appraisable"] = false,
+        ["BaitContents"] = { "Taco", "Golden Coin", "Singularity", "UFO", "Star", "Blackwater Leech", "Barnacle Cluster", "Shady Larva" },
+        ["CoinContents"] = { 15, 50 },
+        ["CrateType"] = "BaitOrCoins",
+        ["Currency"] = "Shady Scrip",
+        ["IsCrate"] = true,
+        ["NonFish"] = true,
+        ["Unpurchasable"] = true,
         ["Unregistered"] = true,
     },
     ["Singularity"] = {
@@ -2436,6 +2495,7 @@ return {
 
     -- Ancient Archives
     ["Amblypterus"] = {
+        ["Icon"] = "rbxassetid://109560773477647",
         ["WeightPool"] = { 700, 1800 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Mythical",
@@ -2454,6 +2514,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Birgeria"] = {
+        ["Icon"] = "rbxassetid://85909817268116",
         ["WeightPool"] = { 500, 1200 },
         ["Chance"] = 15,
         ["Rarity"] = "Unusual",
@@ -2472,6 +2533,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Diplurus"] = {
+        ["Icon"] = "rbxassetid://106822574173407",
         ["WeightPool"] = { 800, 1600 },
         ["Chance"] = 0.1,
         ["Rarity"] = "Legendary",
@@ -2490,6 +2552,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Lepidotes"] = {
+        ["Icon"] = "rbxassetid://136145396749862",
         ["WeightPool"] = { 900, 2000 },
         ["Chance"] = 0.03,
         ["Rarity"] = "Mythical",
@@ -2508,6 +2571,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Palaeoniscum"] = {
+        ["Icon"] = "rbxassetid://123085368717089",
         ["WeightPool"] = { 25, 700 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -2526,6 +2590,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Phanerorhynchus"] = {
+        ["Icon"] = "rbxassetid://135885868242164",
         ["WeightPool"] = { 600, 1400 },
         ["Chance"] = 3,
         ["Rarity"] = "Rare",
@@ -2546,6 +2611,7 @@ return {
 
     -- Ancient Isle
     ["Acanthodii"] = {
+        ["Icon"] = "rbxassetid://82876599316535",
         ["WeightPool"] = { 130, 160 },
         ["Chance"] = 41,
         ["Rarity"] = "Unusual",
@@ -2563,6 +2629,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Amethyst"] = {
+        ["Icon"] = "rbxassetid://84347787162726",
         ["WeightPool"] = { 8, 16 },
         ["Chance"] = 100,
         ["Rarity"] = "Gemstone",
@@ -2583,6 +2650,7 @@ return {
         ["NonFish"] = true,
     },
     ["Ancient Fragment"] = {
+        ["Icon"] = "rbxassetid://103407941761261",
         ["WeightPool"] = { 1, 1 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Fragment",
@@ -2602,6 +2670,7 @@ return {
         ["NonFish"] = true,
     },
     ["Ancient Megalodon"] = {
+        ["Icon"] = "rbxassetid://105722349951484",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 500000, 700000 },
         ["Chance"] = 0.05,
@@ -2623,6 +2692,7 @@ return {
         ["ClientFishingPassives"] = {},
     },
     ["Anomalocaris"] = {
+        ["Icon"] = "rbxassetid://95584562872739",
         ["WeightPool"] = { 100, 400 },
         ["Chance"] = 65,
         ["Rarity"] = "Uncommon",
@@ -2641,6 +2711,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Banana"] = {
+        ["Icon"] = "rbxassetid://86975444775029",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 4, 10 },
         ["Chance"] = 0.01,
@@ -2661,6 +2732,7 @@ return {
         ["NonFish"] = true,
     },
     ["Cladoselache"] = {
+        ["Icon"] = "rbxassetid://130754747306838",
         ["WeightPool"] = { 180, 240 },
         ["Chance"] = 87,
         ["Rarity"] = "Common",
@@ -2679,6 +2751,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Cobia"] = {
+        ["Icon"] = "rbxassetid://72626347584907",
         ["WeightPool"] = { 400, 700 },
         ["Chance"] = 25,
         ["Rarity"] = "Rare",
@@ -2696,6 +2769,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Deep Sea Fragment"] = {
+        ["Icon"] = "rbxassetid://84377782854195",
         ["WeightPool"] = { 1, 1 },
         ["Chance"] = 0,
         ["Rarity"] = "Fragment",
@@ -2715,6 +2789,7 @@ return {
         ["NonFish"] = true,
     },
     ["Dunkleosteus"] = {
+        ["Icon"] = "rbxassetid://106260164285311",
         ["WeightPool"] = { 12000, 30000 },
         ["Chance"] = 0.09,
         ["Rarity"] = "Legendary",
@@ -2734,6 +2809,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Earth Fragment"] = {
+        ["Icon"] = "rbxassetid://111626850465197",
         ["WeightPool"] = { 1, 1 },
         ["Chance"] = 0,
         ["Rarity"] = "Fragment",
@@ -2753,6 +2829,7 @@ return {
         ["NonFish"] = true,
     },
     ["Floppy"] = {
+        ["Icon"] = "rbxassetid://110074220763561",
         ["WeightPool"] = { 80, 100 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Legendary",
@@ -2771,6 +2848,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ginsu Shark"] = {
+        ["Icon"] = "rbxassetid://87824950271702",
         ["WeightPool"] = { 7800, 10000 },
         ["Chance"] = 0.13,
         ["Rarity"] = "Legendary",
@@ -2790,6 +2868,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Hallucigenia"] = {
+        ["Icon"] = "rbxassetid://105849175971493",
         ["WeightPool"] = { 30, 100 },
         ["Chance"] = 30,
         ["Rarity"] = "Rare",
@@ -2808,6 +2887,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Helicoprion"] = {
+        ["Icon"] = "rbxassetid://80491603256150",
         ["WeightPool"] = { 2500, 4200 },
         ["Chance"] = 0.03,
         ["Rarity"] = "Mythical",
@@ -2826,6 +2906,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Hyneria"] = {
+        ["Icon"] = "rbxassetid://102519322173469",
         ["WeightPool"] = { 10000, 18000 },
         ["Chance"] = 30,
         ["Rarity"] = "Unusual",
@@ -2843,6 +2924,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Lapis Lazuli"] = {
+        ["Icon"] = "rbxassetid://83654485965963",
         ["WeightPool"] = { 4, 14 },
         ["Chance"] = 0,
         ["Rarity"] = "Gemstone",
@@ -2863,6 +2945,7 @@ return {
         ["NonFish"] = true,
     },
     ["Leedsichthys"] = {
+        ["Icon"] = "rbxassetid://116695750958132",
         ["WeightPool"] = { 9000, 11000 },
         ["Chance"] = 0.25,
         ["Rarity"] = "Legendary",
@@ -2881,7 +2964,29 @@ return {
         ["SparkleColor"] = Color3.fromRGB(150, 229, 207),
         ["HoldAnimation"] = "[userdata]",
     },
+    ["Livyatan"] = {
+        ["Icon"] = "",
+        ["BlockPassiveCapture"] = true,
+        ["WeightPool"] = { 280000, 560000 },
+        ["Chance"] = 10,
+        ["Rarity"] = "Exotic",
+        ["Resilience"] = 3,
+        ["ProgressEfficiency"] = 0.02,
+        ["Description"] = "",
+        ["Hint"] = "",
+        ["FavouriteBait"] = { "Squid", "Krill" },
+        ["FavouriteTime"] = "Day",
+        ["Price"] = 75000,
+        ["XP"] = 58000,
+        ["From"] = "Ancient Isle",
+        ["Seasons"] = {},
+        ["Weather"] = {},
+        ["Quips"] = { "" },
+        ["SparkleColor"] = Color3.fromRGB(122, 79, 214),
+        ["HoldAnimation"] = "[userdata]",
+    },
     ["Meg's Fang"] = {
+        ["Icon"] = "rbxassetid://135486202354352",
         ["WeightPool"] = { 10, 20 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Mythical",
@@ -2900,6 +3005,7 @@ return {
         ["NonFish"] = true,
     },
     ["Meg's Spine"] = {
+        ["Icon"] = "rbxassetid://117923629140102",
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Mythical",
@@ -2918,6 +3024,7 @@ return {
         ["NonFish"] = true,
     },
     ["Megalodon"] = {
+        ["Icon"] = "rbxassetid://86204672912486",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 500000, 670000 },
         ["Chance"] = 0.1,
@@ -2939,6 +3046,7 @@ return {
         ["ClientFishingPassives"] = {},
     },
     ["Moonstone"] = {
+        ["Icon"] = "rbxassetid://77828409661314",
         ["WeightPool"] = { 5, 28 },
         ["Chance"] = 0,
         ["Rarity"] = "Gemstone",
@@ -2959,6 +3067,7 @@ return {
         ["NonFish"] = true,
     },
     ["Mosasaurus"] = {
+        ["Icon"] = "rbxassetid://119089007310166",
         ["WeightPool"] = { 100000, 140000 },
         ["Chance"] = 0.015,
         ["Rarity"] = "Mythical",
@@ -2978,6 +3087,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Onychodus"] = {
+        ["Icon"] = "rbxassetid://97362693276147",
         ["WeightPool"] = { 1000, 1400 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -2996,6 +3106,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Opal"] = {
+        ["Icon"] = "rbxassetid://111773069626889",
         ["WeightPool"] = { 9, 32 },
         ["Chance"] = 100,
         ["Rarity"] = "Gemstone",
@@ -3016,6 +3127,7 @@ return {
         ["NonFish"] = true,
     },
     ["Phantom Megalodon"] = {
+        ["Icon"] = "rbxassetid://83950866839029",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 500000, 670000 },
         ["Chance"] = 0.03,
@@ -3039,6 +3151,7 @@ return {
         ["NoAnglerQuest"] = true,
     },
     ["Piranha"] = {
+        ["Icon"] = "rbxassetid://119509174954553",
         ["WeightPool"] = { 20, 50 },
         ["Chance"] = 100,
         ["Rarity"] = "Common",
@@ -3056,6 +3169,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ruby"] = {
+        ["Icon"] = "rbxassetid://120512533871672",
         ["WeightPool"] = { 7, 20 },
         ["Chance"] = 0,
         ["Rarity"] = "Gemstone",
@@ -3076,6 +3190,7 @@ return {
         ["NonFish"] = true,
     },
     ["Solar Fragment"] = {
+        ["Icon"] = "rbxassetid://102271363575977",
         ["WeightPool"] = { 1, 1 },
         ["Chance"] = 0,
         ["Rarity"] = "Fragment",
@@ -3095,6 +3210,7 @@ return {
         ["NonFish"] = true,
     },
     ["Starfish"] = {
+        ["Icon"] = "rbxassetid://88734767494620",
         ["WeightPool"] = { 20, 70 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -3112,6 +3228,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Xiphactinus"] = {
+        ["Icon"] = "rbxassetid://140193372616215",
         ["WeightPool"] = { 1400, 2000 },
         ["Chance"] = 45,
         ["Rarity"] = "Unusual",
@@ -3880,6 +3997,7 @@ return {
 
     -- Archeological Site
     ["Ancient Serpent Skull"] = {
+        ["Icon"] = "rbxassetid://116847671684918",
         ["WeightPool"] = { 50, 100 },
         ["Chance"] = 0.005,
         ["Rarity"] = "Limited",
@@ -3902,6 +4020,7 @@ return {
         ["NonFish"] = true,
     },
     ["Ancient Serpent Spine"] = {
+        ["Icon"] = "rbxassetid://94498914091330",
         ["WeightPool"] = { 30, 80 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Limited",
@@ -3924,6 +4043,7 @@ return {
         ["NonFish"] = true,
     },
     ["Barracuda's Spine"] = {
+        ["Icon"] = "rbxassetid://126656443561458",
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 40,
         ["Rarity"] = "Limited",
@@ -3945,6 +4065,7 @@ return {
         ["NonFish"] = true,
     },
     ["Claw Gill"] = {
+        ["Icon"] = "rbxassetid://109774364930040",
         ["WeightPool"] = { 15, 30 },
         ["Chance"] = 40,
         ["Rarity"] = "Limited",
@@ -3966,6 +4087,7 @@ return {
         ["NonFish"] = true,
     },
     ["Fossil Fan"] = {
+        ["Icon"] = "rbxassetid://80939787701267",
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 40,
         ["Rarity"] = "Limited",
@@ -3987,6 +4109,7 @@ return {
         ["NonFish"] = true,
     },
     ["Nessie's Spine"] = {
+        ["Icon"] = "rbxassetid://98765233443495",
         ["WeightPool"] = { 40, 80 },
         ["Chance"] = 3,
         ["Rarity"] = "Limited",
@@ -4009,6 +4132,7 @@ return {
         ["NonFish"] = true,
     },
     ["Shark Fang"] = {
+        ["Icon"] = "rbxassetid://97911456626300",
         ["WeightPool"] = { 30, 50 },
         ["Chance"] = 7,
         ["Rarity"] = "Limited",
@@ -4030,6 +4154,7 @@ return {
         ["NonFish"] = true,
     },
     ["Spine Blade"] = {
+        ["Icon"] = "rbxassetid://113499355805070",
         ["WeightPool"] = { 30, 60 },
         ["Chance"] = 12,
         ["Rarity"] = "Limited",
@@ -4051,6 +4176,7 @@ return {
         ["NonFish"] = true,
     },
     ["Spine Bone"] = {
+        ["Icon"] = "rbxassetid://75239442280459",
         ["WeightPool"] = { 30, 60 },
         ["Chance"] = 30,
         ["Rarity"] = "Limited",
@@ -4072,6 +4198,7 @@ return {
         ["NonFish"] = true,
     },
     ["Spined Fin"] = {
+        ["Icon"] = "rbxassetid://91187612716688",
         ["WeightPool"] = { 20, 50 },
         ["Chance"] = 1,
         ["Rarity"] = "Limited",
@@ -4096,6 +4223,7 @@ return {
 
     -- Ashfall
     ["Ashcloud Archerfish"] = {
+        ["Icon"] = "rbxassetid://104816178787198",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 10000, 16000 },
         ["Chance"] = 1,
@@ -4118,6 +4246,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Blistered Eel"] = {
+        ["Icon"] = "rbxassetid://126040854045348",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 115, 190 },
         ["Chance"] = 80,
@@ -4139,6 +4268,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Burnt Betta"] = {
+        ["Icon"] = "rbxassetid://79681044115870",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 2000, 8000 },
         ["Chance"] = 0.05,
@@ -4161,6 +4291,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Cinder Carp"] = {
+        ["Icon"] = "rbxassetid://102311380877409",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 50, 80 },
         ["Chance"] = 0.0005,
@@ -4182,6 +4313,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ember Catfish"] = {
+        ["Icon"] = "rbxassetid://129560189499097",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 130, 200 },
         ["Chance"] = 90,
@@ -4203,6 +4335,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Lava Lamprey"] = {
+        ["Icon"] = "rbxassetid://91444377653906",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 450, 750 },
         ["Chance"] = 75,
@@ -4224,6 +4357,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Molten Minnow"] = {
+        ["Icon"] = "rbxassetid://131102460243971",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 4, 7 },
         ["Chance"] = 70,
@@ -4245,6 +4379,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Pyro Pike"] = {
+        ["Icon"] = "rbxassetid://121918530739154",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 25, 45 },
         ["Chance"] = 30,
@@ -4266,6 +4401,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Scooty Salmon"] = {
+        ["Icon"] = "rbxassetid://78044702318242",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 70, 130 },
         ["Chance"] = 0.005,
@@ -4289,6 +4425,7 @@ return {
 
     -- Atlantean Storm
     ["Abyss Snapper"] = {
+        ["Icon"] = "rbxassetid://106084216201126",
         ["WeightPool"] = { 15, 40 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -4328,6 +4465,7 @@ return {
         ["TimedDay"] = 1,
     },
     ["Cyclone Mako"] = {
+        ["Icon"] = "rbxassetid://127686334646350",
         ["WeightPool"] = { 400, 800 },
         ["Chance"] = 6,
         ["Rarity"] = "Rare",
@@ -4367,6 +4505,7 @@ return {
         ["TimedDay"] = 5,
     },
     ["Maelstorm Shark"] = {
+        ["Icon"] = "rbxassetid://87953179622385",
         ["WeightPool"] = { 2500, 5000 },
         ["Chance"] = 0.5,
         ["Rarity"] = "Legendary",
@@ -4483,6 +4622,7 @@ return {
         ["MaximumLifetimeCatches"] = 10,
     },
     ["Tempest Ray"] = {
+        ["Icon"] = "rbxassetid://138796114806030",
         ["WeightPool"] = { 5, 20 },
         ["Chance"] = 65,
         ["Rarity"] = "Uncommon",
@@ -4570,6 +4710,7 @@ return {
         ["MaximumLifetimeCatches"] = 10,
     },
     ["Typhoon Tuna"] = {
+        ["Icon"] = "rbxassetid://79325468320019",
         ["WeightPool"] = { 200, 450 },
         ["Chance"] = 12,
         ["Rarity"] = "Rare",
@@ -4588,6 +4729,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Void Angler"] = {
+        ["Icon"] = "rbxassetid://107789381624843",
         ["WeightPool"] = { 7000, 12000 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -4607,6 +4749,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Vortex Barracuda"] = {
+        ["Icon"] = "rbxassetid://70746853583523",
         ["WeightPool"] = { 80, 160 },
         ["Chance"] = 20,
         ["Rarity"] = "Unusual",
@@ -4625,6 +4768,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Whirlpool Marlin"] = {
+        ["Icon"] = "rbxassetid://95998922829873",
         ["WeightPool"] = { 40, 90 },
         ["Chance"] = 35,
         ["Rarity"] = "Unusual",
@@ -4645,6 +4789,7 @@ return {
 
     -- Atlantis
     ["Abyssal Devourer"] = {
+        ["Icon"] = "rbxassetid://116196649776127",
         ["WeightPool"] = { 12000, 24000 },
         ["Chance"] = 0.1,
         ["Rarity"] = "Mythical",
@@ -4664,6 +4809,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Abyssal Goliath"] = {
+        ["Icon"] = "rbxassetid://95352035749305",
         ["WeightPool"] = { 7000, 12000 },
         ["Chance"] = 0.08,
         ["Rarity"] = "Mythical",
@@ -4683,6 +4829,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Abyssal King"] = {
+        ["Icon"] = "rbxassetid://87129553055275",
         ["WeightPool"] = { 3000, 6000 },
         ["Chance"] = 0.4,
         ["Rarity"] = "Legendary",
@@ -4702,6 +4849,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ancient Kraken"] = {
+        ["Icon"] = "rbxassetid://83093608084776",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 1000000, 2500000 },
         ["Chance"] = 0.02,
@@ -4723,6 +4871,7 @@ return {
         ["ClientFishingPassives"] = {},
     },
     ["Aqua Scribe"] = {
+        ["Icon"] = "rbxassetid://90003507805735",
         ["WeightPool"] = { 4, 11 },
         ["Chance"] = 85,
         ["Rarity"] = "Common",
@@ -4741,6 +4890,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Atlantean Alchemist"] = {
+        ["Icon"] = "rbxassetid://132455149144265",
         ["WeightPool"] = { 200, 400 },
         ["Chance"] = 10,
         ["Rarity"] = "Rare",
@@ -4759,6 +4909,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Atlantean Anchovy"] = {
+        ["Icon"] = "rbxassetid://94867297784835",
         ["WeightPool"] = { 2, 8 },
         ["Chance"] = 85,
         ["Rarity"] = "Common",
@@ -4776,6 +4927,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Atlantean Guardian"] = {
+        ["Icon"] = "rbxassetid://93875535243270",
         ["WeightPool"] = { 40, 80 },
         ["Chance"] = 35,
         ["Rarity"] = "Unusual",
@@ -4793,6 +4945,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Atlantean Sardine"] = {
+        ["Icon"] = "rbxassetid://117432566648095",
         ["WeightPool"] = { 3, 10 },
         ["Chance"] = 90,
         ["Rarity"] = "Common",
@@ -4811,6 +4964,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Celestial Koi"] = {
+        ["Icon"] = "rbxassetid://104557486604363",
         ["WeightPool"] = { 5000, 10000 },
         ["Chance"] = 0.1,
         ["Rarity"] = "Mythical",
@@ -4829,6 +4983,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Chronos Deep Swimmer"] = {
+        ["Icon"] = "rbxassetid://86219657067283",
         ["WeightPool"] = { 55, 100 },
         ["Chance"] = 22,
         ["Rarity"] = "Unusual",
@@ -4846,6 +5001,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Colossal Carp"] = {
+        ["Icon"] = "rbxassetid://136970815389680",
         ["WeightPool"] = { 20, 50 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -4864,6 +5020,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Column Crawler"] = {
+        ["Icon"] = "rbxassetid://116682773476908",
         ["WeightPool"] = { 5, 12 },
         ["Chance"] = 80,
         ["Rarity"] = "Common",
@@ -4881,6 +5038,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Crystal Chorus"] = {
+        ["Icon"] = "rbxassetid://100161956990035",
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 50,
         ["Rarity"] = "Uncommon",
@@ -4899,6 +5057,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Deep Behemoth"] = {
+        ["Icon"] = "rbxassetid://117284386739275",
         ["WeightPool"] = { 3000, 6000 },
         ["Chance"] = 0.2,
         ["Rarity"] = "Legendary",
@@ -4918,6 +5077,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Deep Crownfish"] = {
+        ["Icon"] = "rbxassetid://117967398262518",
         ["WeightPool"] = { 500, 1000 },
         ["Chance"] = 0.5,
         ["Rarity"] = "Legendary",
@@ -4936,6 +5096,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Deep Emperor"] = {
+        ["Icon"] = "rbxassetid://70417479338191",
         ["WeightPool"] = { 2500, 5000 },
         ["Chance"] = 0.4,
         ["Rarity"] = "Legendary",
@@ -4955,6 +5116,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Deep One"] = {
+        ["Icon"] = "rbxassetid://126586744338376",
         ["WeightPool"] = { 200, 450 },
         ["Chance"] = 15,
         ["Rarity"] = "Rare",
@@ -4973,6 +5135,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Echo Fisher"] = {
+        ["Icon"] = "rbxassetid://77005881963466",
         ["WeightPool"] = { 30, 65 },
         ["Chance"] = 48,
         ["Rarity"] = "Uncommon",
@@ -4991,6 +5154,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Eldritch Horror"] = {
+        ["Icon"] = "rbxassetid://85379282804996",
         ["WeightPool"] = { 400, 800 },
         ["Chance"] = 10,
         ["Rarity"] = "Rare",
@@ -5009,6 +5173,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Giant Manta"] = {
+        ["Icon"] = "rbxassetid://139740662088038",
         ["WeightPool"] = { 60, 120 },
         ["Chance"] = 35,
         ["Rarity"] = "Unusual",
@@ -5027,6 +5192,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Helios Ray"] = {
+        ["Icon"] = "rbxassetid://122712729443791",
         ["WeightPool"] = { 30, 60 },
         ["Chance"] = 45,
         ["Rarity"] = "Unusual",
@@ -5045,6 +5211,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["King Jellyfish"] = {
+        ["Icon"] = "rbxassetid://78893528650622",
         ["WeightPool"] = { 3000, 5000 },
         ["Chance"] = 0.2,
         ["Rarity"] = "Mythical",
@@ -5064,6 +5231,7 @@ return {
         ["MovementBehavior"] = "Squid",
     },
     ["Kraken's Herald"] = {
+        ["Icon"] = "rbxassetid://105302308634420",
         ["WeightPool"] = { 2500, 5000 },
         ["Chance"] = 0.8,
         ["Rarity"] = "Legendary",
@@ -5083,6 +5251,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Leviathan Bass"] = {
+        ["Icon"] = "rbxassetid://78257119317788",
         ["WeightPool"] = { 80, 160 },
         ["Chance"] = 30,
         ["Rarity"] = "Unusual",
@@ -5101,6 +5270,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Lightning Minnow"] = {
+        ["Icon"] = "rbxassetid://108105008006724",
         ["WeightPool"] = { 5, 15 },
         ["Chance"] = 75,
         ["Rarity"] = "Common",
@@ -5119,6 +5289,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Lightning Pike"] = {
+        ["Icon"] = "rbxassetid://128474994829168",
         ["WeightPool"] = { 200, 450 },
         ["Chance"] = 15,
         ["Rarity"] = "Rare",
@@ -5136,6 +5307,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Mage Marlin"] = {
+        ["Icon"] = "rbxassetid://98331417599862",
         ["WeightPool"] = { 1000, 2000 },
         ["Chance"] = 1,
         ["Rarity"] = "Legendary",
@@ -5154,6 +5326,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Marble Maiden"] = {
+        ["Icon"] = "rbxassetid://121075674766858",
         ["WeightPool"] = { 15, 35 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -5171,6 +5344,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Massive Marlin"] = {
+        ["Icon"] = "rbxassetid://139224058646728",
         ["WeightPool"] = { 200, 450 },
         ["Chance"] = 15,
         ["Rarity"] = "Rare",
@@ -5189,6 +5363,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Mosaic Swimmer"] = {
+        ["Icon"] = "rbxassetid://110097478789367",
         ["WeightPool"] = { 20, 40 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -5206,6 +5381,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Neptune's Nibbler"] = {
+        ["Icon"] = "rbxassetid://74514580721266",
         ["WeightPool"] = { 5, 15 },
         ["Chance"] = 85,
         ["Rarity"] = "Common",
@@ -5224,6 +5400,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Oracle Minnow"] = {
+        ["Icon"] = "rbxassetid://109327318791358",
         ["WeightPool"] = { 2, 7 },
         ["Chance"] = 90,
         ["Rarity"] = "Common",
@@ -5242,6 +5419,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Oracle's Eye"] = {
+        ["Icon"] = "rbxassetid://109636222944409",
         ["WeightPool"] = { 45, 90 },
         ["Chance"] = 25,
         ["Rarity"] = "Unusual",
@@ -5260,6 +5438,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Philosopher's Fish"] = {
+        ["Icon"] = "rbxassetid://124235300839731",
         ["WeightPool"] = { 35, 70 },
         ["Chance"] = 30,
         ["Rarity"] = "Unusual",
@@ -5278,6 +5457,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Poseidon's Perch"] = {
+        ["Icon"] = "rbxassetid://126912009874484",
         ["WeightPool"] = { 10, 25 },
         ["Chance"] = 80,
         ["Rarity"] = "Common",
@@ -5296,6 +5476,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Shadowfang Snapper"] = {
+        ["Icon"] = "rbxassetid://90914056754268",
         ["WeightPool"] = { 20, 50 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -5314,6 +5495,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Siren Singer"] = {
+        ["Icon"] = "rbxassetid://107288909905841",
         ["WeightPool"] = { 50, 95 },
         ["Chance"] = 28,
         ["Rarity"] = "Unusual",
@@ -5332,6 +5514,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sparkfin Tetra"] = {
+        ["Icon"] = "rbxassetid://140604585789960",
         ["WeightPool"] = { 50, 120 },
         ["Chance"] = 85,
         ["Rarity"] = "Common",
@@ -5350,6 +5533,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Starlit Weaver"] = {
+        ["Icon"] = "rbxassetid://81425728217665",
         ["WeightPool"] = { 200, 400 },
         ["Chance"] = 10,
         ["Rarity"] = "Rare",
@@ -5368,6 +5552,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Static Ray"] = {
+        ["Icon"] = "rbxassetid://110016165655326",
         ["WeightPool"] = { 150, 300 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -5385,6 +5570,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Storm Eel"] = {
+        ["Icon"] = "rbxassetid://130677796347697",
         ["WeightPool"] = { 400, 800 },
         ["Chance"] = 35,
         ["Rarity"] = "Unusual",
@@ -5403,6 +5589,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Stormcloud Angelfish"] = {
+        ["Icon"] = "rbxassetid://97616162117881",
         ["WeightPool"] = { 600, 1200 },
         ["Chance"] = 25,
         ["Rarity"] = "Rare",
@@ -5420,6 +5607,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sunken Silverscale"] = {
+        ["Icon"] = "rbxassetid://105695784272186",
         ["WeightPool"] = { 4, 14 },
         ["Chance"] = 85,
         ["Rarity"] = "Common",
@@ -5438,6 +5626,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Temple Drifter"] = {
+        ["Icon"] = "rbxassetid://100195273029134",
         ["WeightPool"] = { 25, 55 },
         ["Chance"] = 50,
         ["Rarity"] = "Uncommon",
@@ -5456,6 +5645,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Tentacle Eel"] = {
+        ["Icon"] = "rbxassetid://95619381927188",
         ["WeightPool"] = { 100, 200 },
         ["Chance"] = 30,
         ["Rarity"] = "Unusual",
@@ -5474,6 +5664,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Tentacled Horror"] = {
+        ["Icon"] = "rbxassetid://88978439286065",
         ["WeightPool"] = { 50, 120 },
         ["Chance"] = 45,
         ["Rarity"] = "Uncommon",
@@ -5492,6 +5683,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["The Kraken"] = {
+        ["Icon"] = "rbxassetid://94227113515347",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 500000, 1800000 },
         ["Chance"] = 0.02,
@@ -5513,6 +5705,7 @@ return {
         ["ClientFishingPassives"] = {},
     },
     ["Thunder Bass"] = {
+        ["Icon"] = "rbxassetid://99704463930655",
         ["WeightPool"] = { 300, 600 },
         ["Chance"] = 45,
         ["Rarity"] = "Unusual",
@@ -5531,6 +5724,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Thunder Serpent"] = {
+        ["Icon"] = "rbxassetid://85995924550469",
         ["WeightPool"] = { 1000, 2000 },
         ["Chance"] = 1,
         ["Rarity"] = "Legendary",
@@ -5549,6 +5743,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Titan Tuna"] = {
+        ["Icon"] = "rbxassetid://98779691145008",
         ["WeightPool"] = { 30, 70 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -5567,6 +5762,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Titanfang Grouper"] = {
+        ["Icon"] = "rbxassetid://118471178899457",
         ["WeightPool"] = { 300, 600 },
         ["Chance"] = 10,
         ["Rarity"] = "Rare",
@@ -5585,6 +5781,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Titanic Sturgeon"] = {
+        ["Icon"] = "rbxassetid://71967178565507",
         ["WeightPool"] = { 250, 500 },
         ["Chance"] = 12,
         ["Rarity"] = "Rare",
@@ -5603,6 +5800,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Triton's Herald"] = {
+        ["Icon"] = "rbxassetid://126429983910901",
         ["WeightPool"] = { 100, 200 },
         ["Chance"] = 15,
         ["Rarity"] = "Rare",
@@ -5621,6 +5819,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Twilight Glowfish"] = {
+        ["Icon"] = "rbxassetid://92675175732884",
         ["WeightPool"] = { 150, 300 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -5639,6 +5838,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Void Emperor"] = {
+        ["Icon"] = "rbxassetid://86579105826581",
         ["WeightPool"] = { 7000, 12000 },
         ["Chance"] = 0.2,
         ["Rarity"] = "Mythical",
@@ -5658,6 +5858,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Voidscale Guppy"] = {
+        ["Icon"] = "rbxassetid://107665649984427",
         ["WeightPool"] = { 150, 300 },
         ["Chance"] = 12,
         ["Rarity"] = "Rare",
@@ -5676,6 +5877,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Voltfin Carp"] = {
+        ["Icon"] = "rbxassetid://76461369449933",
         ["WeightPool"] = { 100, 250 },
         ["Chance"] = 65,
         ["Rarity"] = "Common",
@@ -5693,6 +5895,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Zeus' Herald"] = {
+        ["Icon"] = "rbxassetid://116759995138970",
         ["WeightPool"] = { 1500, 3000 },
         ["Chance"] = 0.02,
         ["Rarity"] = "Mythical",
@@ -6471,6 +6674,7 @@ return {
 
     -- Brine Pool
     ["Brine Phantom"] = {
+        ["Icon"] = "rbxassetid://129781797777090",
         ["WeightPool"] = { 4800, 6500 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Legendary",
@@ -6491,6 +6695,7 @@ return {
         ["FinalChanceDivisor"] = 5,
     },
     ["Brine Shrimp"] = {
+        ["Icon"] = "rbxassetid://114584080156734",
         ["WeightPool"] = { 1, 3 },
         ["Chance"] = 225,
         ["Rarity"] = "Uncommon",
@@ -6574,6 +6779,7 @@ return {
         ["NonFish"] = true,
     },
     ["Dweller Catfish"] = {
+        ["Icon"] = "rbxassetid://97704806425211",
         ["WeightPool"] = { 100, 160 },
         ["Chance"] = 60,
         ["Rarity"] = "Rare",
@@ -6593,6 +6799,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Gazerfish"] = {
+        ["Icon"] = "rbxassetid://97374062806538",
         ["WeightPool"] = { 80, 140 },
         ["Chance"] = 290,
         ["Rarity"] = "Common",
@@ -6611,6 +6818,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Globe Jellyfish"] = {
+        ["Icon"] = "rbxassetid://111970936512465",
         ["WeightPool"] = { 140, 240 },
         ["Chance"] = 138,
         ["Rarity"] = "Unusual",
@@ -6629,6 +6837,7 @@ return {
         ["MovementBehavior"] = "Squid",
     },
     ["Spectral Serpent"] = {
+        ["Icon"] = "rbxassetid://81179877155732",
         ["WeightPool"] = { 110000, 130000 },
         ["Chance"] = 0.02,
         ["Rarity"] = "Mythical",
@@ -6670,6 +6879,7 @@ return {
 
     -- Calm Zone
     ["Crystal Corydoras"] = {
+        ["Icon"] = "rbxassetid://70936668384638",
         ["WeightPool"] = { 1500, 4000 },
         ["Chance"] = 5,
         ["Rarity"] = "Legendary",
@@ -6689,6 +6899,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Crystallized Seadragon"] = {
+        ["Icon"] = "rbxassetid://87601876018941",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 500000, 1700000 },
         ["Chance"] = 0.1,
@@ -6709,6 +6920,7 @@ return {
         ["FinalChanceDivisor"] = 2,
     },
     ["Diamond Discus"] = {
+        ["Icon"] = "rbxassetid://108854091361341",
         ["WeightPool"] = { 800, 1750 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -6727,6 +6939,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Emerald Elephantnose"] = {
+        ["Icon"] = "rbxassetid://103131408516809",
         ["WeightPool"] = { 600, 1600 },
         ["Chance"] = 45,
         ["Rarity"] = "Uncommon",
@@ -6745,6 +6958,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Prismatic Parrotfish"] = {
+        ["Icon"] = "rbxassetid://70735845673339",
         ["WeightPool"] = { 80, 240 },
         ["Chance"] = 10,
         ["Rarity"] = "Rare",
@@ -6762,6 +6976,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Quartzfin Queenfish"] = {
+        ["Icon"] = "rbxassetid://118751866140581",
         ["WeightPool"] = { 180, 400 },
         ["Chance"] = 65,
         ["Rarity"] = "Common",
@@ -6780,6 +6995,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ruby Rasbora"] = {
+        ["Icon"] = "rbxassetid://87743463845872",
         ["WeightPool"] = { 395, 1000 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -6798,6 +7014,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sapphire Stargazer"] = {
+        ["Icon"] = "rbxassetid://78313496165568",
         ["WeightPool"] = { 500, 1400 },
         ["Chance"] = 25,
         ["Rarity"] = "Unusual",
@@ -6815,6 +7032,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Shimmering Silverside"] = {
+        ["Icon"] = "rbxassetid://79650544759711",
         ["WeightPool"] = { 250, 700 },
         ["Chance"] = 3,
         ["Rarity"] = "Mythical",
@@ -7238,6 +7456,7 @@ return {
 
     -- Challenger's Deep
     ["Chillfin Chimaera"] = {
+        ["Icon"] = "rbxassetid://74618325243867",
         ["WeightPool"] = { 9000, 26000 },
         ["Chance"] = 8,
         ["Rarity"] = "Mythical",
@@ -7257,6 +7476,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Chillshadow Chub"] = {
+        ["Icon"] = "rbxassetid://75337391776430",
         ["WeightPool"] = { 6, 16 },
         ["Chance"] = 45,
         ["Rarity"] = "Uncommon",
@@ -7275,6 +7495,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Cryo Coelacanth"] = {
+        ["Icon"] = "rbxassetid://137952522467463",
         ["WeightPool"] = { 70, 210 },
         ["Chance"] = 11,
         ["Rarity"] = "Rare",
@@ -7312,6 +7533,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Deep Freeze Devilfish"] = {
+        ["Icon"] = "rbxassetid://89265529233221",
         ["WeightPool"] = { 90, 190 },
         ["Chance"] = 20,
         ["Rarity"] = "Unusual",
@@ -7329,6 +7551,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Frostscale Fangtooth"] = {
+        ["Icon"] = "rbxassetid://106037143808835",
         ["WeightPool"] = { 30, 70 },
         ["Chance"] = 60,
         ["Rarity"] = "Common",
@@ -7369,6 +7592,7 @@ return {
         ["FinalChanceDivisor"] = 4,
     },
     ["Iceberg Isopod"] = {
+        ["Icon"] = "rbxassetid://134230142096165",
         ["WeightPool"] = { 95, 240 },
         ["Chance"] = 15,
         ["Rarity"] = "Rare",
@@ -7407,6 +7631,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Subzero Stargazer"] = {
+        ["Icon"] = "rbxassetid://97504471127214",
         ["WeightPool"] = { 20, 45 },
         ["Chance"] = 50,
         ["Rarity"] = "Uncommon",
@@ -8340,6 +8565,7 @@ return {
 
     -- Cryogenic Canal
     ["Aurora Trout"] = {
+        ["Icon"] = "rbxassetid://77571924249808",
         ["WeightPool"] = { 2000, 4000 },
         ["Chance"] = 0.5,
         ["Rarity"] = "Mythical",
@@ -8359,6 +8585,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Chillfin Herring"] = {
+        ["Icon"] = "rbxassetid://77753770744414",
         ["WeightPool"] = { 30, 70 },
         ["Chance"] = 35,
         ["Rarity"] = "Rare",
@@ -8377,6 +8604,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Frost Minnow"] = {
+        ["Icon"] = "rbxassetid://136604998698624",
         ["WeightPool"] = { 8, 16 },
         ["Chance"] = 65,
         ["Rarity"] = "Uncommon",
@@ -8395,6 +8623,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Frostjaw Cod"] = {
+        ["Icon"] = "rbxassetid://138354066483378",
         ["WeightPool"] = { 500, 1000 },
         ["Chance"] = 5,
         ["Rarity"] = "Legendary",
@@ -8414,6 +8643,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Frozen Pike"] = {
+        ["Icon"] = "rbxassetid://111177840563294",
         ["WeightPool"] = { 100, 250 },
         ["Chance"] = 25,
         ["Rarity"] = "Rare",
@@ -8432,6 +8662,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Glacial Sturgeon"] = {
+        ["Icon"] = "rbxassetid://132480681848921",
         ["WeightPool"] = { 2500, 5000 },
         ["Chance"] = 0.25,
         ["Rarity"] = "Mythical",
@@ -8451,6 +8682,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Icebreaker Haddock"] = {
+        ["Icon"] = "rbxassetid://135670900610420",
         ["WeightPool"] = { 200, 400 },
         ["Chance"] = 15,
         ["Rarity"] = "Rare",
@@ -8469,6 +8701,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Iced Perch"] = {
+        ["Icon"] = "rbxassetid://122292955037332",
         ["WeightPool"] = { 20, 45 },
         ["Chance"] = 50,
         ["Rarity"] = "Unusual",
@@ -8487,6 +8720,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Snowback Char"] = {
+        ["Icon"] = "rbxassetid://138836443411252",
         ["WeightPool"] = { 35, 75 },
         ["Chance"] = 45,
         ["Rarity"] = "Unusual",
@@ -8505,6 +8739,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Snowflake Smelt"] = {
+        ["Icon"] = "rbxassetid://134737293179677",
         ["WeightPool"] = { 10, 20 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -8525,6 +8760,7 @@ return {
 
     -- Crypt
     ["Black Veil Ray"] = {
+        ["Icon"] = "rbxassetid://94480207626402",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 10, 50 },
         ["Chance"] = 60,
@@ -8542,6 +8778,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Bone Lanternfish"] = {
+        ["Icon"] = "rbxassetid://126120659348898",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 10, 50 },
         ["Chance"] = 60,
@@ -8559,6 +8796,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Harbinger Koi"] = {
+        ["Icon"] = "rbxassetid://85395902000369",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 10, 50 },
         ["Chance"] = 60,
@@ -8576,6 +8814,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Hexeye Snapper"] = {
+        ["Icon"] = "rbxassetid://122150946407564",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 10, 50 },
         ["Chance"] = 60,
@@ -8593,6 +8832,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Rotfin Eel"] = {
+        ["Icon"] = "rbxassetid://78468067754354",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 10, 50 },
         ["Chance"] = 60,
@@ -8610,6 +8850,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Siren’s Guppy"] = {
+        ["Icon"] = "rbxassetid://131326036540369",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 10, 50 },
         ["Chance"] = 60,
@@ -8627,6 +8868,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Slain Maw"] = {
+        ["Icon"] = "rbxassetid://106286159501181",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 10, 50 },
         ["Chance"] = 60,
@@ -8644,6 +8886,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Wraithfin"] = {
+        ["Icon"] = "rbxassetid://76216385819556",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 10, 50 },
         ["Chance"] = 60,
@@ -9734,6 +9977,7 @@ return {
 
     -- Desolate Deep
     ["Banditfish"] = {
+        ["Icon"] = "rbxassetid://80801491792660",
         ["WeightPool"] = { 150, 200 },
         ["Chance"] = 105,
         ["Rarity"] = "Rare",
@@ -9751,6 +9995,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Barbed Shark"] = {
+        ["Icon"] = "rbxassetid://100220236726186",
         ["WeightPool"] = { 7000, 9500 },
         ["Chance"] = 0.08,
         ["Rarity"] = "Legendary",
@@ -9769,6 +10014,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Cockatoo Squid"] = {
+        ["Icon"] = "rbxassetid://111061208026378",
         ["WeightPool"] = { 4, 20 },
         ["Chance"] = 76.5,
         ["Rarity"] = "Unusual",
@@ -9788,6 +10034,7 @@ return {
         ["MovementBehavior"] = "Squid",
     },
     ["Coral Geode"] = {
+        ["Icon"] = "rbxassetid://90212535533628",
         ["WeightPool"] = { 180, 180 },
         ["Chance"] = 30.6,
         ["Rarity"] = "Unusual",
@@ -9812,6 +10059,7 @@ return {
         ["NonFish"] = true,
     },
     ["Emperor Jellyfish"] = {
+        ["Icon"] = "rbxassetid://114110456827736",
         ["WeightPool"] = { 5000, 8000 },
         ["Chance"] = 0.03,
         ["Rarity"] = "Mythical",
@@ -9831,6 +10079,7 @@ return {
         ["MovementBehavior"] = "Squid",
     },
     ["Horseshoe Crab"] = {
+        ["Icon"] = "rbxassetid://110570294711430",
         ["WeightPool"] = { 40, 90 },
         ["Chance"] = 90,
         ["Rarity"] = "Common",
@@ -9871,6 +10120,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Midnight Axolotl"] = {
+        ["Icon"] = "rbxassetid://135289727437845",
         ["WeightPool"] = { 10, 30 },
         ["Chance"] = 0.15,
         ["Rarity"] = "Legendary",
@@ -9891,6 +10141,7 @@ return {
         ["ViewportSizeOffset"] = 2,
     },
     ["Phantom Ray"] = {
+        ["Icon"] = "rbxassetid://78526235823307",
         ["WeightPool"] = { 40, 60 },
         ["Chance"] = 162,
         ["Rarity"] = "Uncommon",
@@ -9909,6 +10160,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Rockstar Hermit Crab"] = {
+        ["Icon"] = "rbxassetid://87644981895398",
         ["WeightPool"] = { 4, 12 },
         ["Chance"] = 42.5,
         ["Rarity"] = "Unusual",
@@ -9926,6 +10178,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sea Mine"] = {
+        ["Icon"] = "rbxassetid://93114991600245",
         ["WeightPool"] = { 2000, 3250 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Mythical",
@@ -9943,6 +10196,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Slate Tuna"] = {
+        ["Icon"] = "rbxassetid://122016555273268",
         ["WeightPool"] = { 300, 600 },
         ["Chance"] = 198.00000000000003,
         ["Rarity"] = "Common",
@@ -10631,6 +10885,7 @@ return {
 
     -- FischFright
     ["Candy Fish"] = {
+        ["Icon"] = "rbxassetid://95232113092967",
         ["WeightPool"] = { 5, 10 },
         ["Chance"] = 10,
         ["Rarity"] = "Limited",
@@ -10650,6 +10905,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ghoulfish"] = {
+        ["Icon"] = "rbxassetid://102609075701516",
         ["WeightPool"] = { 45, 120 },
         ["Chance"] = 0.1,
         ["Rarity"] = "Limited",
@@ -10670,6 +10926,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Lurkerfish"] = {
+        ["Icon"] = "rbxassetid://81676372927788",
         ["WeightPool"] = { 5, 20 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Limited",
@@ -10690,6 +10947,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Nessie"] = {
+        ["Icon"] = "rbxassetid://97679957226533",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 20000, 40000 },
         ["Chance"] = 0.01,
@@ -10712,6 +10970,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Skelefish"] = {
+        ["Icon"] = "rbxassetid://134920457292421",
         ["WeightPool"] = { 5, 10 },
         ["Chance"] = 10,
         ["Rarity"] = "Limited",
@@ -10731,6 +10990,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Zombiefish"] = {
+        ["Icon"] = "rbxassetid://93487168775545",
         ["WeightPool"] = { 15, 30 },
         ["Chance"] = 10,
         ["Rarity"] = "Limited",
@@ -10752,6 +11012,7 @@ return {
 
     -- FischFright 2
     ["Baby Nessie"] = {
+        ["Icon"] = "rbxassetid://131765403178730",
         ["WeightPool"] = { 100, 400 },
         ["Chance"] = 25,
         ["Rarity"] = "Limited",
@@ -10774,6 +11035,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Candle Carp"] = {
+        ["Icon"] = "rbxassetid://131963720596285",
         ["WeightPool"] = { 20, 70 },
         ["Chance"] = 50,
         ["Rarity"] = "Limited",
@@ -10794,6 +11056,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Candy Corn Cod"] = {
+        ["Icon"] = "rbxassetid://103625990831736",
         ["WeightPool"] = { 20, 100 },
         ["Chance"] = 50,
         ["Rarity"] = "Limited",
@@ -10814,6 +11077,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Caramel Chub"] = {
+        ["Icon"] = "rbxassetid://111368260945980",
         ["WeightPool"] = { 10, 30 },
         ["Chance"] = 50,
         ["Rarity"] = "Limited",
@@ -10834,6 +11098,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Coffin Crab"] = {
+        ["Icon"] = "rbxassetid://122792286485181",
         ["WeightPool"] = { 50, 150 },
         ["Chance"] = 45,
         ["Rarity"] = "Limited",
@@ -10855,6 +11120,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ectoplasm Eel"] = {
+        ["Icon"] = "rbxassetid://127915512868240",
         ["WeightPool"] = { 150, 450 },
         ["Chance"] = 30,
         ["Rarity"] = "Limited",
@@ -10875,6 +11141,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Eerie Relic"] = {
+        ["Icon"] = "rbxassetid://75514024871156",
         ["WeightPool"] = { 210, 210 },
         ["Chance"] = 30,
         ["Rarity"] = "Limited",
@@ -10901,6 +11168,7 @@ return {
         ["RelicOfferType"] = "Limited",
     },
     ["Frankenshrimp"] = {
+        ["Icon"] = "rbxassetid://128100751113221",
         ["WeightPool"] = { 1, 2 },
         ["Chance"] = 90,
         ["Rarity"] = "Limited",
@@ -10921,6 +11189,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Frightful Crate"] = {
+        ["Icon"] = "rbxassetid://96490445202648",
         ["WeightPool"] = { 80, 80 },
         ["Chance"] = 40,
         ["Rarity"] = "Limited",
@@ -10948,6 +11217,7 @@ return {
         ["Unpurchasable"] = true,
     },
     ["Frightful Relic"] = {
+        ["Icon"] = "rbxassetid://121323304155520",
         ["WeightPool"] = { 210, 210 },
         ["Chance"] = 30,
         ["Rarity"] = "Limited",
@@ -10974,6 +11244,7 @@ return {
         ["RelicOfferType"] = "Limited",
     },
     ["Ghost Minnow"] = {
+        ["Icon"] = "rbxassetid://120600083290478",
         ["WeightPool"] = { 1, 6 },
         ["Chance"] = 90,
         ["Rarity"] = "Limited",
@@ -10992,6 +11263,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Gravestone Stingray"] = {
+        ["Icon"] = "rbxassetid://103370230976568",
         ["WeightPool"] = { 2000, 5000 },
         ["Chance"] = 8,
         ["Rarity"] = "Limited",
@@ -11012,6 +11284,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Gummy Guppy"] = {
+        ["Icon"] = "rbxassetid://112671126661540",
         ["WeightPool"] = { 5, 15 },
         ["Chance"] = 60,
         ["Rarity"] = "Limited",
@@ -11032,6 +11305,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Jack-o-Lantern"] = {
+        ["Icon"] = "rbxassetid://101926280698827",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 210, 350 },
         ["Chance"] = 1,
@@ -11055,6 +11329,7 @@ return {
         ["FinalChanceDivisor"] = 30,
     },
     ["Kelpie"] = {
+        ["Icon"] = "rbxassetid://115090400788716",
         ["WeightPool"] = { 500, 1500 },
         ["Chance"] = 1,
         ["Rarity"] = "Limited",
@@ -11076,6 +11351,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Licorice Leech"] = {
+        ["Icon"] = "rbxassetid://89382892461978",
         ["WeightPool"] = { 3.2, 6.4 },
         ["Chance"] = 60,
         ["Rarity"] = "Limited",
@@ -11095,6 +11371,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Lollipop Lamprey"] = {
+        ["Icon"] = "rbxassetid://111284619715984",
         ["WeightPool"] = { 10, 40 },
         ["Chance"] = 55,
         ["Rarity"] = "Limited",
@@ -11114,6 +11391,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Marshmallow Mackerel"] = {
+        ["Icon"] = "rbxassetid://113262219621308",
         ["WeightPool"] = { 50, 200 },
         ["Chance"] = 50,
         ["Rarity"] = "Limited",
@@ -11135,6 +11413,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Mourning Manta Ray"] = {
+        ["Icon"] = "rbxassetid://126204623787567",
         ["WeightPool"] = { 7750, 10000 },
         ["Chance"] = 5,
         ["Rarity"] = "Limited",
@@ -11155,6 +11434,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Phantom Jellyfish"] = {
+        ["Icon"] = "rbxassetid://88444834063753",
         ["WeightPool"] = { 100, 300 },
         ["Chance"] = 40,
         ["Rarity"] = "Limited",
@@ -11177,6 +11457,7 @@ return {
         ["MovementBehavior"] = "Squid",
     },
     ["Potion Perch"] = {
+        ["Icon"] = "rbxassetid://107577966795670",
         ["WeightPool"] = { 100, 300 },
         ["Chance"] = 40,
         ["Rarity"] = "Limited",
@@ -11198,6 +11479,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Pumpkin Pufferfish"] = {
+        ["Icon"] = "rbxassetid://118070275234766",
         ["WeightPool"] = { 5, 20 },
         ["Chance"] = 60,
         ["Rarity"] = "Limited",
@@ -11219,6 +11501,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Scarecrow"] = {
+        ["Icon"] = "rbxassetid://70794798323528",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 200, 600 },
         ["Chance"] = 1,
@@ -11243,6 +11526,7 @@ return {
         ["FinalChanceDivisor"] = 30,
     },
     ["Skeletal Nessie"] = {
+        ["Icon"] = "rbxassetid://74134944858605",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 5000, 15000 },
         ["Chance"] = 1,
@@ -11266,6 +11550,7 @@ return {
         ["FinalChanceDivisor"] = 35,
     },
     ["Spider Salmon"] = {
+        ["Icon"] = "rbxassetid://134806771405454",
         ["WeightPool"] = { 300, 800 },
         ["Chance"] = 20,
         ["Rarity"] = "Limited",
@@ -11286,6 +11571,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Spooky Relic"] = {
+        ["Icon"] = "rbxassetid://133368826151780",
         ["WeightPool"] = { 210, 210 },
         ["Chance"] = 30,
         ["Rarity"] = "Limited",
@@ -11314,6 +11600,7 @@ return {
         ["RelicOfferType"] = "Limited",
     },
     ["Vampire Perch"] = {
+        ["Icon"] = "rbxassetid://112036213589726",
         ["WeightPool"] = { 200, 600 },
         ["Chance"] = 25,
         ["Rarity"] = "Limited",
@@ -11335,6 +11622,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Werewolf Walleye"] = {
+        ["Icon"] = "rbxassetid://107371818347730",
         ["WeightPool"] = { 400, 1200 },
         ["Chance"] = 18,
         ["Rarity"] = "Limited",
@@ -11356,6 +11644,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Xtra Sour Gummy Pack"] = {
+        ["Icon"] = "rbxassetid://95587401656290",
         ["WeightPool"] = { 8, 8 },
         ["Chance"] = 0,
         ["Rarity"] = "Limited",
@@ -11423,7 +11712,7 @@ return {
         ["BaitContents"] = { "Umbrella", "Beach Ball" },
         ["BuyMult"] = 2.3,
         ["CoinContents"] = { 2, 5 },
-        ["CrateType"] = "All",
+        ["CrateType"] = "BaitOrCoins",
         ["Currency"] = "Shells",
         ["IsCrate"] = true,
         ["Unpurchasable"] = true,
@@ -11718,6 +12007,7 @@ return {
 
     -- Fischgiving
     ["Turkey"] = {
+        ["Icon"] = "rbxassetid://125504998064403",
         ["WeightPool"] = { 80, 300 },
         ["Chance"] = 0,
         ["Rarity"] = "Limited",
@@ -12078,6 +12368,7 @@ return {
 
     -- Fischmas
     ["Basic Present"] = {
+        ["Icon"] = "rbxassetid://75412581590704",
         ["WeightPool"] = { 90, 90 },
         ["Chance"] = 9,
         ["Rarity"] = "Limited",
@@ -12101,6 +12392,7 @@ return {
         ["NonFish"] = true,
     },
     ["Candy Cane Carp"] = {
+        ["Icon"] = "rbxassetid://131847305423166",
         ["WeightPool"] = { 10, 50 },
         ["Chance"] = 60,
         ["Rarity"] = "Limited",
@@ -12120,6 +12412,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Cookie"] = {
+        ["Icon"] = "rbxassetid://107723938076790",
         ["WeightPool"] = { 1, 6 },
         ["Chance"] = 90,
         ["Rarity"] = "Limited",
@@ -12138,6 +12431,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Festive Bait Crate"] = {
+        ["Icon"] = "rbxassetid://109334726762995",
         ["WeightPool"] = { 80, 80 },
         ["Chance"] = 2.5,
         ["Rarity"] = "Limited",
@@ -12162,6 +12456,7 @@ return {
         ["Unpurchasable"] = true,
     },
     ["Gingerbread Fish"] = {
+        ["Icon"] = "rbxassetid://73371480460078",
         ["WeightPool"] = { 20, 35 },
         ["Chance"] = 20,
         ["Rarity"] = "Limited",
@@ -12180,6 +12475,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Glass of Milk"] = {
+        ["Icon"] = "rbxassetid://97518107718958",
         ["WeightPool"] = { 1, 6 },
         ["Chance"] = 90,
         ["Rarity"] = "Limited",
@@ -12198,6 +12494,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Icicle"] = {
+        ["Icon"] = "rbxassetid://103064289253095",
         ["WeightPool"] = { 4, 12 },
         ["Chance"] = 1,
         ["Rarity"] = "Limited",
@@ -12216,6 +12513,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Northstar Serpent"] = {
+        ["Icon"] = "rbxassetid://134993366336924",
         ["WeightPool"] = { 140000, 200000 },
         ["Chance"] = 0.02,
         ["Rarity"] = "Limited",
@@ -12238,6 +12536,7 @@ return {
         ["FinalChanceDivisor"] = 12,
     },
     ["Olmdeer"] = {
+        ["Icon"] = "rbxassetid://123724622478139",
         ["WeightPool"] = { 1, 4 },
         ["Chance"] = 2,
         ["Rarity"] = "Limited",
@@ -12259,6 +12558,7 @@ return {
         ["ViewportSizeOffset"] = 2,
     },
     ["Ornament Fish"] = {
+        ["Icon"] = "rbxassetid://140507772317805",
         ["WeightPool"] = { 3, 7 },
         ["Chance"] = 15,
         ["Rarity"] = "Limited",
@@ -12278,6 +12578,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Santa Pufferfish"] = {
+        ["Icon"] = "rbxassetid://89436148286840",
         ["WeightPool"] = { 8, 25 },
         ["Chance"] = 0.1,
         ["Rarity"] = "Limited",
@@ -12298,6 +12599,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Santa Salmon"] = {
+        ["Icon"] = "rbxassetid://89784586596950",
         ["WeightPool"] = { 80, 200 },
         ["Chance"] = 50,
         ["Rarity"] = "Limited",
@@ -12316,6 +12618,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Snowflake Flounder"] = {
+        ["Icon"] = "rbxassetid://130331063002010",
         ["WeightPool"] = { 15, 55 },
         ["Chance"] = 10,
         ["Rarity"] = "Limited",
@@ -12335,6 +12638,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Supreme Present"] = {
+        ["Icon"] = "rbxassetid://103586997196307",
         ["WeightPool"] = { 90, 90 },
         ["Chance"] = 0.4,
         ["Rarity"] = "Limited",
@@ -12358,6 +12662,7 @@ return {
         ["NonFish"] = true,
     },
     ["Unique Present"] = {
+        ["Icon"] = "rbxassetid://82795789758294",
         ["WeightPool"] = { 90, 90 },
         ["Chance"] = 4,
         ["Rarity"] = "Limited",
@@ -12383,6 +12688,7 @@ return {
 
     -- Fischmas 2
     ["Bauble Bass"] = {
+        ["Icon"] = "rbxassetid://132160958060330",
         ["WeightPool"] = { 13, 25 },
         ["Chance"] = 32,
         ["Rarity"] = "Limited",
@@ -12402,6 +12708,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Bellfin"] = {
+        ["Icon"] = "rbxassetid://134876595788177",
         ["WeightPool"] = { 15, 27 },
         ["Chance"] = 30,
         ["Rarity"] = "Limited",
@@ -12421,6 +12728,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Candy Cane"] = {
+        ["Icon"] = "rbxassetid://139310696601096",
         ["WeightPool"] = { 8, 18 },
         ["Chance"] = 35,
         ["Rarity"] = "Limited",
@@ -12440,6 +12748,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Candy Cane Cod"] = {
+        ["Icon"] = "rbxassetid://97737228030939",
         ["WeightPool"] = { 9, 21 },
         ["Chance"] = 45,
         ["Rarity"] = "Limited",
@@ -12458,6 +12767,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Carol Carp"] = {
+        ["Icon"] = "rbxassetid://138319230620825",
         ["WeightPool"] = { 12, 23 },
         ["Chance"] = 42,
         ["Rarity"] = "Limited",
@@ -12477,6 +12787,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Cryoshock Serpent"] = {
+        ["Icon"] = "rbxassetid://135277114907695",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 50000, 80000 },
         ["Chance"] = 1,
@@ -12503,6 +12814,7 @@ return {
         ["PassiveChanceDivisor"] = inf,
     },
     ["Elf Eel"] = {
+        ["Icon"] = "rbxassetid://118192774548434",
         ["WeightPool"] = { 14, 26 },
         ["Chance"] = 29,
         ["Rarity"] = "Limited",
@@ -12522,6 +12834,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Festive Relic"] = {
+        ["Icon"] = "rbxassetid://84618053699067",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 210, 210 },
         ["Chance"] = 1,
@@ -12551,6 +12864,7 @@ return {
         ["RelicOfferType"] = "Limited",
     },
     ["Fruitcake Flounder"] = {
+        ["Icon"] = "rbxassetid://115390273047004",
         ["WeightPool"] = { 17, 30 },
         ["Chance"] = 27,
         ["Rarity"] = "Limited",
@@ -12570,6 +12884,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Gingerbread Man"] = {
+        ["Icon"] = "rbxassetid://118619071753474",
         ["WeightPool"] = { 8, 19 },
         ["Chance"] = 34,
         ["Rarity"] = "Limited",
@@ -12589,6 +12904,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Glass of Eggnog"] = {
+        ["Icon"] = "rbxassetid://98204150992759",
         ["WeightPool"] = { 9, 20 },
         ["Chance"] = 33,
         ["Rarity"] = "Limited",
@@ -12608,6 +12924,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Holly Haddock"] = {
+        ["Icon"] = "rbxassetid://134703921123668",
         ["WeightPool"] = { 18, 36 },
         ["Chance"] = 65,
         ["Rarity"] = "Limited",
@@ -12626,6 +12943,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Hot Cocoa"] = {
+        ["Icon"] = "rbxassetid://99461338924371",
         ["WeightPool"] = { 7, 17 },
         ["Chance"] = 32,
         ["Rarity"] = "Limited",
@@ -12645,6 +12963,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Jolly Bait Crate"] = {
+        ["Icon"] = "rbxassetid://83627458808421",
         ["WeightPool"] = { 80, 80 },
         ["Chance"] = 5,
         ["Rarity"] = "Limited",
@@ -12671,6 +12990,7 @@ return {
         ["Unpurchasable"] = true,
     },
     ["Merry Manta Ray"] = {
+        ["Icon"] = "rbxassetid://75804374517315",
         ["WeightPool"] = { 25, 40 },
         ["Chance"] = 7,
         ["Rarity"] = "Limited",
@@ -12691,6 +13011,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Mistletoe Minnow"] = {
+        ["Icon"] = "rbxassetid://80692936522710",
         ["WeightPool"] = { 11, 21 },
         ["Chance"] = 48,
         ["Rarity"] = "Limited",
@@ -12710,6 +13031,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Northstar Whale"] = {
+        ["Icon"] = "rbxassetid://97841702667705",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 150000, 200000 },
         ["Chance"] = 1,
@@ -12733,6 +13055,7 @@ return {
         ["FinalChanceDivisor"] = 15,
     },
     ["Nutcracker Catfish"] = {
+        ["Icon"] = "rbxassetid://120457406441765",
         ["WeightPool"] = { 16, 29 },
         ["Chance"] = 31,
         ["Rarity"] = "Limited",
@@ -12752,6 +13075,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ornament Pufferfish"] = {
+        ["Icon"] = "rbxassetid://104255612376670",
         ["WeightPool"] = { 10, 22 },
         ["Chance"] = 36,
         ["Rarity"] = "Limited",
@@ -12771,6 +13095,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Peppermint Pike"] = {
+        ["Icon"] = "rbxassetid://137204437069562",
         ["WeightPool"] = { 11, 22 },
         ["Chance"] = 80,
         ["Rarity"] = "Limited",
@@ -12790,6 +13115,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Present"] = {
+        ["Icon"] = "rbxassetid://81598123966408",
         ["WeightPool"] = { 70, 70 },
         ["Chance"] = 10,
         ["Rarity"] = "Limited",
@@ -12819,6 +13145,7 @@ return {
         ["Unpurchasable"] = true,
     },
     ["Reindeer Ray"] = {
+        ["Icon"] = "rbxassetid://108280689852651",
         ["WeightPool"] = { 35, 68 },
         ["Chance"] = 28,
         ["Rarity"] = "Limited",
@@ -12838,6 +13165,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Santa Whale Shark"] = {
+        ["Icon"] = "rbxassetid://106476929514641",
         ["WeightPool"] = { 30, 50 },
         ["Chance"] = 3,
         ["Rarity"] = "Limited",
@@ -12858,6 +13186,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Santa's Present"] = {
+        ["Icon"] = "rbxassetid://84341765540896",
         ["WeightPool"] = { 100, 100 },
         ["Chance"] = 1,
         ["Rarity"] = "Limited",
@@ -12942,6 +13271,7 @@ return {
         ["SkipInBestiary"] = true,
     },
     ["Snowball"] = {
+        ["Icon"] = "rbxassetid://103402498371729",
         ["WeightPool"] = { 6, 16 },
         ["Chance"] = 30,
         ["Rarity"] = "Limited",
@@ -12961,6 +13291,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Snowy Present"] = {
+        ["Icon"] = "rbxassetid://114396287294759",
         ["WeightPool"] = { 80, 80 },
         ["Chance"] = 6,
         ["Rarity"] = "Limited",
@@ -12990,6 +13321,7 @@ return {
         ["Unpurchasable"] = true,
     },
     ["Stockingfish"] = {
+        ["Icon"] = "rbxassetid://102164032290922",
         ["WeightPool"] = { 10, 20 },
         ["Chance"] = 40,
         ["Rarity"] = "Limited",
@@ -13009,6 +13341,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Tinsel Trout"] = {
+        ["Icon"] = "rbxassetid://140106449061998",
         ["WeightPool"] = { 14, 25 },
         ["Chance"] = 60,
         ["Rarity"] = "Limited",
@@ -13028,6 +13361,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Wreath Wrasse"] = {
+        ["Icon"] = "rbxassetid://119941964338535",
         ["WeightPool"] = { 22, 44 },
         ["Chance"] = 75,
         ["Rarity"] = "Limited",
@@ -13048,6 +13382,7 @@ return {
 
     -- Forsaken Shores
     ["Buccaneer Barracuda"] = {
+        ["Icon"] = "rbxassetid://111513029760343",
         ["WeightPool"] = { 90, 250 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -13066,6 +13401,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Captain's Goldfish"] = {
+        ["Icon"] = "rbxassetid://83998535313042",
         ["WeightPool"] = { 10, 25 },
         ["Chance"] = 0.1,
         ["Rarity"] = "Mythical",
@@ -13084,6 +13420,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Corsair Grouper"] = {
+        ["Icon"] = "rbxassetid://74787158173353",
         ["WeightPool"] = { 50, 200 },
         ["Chance"] = 120,
         ["Rarity"] = "Common",
@@ -13102,6 +13439,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Cursed Eel"] = {
+        ["Icon"] = "rbxassetid://140167599445904",
         ["WeightPool"] = { 80, 250 },
         ["Chance"] = 25,
         ["Rarity"] = "Rare",
@@ -13121,6 +13459,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Cutlass Fish"] = {
+        ["Icon"] = "rbxassetid://115690299329018",
         ["WeightPool"] = { 80, 250 },
         ["Chance"] = 50,
         ["Rarity"] = "Unusual",
@@ -13139,6 +13478,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Galleon Goliath"] = {
+        ["Icon"] = "rbxassetid://79208460887301",
         ["WeightPool"] = { 50, 200 },
         ["Chance"] = 70,
         ["Rarity"] = "Uncommon",
@@ -13157,6 +13497,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Golden Seahorse"] = {
+        ["Icon"] = "rbxassetid://116257444849349",
         ["WeightPool"] = { 3, 8 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Mythical",
@@ -13195,6 +13536,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Reefrunner Snapper"] = {
+        ["Icon"] = "rbxassetid://110195282145708",
         ["WeightPool"] = { 80, 250 },
         ["Chance"] = 35,
         ["Rarity"] = "Rare",
@@ -13214,6 +13556,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Scurvy Sailfish"] = {
+        ["Icon"] = "rbxassetid://107852581683276",
         ["WeightPool"] = { 150, 700 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -13232,6 +13575,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Shipwreck Barracuda"] = {
+        ["Icon"] = "rbxassetid://127489175667025",
         ["WeightPool"] = { 100, 300 },
         ["Chance"] = 0.1,
         ["Rarity"] = "Legendary",
@@ -13250,6 +13594,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Shortfin Mako Shark"] = {
+        ["Icon"] = "rbxassetid://115387134816285",
         ["WeightPool"] = { 250, 1000 },
         ["Chance"] = 100,
         ["Rarity"] = "Common",
@@ -13270,6 +13615,7 @@ return {
 
     -- Frigid Cavern
     ["Frigid Mammoth Tusk"] = {
+        ["Icon"] = "rbxassetid://93289576878240",
         ["WeightPool"] = { 2500, 5000 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Mythical",
@@ -13290,6 +13636,7 @@ return {
         ["NonFish"] = true,
     },
     ["Frigid Shrimp"] = {
+        ["Icon"] = "rbxassetid://71010659652473",
         ["WeightPool"] = { 3, 8 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -13308,6 +13655,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Frigid Taco"] = {
+        ["Icon"] = "rbxassetid://81525516725446",
         ["WeightPool"] = { 100, 250 },
         ["Chance"] = 25,
         ["Rarity"] = "Rare",
@@ -13326,6 +13674,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ice Eel"] = {
+        ["Icon"] = "rbxassetid://111405077730809",
         ["WeightPool"] = { 8, 20 },
         ["Chance"] = 65,
         ["Rarity"] = "Uncommon",
@@ -13344,6 +13693,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ice Jellyfish"] = {
+        ["Icon"] = "rbxassetid://91599445439091",
         ["WeightPool"] = { 20, 45 },
         ["Chance"] = 45,
         ["Rarity"] = "Unusual",
@@ -13363,6 +13713,7 @@ return {
         ["MovementBehavior"] = "Squid",
     },
     ["Ice Octopus"] = {
+        ["Icon"] = "rbxassetid://70728043160656",
         ["WeightPool"] = { 30, 80 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -13382,6 +13733,7 @@ return {
         ["MovementBehavior"] = "Squid",
     },
     ["Polar Alligator"] = {
+        ["Icon"] = "rbxassetid://77536092396271",
         ["WeightPool"] = { 800, 1500 },
         ["Chance"] = 3,
         ["Rarity"] = "Legendary",
@@ -13401,6 +13753,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Snowfish"] = {
+        ["Icon"] = "rbxassetid://85473954132974",
         ["WeightPool"] = { 200, 450 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -13421,6 +13774,7 @@ return {
 
     -- Glacial Grotto
     ["Borealis Snapper"] = {
+        ["Icon"] = "rbxassetid://126708391170139",
         ["WeightPool"] = { 800, 1600 },
         ["Chance"] = 1,
         ["Rarity"] = "Legendary",
@@ -13440,6 +13794,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Chillback Whitefish"] = {
+        ["Icon"] = "rbxassetid://126027415854249",
         ["WeightPool"] = { 25, 55 },
         ["Chance"] = 55,
         ["Rarity"] = "Unusual",
@@ -13458,6 +13813,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Frostbite Flounder"] = {
+        ["Icon"] = "rbxassetid://116054554994088",
         ["WeightPool"] = { 150, 300 },
         ["Chance"] = 25,
         ["Rarity"] = "Rare",
@@ -13476,6 +13832,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Frostling Goby"] = {
+        ["Icon"] = "rbxassetid://125364734156599",
         ["WeightPool"] = { 12, 28 },
         ["Chance"] = 65,
         ["Rarity"] = "Uncommon",
@@ -13494,6 +13851,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Glacier Swordfish"] = {
+        ["Icon"] = "rbxassetid://89611141177801",
         ["WeightPool"] = { 200, 450 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -13512,6 +13870,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Icebeard Shark"] = {
+        ["Icon"] = "rbxassetid://95365479085983",
         ["WeightPool"] = { 3000, 6000 },
         ["Chance"] = 0.1,
         ["Rarity"] = "Mythical",
@@ -13531,6 +13890,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Icefang Barracuda"] = {
+        ["Icon"] = "rbxassetid://95796358815023",
         ["WeightPool"] = { 200, 450 },
         ["Chance"] = 30,
         ["Rarity"] = "Rare",
@@ -13549,6 +13909,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Icy Walleye"] = {
+        ["Icon"] = "rbxassetid://82756591964600",
         ["WeightPool"] = { 40, 90 },
         ["Chance"] = 45,
         ["Rarity"] = "Unusual",
@@ -13567,6 +13928,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Shiverfin Haddock"] = {
+        ["Icon"] = "rbxassetid://117775031596036",
         ["WeightPool"] = { 50, 120 },
         ["Chance"] = 35,
         ["Rarity"] = "Rare",
@@ -13585,6 +13947,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Snowgill Dace"] = {
+        ["Icon"] = "rbxassetid://103804267763962",
         ["WeightPool"] = { 10, 25 },
         ["Chance"] = 70,
         ["Rarity"] = "Uncommon",
@@ -13605,6 +13968,7 @@ return {
 
     -- Golden Tide
     ["Confetti Shark"] = {
+        ["Icon"] = "rbxassetid://135857538930833",
         ["WeightPool"] = { 800, 1200 },
         ["Chance"] = 50,
         ["Rarity"] = "Limited",
@@ -13624,6 +13988,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Countdown Perch"] = {
+        ["Icon"] = "rbxassetid://114185837652111",
         ["WeightPool"] = { 3000, 5000 },
         ["Chance"] = 35,
         ["Rarity"] = "Limited",
@@ -13643,6 +14008,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Eternal Frostwhale"] = {
+        ["Icon"] = "rbxassetid://112290166157640",
         ["WeightPool"] = { 10000, 15000 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Limited",
@@ -13664,6 +14030,7 @@ return {
         ["CustomProgressEfficiency"] = { "[table]", "[table]" },
     },
     ["Hourglass Bass"] = {
+        ["Icon"] = "rbxassetid://105236220312417",
         ["WeightPool"] = { 8000, 12000 },
         ["Chance"] = 25,
         ["Rarity"] = "Limited",
@@ -13683,6 +14050,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Tidal Pike"] = {
+        ["Icon"] = "rbxassetid://99880813551229",
         ["WeightPool"] = { 1500, 2500 },
         ["Chance"] = 45,
         ["Rarity"] = "Limited",
@@ -13704,6 +14072,7 @@ return {
 
     -- Grand Reef
     ["Coral Chromis"] = {
+        ["Icon"] = "rbxassetid://94273338880642",
         ["WeightPool"] = { 5, 20 },
         ["Chance"] = 55,
         ["Rarity"] = "Common",
@@ -13722,6 +14091,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Coral Emperor"] = {
+        ["Icon"] = "rbxassetid://135779601528333",
         ["WeightPool"] = { 150, 300 },
         ["Chance"] = 0.04,
         ["Rarity"] = "Legendary",
@@ -13741,6 +14111,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Coral Guard"] = {
+        ["Icon"] = "rbxassetid://109824804519921",
         ["WeightPool"] = { 40, 90 },
         ["Chance"] = 20,
         ["Rarity"] = "Uncommon",
@@ -13759,6 +14130,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Crystal Wrasse"] = {
+        ["Icon"] = "rbxassetid://91880105685471",
         ["WeightPool"] = { 40, 90 },
         ["Chance"] = 12,
         ["Rarity"] = "Unusual",
@@ -13777,6 +14149,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Grand Reef Guardian"] = {
+        ["Icon"] = "rbxassetid://130666298817591",
         ["WeightPool"] = { 400, 800 },
         ["Chance"] = 0.08,
         ["Rarity"] = "Mythical",
@@ -13796,6 +14169,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Reef Goby"] = {
+        ["Icon"] = "rbxassetid://99214750010372",
         ["WeightPool"] = { 10, 30 },
         ["Chance"] = 35,
         ["Rarity"] = "Uncommon",
@@ -13814,6 +14188,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Reef Minnow"] = {
+        ["Icon"] = "rbxassetid://103614588403477",
         ["WeightPool"] = { 1, 6 },
         ["Chance"] = 65,
         ["Rarity"] = "Common",
@@ -13832,6 +14207,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Reef Parrotfish"] = {
+        ["Icon"] = "rbxassetid://122406708602806",
         ["WeightPool"] = { 70, 200 },
         ["Chance"] = 4,
         ["Rarity"] = "Rare",
@@ -14174,6 +14550,7 @@ return {
 
     -- Jurassic Island
     ["Dasyatis"] = {
+        ["Icon"] = "rbxassetid://119212441151638",
         ["WeightPool"] = { 500, 3000 },
         ["Chance"] = 30,
         ["Rarity"] = "Limited",
@@ -14192,6 +14569,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Diplomystus"] = {
+        ["Icon"] = "rbxassetid://128104512892633",
         ["WeightPool"] = { 100, 500 },
         ["Chance"] = 70,
         ["Rarity"] = "Limited",
@@ -14210,6 +14588,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Edestus"] = {
+        ["Icon"] = "rbxassetid://105264012423258",
         ["WeightPool"] = { 1000, 5000 },
         ["Chance"] = 50,
         ["Rarity"] = "Limited",
@@ -14228,6 +14607,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Giant Lamprey"] = {
+        ["Icon"] = "rbxassetid://110012160124208",
         ["WeightPool"] = { 200, 1000 },
         ["Chance"] = 60,
         ["Rarity"] = "Limited",
@@ -14246,6 +14626,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Gillicus"] = {
+        ["Icon"] = "rbxassetid://73286971609315",
         ["WeightPool"] = { 500, 2000 },
         ["Chance"] = 90,
         ["Rarity"] = "Limited",
@@ -14264,6 +14645,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Jurassic Helicoprion"] = {
+        ["Icon"] = "rbxassetid://74835519056907",
         ["WeightPool"] = { 2000, 8000 },
         ["Chance"] = 40,
         ["Rarity"] = "Limited",
@@ -14282,6 +14664,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Jurassic Mosasaurus"] = {
+        ["Icon"] = "rbxassetid://104514943324050",
         ["WeightPool"] = { 40000, 150000 },
         ["Chance"] = 15,
         ["Rarity"] = "Limited",
@@ -14303,6 +14686,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Oreochima"] = {
+        ["Icon"] = "rbxassetid://77745297608559",
         ["WeightPool"] = { 300, 1500 },
         ["Chance"] = 80,
         ["Rarity"] = "Limited",
@@ -14321,6 +14705,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Rhizodus"] = {
+        ["Icon"] = "rbxassetid://135057524362082",
         ["WeightPool"] = { 3000, 10000 },
         ["Chance"] = 20,
         ["Rarity"] = "Limited",
@@ -14342,6 +14727,7 @@ return {
 
     -- Keepers Altar
     ["Bluefish"] = {
+        ["Icon"] = "rbxassetid://100052998977157",
         ["WeightPool"] = { 4, 9 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -14383,6 +14769,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Keepers Guardian"] = {
+        ["Icon"] = "rbxassetid://139833694225964",
         ["WeightPool"] = { 200, 400 },
         ["Chance"] = 15,
         ["Rarity"] = "Rare",
@@ -14400,6 +14787,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Lapisjack"] = {
+        ["Icon"] = "rbxassetid://133756472194647",
         ["WeightPool"] = { 200, 400 },
         ["Chance"] = 55,
         ["Rarity"] = "Rare",
@@ -14418,6 +14806,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Pale Tang"] = {
+        ["Icon"] = "rbxassetid://85455924258104",
         ["WeightPool"] = { 3, 15 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -14435,6 +14824,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Umbral Shark"] = {
+        ["Icon"] = "rbxassetid://89484211611624",
         ["WeightPool"] = { 1050, 1550 },
         ["Chance"] = 0.4,
         ["Rarity"] = "Legendary",
@@ -14454,6 +14844,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Void Wood"] = {
+        ["Icon"] = "rbxassetid://126281967393708",
         ["WeightPool"] = { 1, 2 },
         ["Chance"] = 0.5,
         ["Rarity"] = "Legendary",
@@ -14474,6 +14865,7 @@ return {
 
     -- LEGO
     ["Azure Studfish"] = {
+        ["Icon"] = "rbxassetid://136205398553552",
         ["WeightPool"] = { 9, 25 },
         ["Chance"] = 130,
         ["Rarity"] = "Limited",
@@ -14494,6 +14886,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Brickhorse"] = {
+        ["Icon"] = "rbxassetid://103560228578214",
         ["WeightPool"] = { 20, 55 },
         ["Chance"] = 85,
         ["Rarity"] = "Limited",
@@ -14514,6 +14907,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Cardinal Studfish"] = {
+        ["Icon"] = "rbxassetid://71181601460002",
         ["WeightPool"] = { 19, 54 },
         ["Chance"] = 75,
         ["Rarity"] = "Limited",
@@ -14534,6 +14928,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Clown Brickfish"] = {
+        ["Icon"] = "rbxassetid://133012052465112",
         ["WeightPool"] = { 3, 8 },
         ["Chance"] = 125,
         ["Rarity"] = "Limited",
@@ -14554,6 +14949,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Crab Stud"] = {
+        ["Icon"] = "rbxassetid://71861842017260",
         ["WeightPool"] = { 23, 80 },
         ["Chance"] = 65,
         ["Rarity"] = "Limited",
@@ -14574,6 +14970,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Glow Brick"] = {
+        ["Icon"] = "rbxassetid://124482221026776",
         ["WeightPool"] = { 90, 300 },
         ["Chance"] = 55,
         ["Rarity"] = "Limited",
@@ -14594,6 +14991,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Goldbrick"] = {
+        ["Icon"] = "rbxassetid://87054862428642",
         ["WeightPool"] = { 15, 40 },
         ["Chance"] = 115,
         ["Rarity"] = "Limited",
@@ -14614,6 +15012,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Jellystud"] = {
+        ["Icon"] = "rbxassetid://78870790260444",
         ["WeightPool"] = { 15, 40 },
         ["Chance"] = 45,
         ["Rarity"] = "Limited",
@@ -14635,6 +15034,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Stud Koi"] = {
+        ["Icon"] = "rbxassetid://134807168731748",
         ["WeightPool"] = { 550, 1900 },
         ["Chance"] = 35,
         ["Rarity"] = "Limited",
@@ -14655,6 +15055,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Stud Shark"] = {
+        ["Icon"] = "rbxassetid://97857759623049",
         ["WeightPool"] = { 40, 140 },
         ["Chance"] = 25,
         ["Rarity"] = "Limited",
@@ -14675,6 +15076,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Stud Turtle"] = {
+        ["Icon"] = "rbxassetid://94967389407022",
         ["WeightPool"] = { 30, 100 },
         ["Chance"] = 95,
         ["Rarity"] = "Limited",
@@ -14695,6 +15097,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Studling Crab"] = {
+        ["Icon"] = "rbxassetid://109060132748510",
         ["WeightPool"] = { 15, 50 },
         ["Chance"] = 15,
         ["Rarity"] = "Limited",
@@ -14715,6 +15118,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Studolodon"] = {
+        ["Icon"] = "rbxassetid://94241311896514",
         ["WeightPool"] = { 350, 1500 },
         ["Chance"] = 1,
         ["Rarity"] = "Limited",
@@ -14737,6 +15141,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Studphin"] = {
+        ["Icon"] = "rbxassetid://73902369463964",
         ["WeightPool"] = { 25, 90 },
         ["Chance"] = 10,
         ["Rarity"] = "Limited",
@@ -14757,6 +15162,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Tentabrick"] = {
+        ["Icon"] = "rbxassetid://77719572784712",
         ["WeightPool"] = { 300, 1000 },
         ["Chance"] = 5,
         ["Rarity"] = "Limited",
@@ -14780,6 +15186,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Yellow Studfish"] = {
+        ["Icon"] = "rbxassetid://111163008704769",
         ["WeightPool"] = { 13, 39 },
         ["Chance"] = 105,
         ["Rarity"] = "Limited",
@@ -15991,6 +16398,7 @@ return {
 
     -- Moosewood
     ["Anchovy"] = {
+        ["Icon"] = "rbxassetid://72648142191571",
         ["WeightPool"] = { 1, 3 },
         ["Chance"] = 100,
         ["Rarity"] = "Common",
@@ -16009,6 +16417,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Bream"] = {
+        ["Icon"] = "rbxassetid://133682690415652",
         ["WeightPool"] = { 11, 27 },
         ["Chance"] = 75,
         ["Rarity"] = "Common",
@@ -16027,6 +16436,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Carp"] = {
+        ["Icon"] = "rbxassetid://103216339162411",
         ["WeightPool"] = { 10, 50 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -16067,6 +16477,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Eel"] = {
+        ["Icon"] = "rbxassetid://129485266210442",
         ["WeightPool"] = { 8, 45 },
         ["Chance"] = 30,
         ["Rarity"] = "Unusual",
@@ -16085,6 +16496,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Flounder"] = {
+        ["Icon"] = "rbxassetid://112855259330754",
         ["WeightPool"] = { 15, 55 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -16103,6 +16515,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Goldfish"] = {
+        ["Icon"] = "rbxassetid://135534361222560",
         ["WeightPool"] = { 2, 7 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -16121,6 +16534,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Largemouth Bass"] = {
+        ["Icon"] = "rbxassetid://98764061826122",
         ["WeightPool"] = { 10, 45 },
         ["Chance"] = 75,
         ["Rarity"] = "Common",
@@ -16138,6 +16552,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Pike"] = {
+        ["Icon"] = "rbxassetid://75928403305993",
         ["WeightPool"] = { 12, 35 },
         ["Chance"] = 45,
         ["Rarity"] = "Unusual",
@@ -16155,6 +16570,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Red Snapper"] = {
+        ["Icon"] = "rbxassetid://118577967362274",
         ["WeightPool"] = { 10, 70 },
         ["Chance"] = 75,
         ["Rarity"] = "Common",
@@ -16172,6 +16588,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Snook"] = {
+        ["Icon"] = "rbxassetid://125410474544633",
         ["WeightPool"] = { 30, 70 },
         ["Chance"] = 45,
         ["Rarity"] = "Unusual",
@@ -16189,6 +16606,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sockeye Salmon"] = {
+        ["Icon"] = "rbxassetid://75669332719913",
         ["WeightPool"] = { 20, 70 },
         ["Chance"] = 90,
         ["Rarity"] = "Common",
@@ -16207,6 +16625,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Treble Bass"] = {
+        ["Icon"] = "rbxassetid://133203017334793",
         ["WeightPool"] = { 10, 45 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Exotic",
@@ -16226,6 +16645,7 @@ return {
         ["FinalChanceDivisor"] = 5,
     },
     ["Trout"] = {
+        ["Icon"] = "rbxassetid://79386987412664",
         ["WeightPool"] = { 9, 50 },
         ["Chance"] = 85,
         ["Rarity"] = "Common",
@@ -16243,6 +16663,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Whiptail Catfish"] = {
+        ["Icon"] = "rbxassetid://73244530938484",
         ["WeightPool"] = { 10, 30 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Legendary",
@@ -16261,6 +16682,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Whisker Bill"] = {
+        ["Icon"] = "rbxassetid://129667141585294",
         ["WeightPool"] = { 350, 1000 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -16279,6 +16701,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Yellowfin Tuna"] = {
+        ["Icon"] = "rbxassetid://104079387190699",
         ["WeightPool"] = { 450, 1360 },
         ["Chance"] = 65,
         ["Rarity"] = "Uncommon",
@@ -16298,6 +16721,7 @@ return {
 
     -- Mushgrove
     ["Alligator"] = {
+        ["Icon"] = "rbxassetid://102332649065726",
         ["WeightPool"] = { 1500, 3000 },
         ["Chance"] = 0.9,
         ["Rarity"] = "Legendary",
@@ -16317,6 +16741,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Bowfin"] = {
+        ["Icon"] = "rbxassetid://100620620810681",
         ["WeightPool"] = { 30, 60 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -16335,6 +16760,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Catfish"] = {
+        ["Icon"] = "rbxassetid://89884921160663",
         ["WeightPool"] = { 50, 150 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -16353,6 +16779,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Fungal Cluster"] = {
+        ["Icon"] = "rbxassetid://107000840172685",
         ["WeightPool"] = { 9, 9 },
         ["Chance"] = 22,
         ["Rarity"] = "Trash",
@@ -16371,6 +16798,7 @@ return {
         ["NonFish"] = true,
     },
     ["Grey Carp"] = {
+        ["Icon"] = "rbxassetid://109140905958306",
         ["WeightPool"] = { 20, 70 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -16388,6 +16816,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Handfish"] = {
+        ["Icon"] = "rbxassetid://86519196658567",
         ["WeightPool"] = { 20, 60 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -16406,6 +16835,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Marsh Gar"] = {
+        ["Icon"] = "rbxassetid://77409950485016",
         ["WeightPool"] = { 170, 380 },
         ["Chance"] = 30,
         ["Rarity"] = "Rare",
@@ -16423,6 +16853,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Mushgrove Crab"] = {
+        ["Icon"] = "rbxassetid://129675980014154",
         ["WeightPool"] = { 6, 14 },
         ["Chance"] = 14,
         ["Rarity"] = "Rare",
@@ -16440,6 +16871,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Resin"] = {
+        ["Icon"] = "rbxassetid://80855588016684",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 30, 80 },
         ["Chance"] = 0.05,
@@ -16461,6 +16893,7 @@ return {
         ["NonFish"] = true,
     },
     ["RocketFuel"] = {
+        ["Icon"] = "rbxassetid://105020689818034",
         ["WeightPool"] = { 12, 13 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Exotic",
@@ -16481,6 +16914,7 @@ return {
         ["NonFish"] = true,
     },
     ["Swamp Bass"] = {
+        ["Icon"] = "rbxassetid://136461934165799",
         ["WeightPool"] = { 20, 60 },
         ["Chance"] = 80,
         ["Rarity"] = "Common",
@@ -16498,6 +16932,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Swamp Scallop"] = {
+        ["Icon"] = "rbxassetid://89879511215333",
         ["WeightPool"] = { 6, 14 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -16515,6 +16950,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["White Perch"] = {
+        ["Icon"] = "rbxassetid://139832691694512",
         ["WeightPool"] = { 2, 12 },
         ["Chance"] = 80,
         ["Rarity"] = "Common",
@@ -16807,6 +17243,7 @@ return {
 
     -- None
     ["Bait Crate"] = {
+        ["Icon"] = "rbxassetid://81595465433219",
         ["WeightPool"] = { 80, 80 },
         ["Chance"] = 15,
         ["Rarity"] = "Uncommon",
@@ -16855,6 +17292,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Blue Energy Crystal"] = {
+        ["Icon"] = "rbxassetid://75458904019341",
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 0,
         ["Rarity"] = "Mythical",
@@ -16873,6 +17311,7 @@ return {
         ["NonFish"] = true,
     },
     ["Bone"] = {
+        ["Icon"] = "rbxassetid://78288720113649",
         ["WeightPool"] = { 10, 25 },
         ["Chance"] = 100,
         ["Rarity"] = "Trash",
@@ -16891,6 +17330,7 @@ return {
         ["NonFish"] = true,
     },
     ["Boot"] = {
+        ["Icon"] = "rbxassetid://89539760370076",
         ["WeightPool"] = { 12, 12 },
         ["Chance"] = 17,
         ["Rarity"] = "Trash",
@@ -16909,6 +17349,7 @@ return {
         ["NonFish"] = true,
     },
     ["Carbon Crate"] = {
+        ["Icon"] = "rbxassetid://107256344648306",
         ["WeightPool"] = { 160, 160 },
         ["Chance"] = 2,
         ["Rarity"] = "Rare",
@@ -16932,6 +17373,7 @@ return {
         ["NonFish"] = true,
     },
     ["Common Crate"] = {
+        ["Icon"] = "rbxassetid://102440264190575",
         ["WeightPool"] = { 80, 80 },
         ["Chance"] = 17,
         ["Rarity"] = "Uncommon",
@@ -16956,6 +17398,7 @@ return {
         ["NonFish"] = true,
     },
     ["Cosmic Relic"] = {
+        ["Icon"] = "rbxassetid://80055965949958",
         ["WeightPool"] = { 500, 500 },
         ["Chance"] = 0,
         ["Rarity"] = "Relic",
@@ -16970,6 +17413,7 @@ return {
         ["Weather"] = { "None" },
         ["Quips"] = { "I feel its power..", "Woah.. A Cosmic Relic??", "A Cosmic Relic!!", "I found a Cosmic Relic!" },
         ["SparkleColor"] = Color3.fromRGB(197, 82, 255),
+        ["FavoritedDefault"] = true,
         ["HoldAnimation"] = "[userdata]",
         ["NonFish"] = true,
         ["RelicColorMain"] = Color3.fromRGB(255, 99, 169),
@@ -16981,6 +17425,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Destroyed Fossil"] = {
+        ["Icon"] = "rbxassetid://112503745911656",
         ["WeightPool"] = { 10, 45 },
         ["Chance"] = 35,
         ["Rarity"] = "Trash",
@@ -17000,6 +17445,7 @@ return {
         ["NonFish"] = true,
     },
     ["Driftwood"] = {
+        ["Icon"] = "rbxassetid://102455611835809",
         ["WeightPool"] = { 6, 6 },
         ["Chance"] = 17,
         ["Rarity"] = "Trash",
@@ -17018,6 +17464,7 @@ return {
         ["NonFish"] = true,
     },
     ["Enchant Relic"] = {
+        ["Icon"] = "rbxassetid://111213700628842",
         ["WeightPool"] = { 210, 210 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Relic",
@@ -17044,6 +17491,7 @@ return {
         ["RelicOfferType"] = "Enchant",
     },
     ["Exalted Relic"] = {
+        ["Icon"] = "rbxassetid://79066824574985",
         ["WeightPool"] = { 210, 210 },
         ["Chance"] = 0.02,
         ["Rarity"] = "Relic",
@@ -17070,6 +17518,7 @@ return {
         ["RelicOfferType"] = "Exalted",
     },
     ["Fish Barrel"] = {
+        ["Icon"] = "rbxassetid://74792269302768",
         ["WeightPool"] = { 150, 150 },
         ["Chance"] = 12,
         ["Rarity"] = "Uncommon",
@@ -17114,6 +17563,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Green Energy Crystal"] = {
+        ["Icon"] = "rbxassetid://136292081282875",
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 0,
         ["Rarity"] = "Mythical",
@@ -17136,7 +17586,7 @@ return {
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 1, 100000 },
         ["Chance"] = 0,
-        ["Rarity"] = "Secret",
+        ["Rarity"] = "Divine Secret",
         ["Resilience"] = -100,
         ["ForcedProgressEfficiency"] = 1,
         ["Description"] = "is it him?",
@@ -17173,6 +17623,7 @@ return {
         ["Weather"] = { "None" },
         ["Quips"] = { "what" },
         ["SparkleColor"] = Color3.fromRGB(126, 255, 216),
+        ["FavoritedDefault"] = true,
         ["HoldAnimation"] = "[userdata]",
         ["Appraisable"] = false,
         ["HideInBestiary"] = true,
@@ -17201,6 +17652,7 @@ return {
         ["Weather"] = { "None" },
         ["Quips"] = { "I feel its power..", "Woah.. An Invincible Relic??", "An Invincible Relic!!", "I caught an Invincible Relic!" },
         ["SparkleColor"] = Color3.fromRGB(255, 160, 51),
+        ["FavoritedDefault"] = true,
         ["HoldAnimation"] = "[userdata]",
         ["NonFish"] = true,
         ["RelicColorMain"] = Color3.fromRGB(255, 114, 43),
@@ -17212,6 +17664,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Log"] = {
+        ["Icon"] = "rbxassetid://130472134331932",
         ["WeightPool"] = { 45, 75 },
         ["Chance"] = 10,
         ["Rarity"] = "Trash",
@@ -17230,6 +17683,7 @@ return {
         ["NonFish"] = true,
     },
     ["Quality Bait Crate"] = {
+        ["Icon"] = "rbxassetid://91648082822132",
         ["WeightPool"] = { 120, 120 },
         ["Chance"] = 8,
         ["Rarity"] = "Rare",
@@ -17252,6 +17706,7 @@ return {
         ["NonFish"] = true,
     },
     ["Red Energy Crystal"] = {
+        ["Icon"] = "rbxassetid://109106211648650",
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 0,
         ["Rarity"] = "Mythical",
@@ -17272,6 +17727,7 @@ return {
         ["Requirements"] = {},
     },
     ["Rock"] = {
+        ["Icon"] = "rbxassetid://90900859097658",
         ["WeightPool"] = { 150, 210 },
         ["Chance"] = 50,
         ["Rarity"] = "Trash",
@@ -17290,6 +17746,7 @@ return {
         ["NonFish"] = true,
     },
     ["Scrap Metal"] = {
+        ["Icon"] = "rbxassetid://75586584726923",
         ["WeightPool"] = { 10, 50 },
         ["Chance"] = 32,
         ["Rarity"] = "Trash",
@@ -17309,6 +17766,7 @@ return {
         ["NonFish"] = true,
     },
     ["Seaweed"] = {
+        ["Icon"] = "rbxassetid://109574893654169",
         ["WeightPool"] = { 1, 3 },
         ["Chance"] = 20,
         ["Rarity"] = "Trash",
@@ -17371,6 +17829,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Song of the Deep"] = {
+        ["Icon"] = "rbxassetid://77063190708643",
         ["WeightPool"] = { 210, 210 },
         ["Chance"] = 0.02,
         ["Rarity"] = "Relic",
@@ -17386,6 +17845,7 @@ return {
         ["Weather"] = { "None" },
         ["Quips"] = { "I feel its power..", "Woah.. A Song of the Deep??", "A Song of the Deep!!", "I caught a Song of the Deep!" },
         ["SparkleColor"] = Color3.fromRGB(228, 160, 255),
+        ["FavoritedDefault"] = true,
         ["HoldAnimation"] = "[userdata]",
         ["NonFish"] = true,
         ["RelicColorMain"] = Color3.fromRGB(128, 168, 255),
@@ -17413,6 +17873,7 @@ return {
         ["Weather"] = { "None" },
         ["Quips"] = { "SO MUCH POWER!!", "WOAH!.. A Sovereign Relic??", "A SOVEREIGN RELIC!!" },
         ["SparkleColor"] = Color3.fromRGB(160, 174, 255),
+        ["FavoritedDefault"] = true,
         ["HoldAnimation"] = "[userdata]",
         ["ClientFishingPassives"] = {},
         ["GlobalStrictChance"] = 0.01,
@@ -17425,6 +17886,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Stalactite"] = {
+        ["Icon"] = "rbxassetid://136478088129511",
         ["WeightPool"] = { 60, 130 },
         ["Chance"] = 100,
         ["Rarity"] = "Trash",
@@ -17443,6 +17905,7 @@ return {
         ["NonFish"] = true,
     },
     ["Tire"] = {
+        ["Icon"] = "rbxassetid://98590166315415",
         ["WeightPool"] = { 110, 110 },
         ["Chance"] = 17,
         ["Rarity"] = "Trash",
@@ -17501,6 +17964,7 @@ return {
         ["Weather"] = { "None" },
         ["Quips"] = { "I feel its power..", "Woah.. A Twisted Relic??", "A Twisted Relic!!", "I caught a Twisted Relic!" },
         ["SparkleColor"] = Color3.fromRGB(85, 81, 121),
+        ["FavoritedDefault"] = true,
         ["HoldAnimation"] = "[userdata]",
         ["NonFish"] = true,
         ["RelicColorMain"] = Color3.fromRGB(99, 70, 166),
@@ -17512,6 +17976,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Yellow Energy Crystal"] = {
+        ["Icon"] = "rbxassetid://101388324357629",
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 0,
         ["Rarity"] = "Mythical",
@@ -17672,6 +18137,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Amberjack"] = {
+        ["Icon"] = "rbxassetid://91166107312260",
         ["WeightPool"] = { 200, 400 },
         ["Chance"] = 75,
         ["Rarity"] = "Uncommon",
@@ -17690,6 +18156,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ancient Orca"] = {
+        ["Icon"] = "rbxassetid://125893992070590",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 20000, 25000 },
         ["Chance"] = 0.03,
@@ -17709,6 +18176,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Anglerfish"] = {
+        ["Icon"] = "rbxassetid://75275513184407",
         ["WeightPool"] = { 5, 20 },
         ["Chance"] = 12,
         ["Rarity"] = "Rare",
@@ -17749,6 +18217,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Barracuda"] = {
+        ["Icon"] = "rbxassetid://74016631212366",
         ["WeightPool"] = { 55, 110 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -17834,6 +18303,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Blue Whale"] = {
+        ["Icon"] = "rbxassetid://71990830485091",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 1300000, 3000000 },
         ["Chance"] = 5,
@@ -17853,6 +18323,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Bluefin Tuna"] = {
+        ["Icon"] = "rbxassetid://114700341945954",
         ["WeightPool"] = { 1000, 2200 },
         ["Chance"] = 35,
         ["Rarity"] = "Rare",
@@ -17870,6 +18341,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Boots"] = {
+        ["Icon"] = "rbxassetid://101604800291623",
         ["WeightPool"] = { 12, 13 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Exotic",
@@ -17890,6 +18362,7 @@ return {
         ["NonFish"] = true,
     },
     ["Bull Shark"] = {
+        ["Icon"] = "rbxassetid://70859810132154",
         ["WeightPool"] = { 900, 1300 },
         ["Chance"] = 0.3,
         ["Rarity"] = "Legendary",
@@ -17928,6 +18401,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Cod"] = {
+        ["Icon"] = "rbxassetid://117856959442881",
         ["WeightPool"] = { 20, 100 },
         ["Chance"] = 75,
         ["Rarity"] = "Uncommon",
@@ -17945,6 +18419,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Coelacanth"] = {
+        ["Icon"] = "rbxassetid://70379772738432",
         ["WeightPool"] = { 70, 100 },
         ["Chance"] = 14,
         ["Rarity"] = "Rare",
@@ -17963,6 +18438,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Colossal Squid"] = {
+        ["Icon"] = "rbxassetid://111317714625831",
         ["WeightPool"] = { 7000, 12000 },
         ["Chance"] = 0.02,
         ["Rarity"] = "Mythical",
@@ -17983,6 +18459,7 @@ return {
         ["MovementBehavior"] = "Squid",
     },
     ["Cookiecutter Shark"] = {
+        ["Icon"] = "rbxassetid://75361183607238",
         ["WeightPool"] = { 5, 15 },
         ["Chance"] = 40,
         ["Rarity"] = "Rare",
@@ -18001,6 +18478,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Crab"] = {
+        ["Icon"] = "rbxassetid://70473046148967",
         ["WeightPool"] = { 6, 14 },
         ["Chance"] = 40,
         ["Rarity"] = "Uncommon",
@@ -18018,6 +18496,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Crown Bass"] = {
+        ["Icon"] = "rbxassetid://99416090287531",
         ["WeightPool"] = { 20, 60 },
         ["Chance"] = 0.2,
         ["Rarity"] = "Legendary",
@@ -18058,6 +18537,7 @@ return {
         ["NonFish"] = true,
     },
     ["Dolphin"] = {
+        ["Icon"] = "rbxassetid://88757856606097",
         ["WeightPool"] = { 1500, 2000 },
         ["Chance"] = 0.8,
         ["Rarity"] = "Legendary",
@@ -18101,6 +18581,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Flying Fish"] = {
+        ["Icon"] = "rbxassetid://110621084521014",
         ["WeightPool"] = { 15, 50 },
         ["Chance"] = 0.15,
         ["Rarity"] = "Legendary",
@@ -18120,6 +18601,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Great Hammerhead Shark"] = {
+        ["Icon"] = "rbxassetid://112913690047339",
         ["WeightPool"] = { 2300, 5000 },
         ["Chance"] = 2,
         ["Rarity"] = "Mythical",
@@ -18140,6 +18622,7 @@ return {
         ["Shark"] = true,
     },
     ["Great White Shark"] = {
+        ["Icon"] = "rbxassetid://100309152761347",
         ["WeightPool"] = { 7000, 12000 },
         ["Chance"] = 2,
         ["Rarity"] = "Mythical",
@@ -18159,6 +18642,7 @@ return {
         ["Shark"] = true,
     },
     ["Haddock"] = {
+        ["Icon"] = "rbxassetid://118378699121238",
         ["WeightPool"] = { 15, 40 },
         ["Chance"] = 110,
         ["Rarity"] = "Common",
@@ -18177,6 +18661,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Halibut"] = {
+        ["Icon"] = "rbxassetid://131773034548741",
         ["WeightPool"] = { 1000, 2000 },
         ["Chance"] = 40,
         ["Rarity"] = "Rare",
@@ -18215,6 +18700,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Lobster"] = {
+        ["Icon"] = "rbxassetid://134358749567460",
         ["WeightPool"] = { 9, 28 },
         ["Chance"] = 100,
         ["Rarity"] = "Common",
@@ -18235,6 +18721,7 @@ return {
         ["UtilityType"] = "lobster",
     },
     ["Long Pike"] = {
+        ["Icon"] = "rbxassetid://73406996874462",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 12, 35 },
         ["Chance"] = 0.03,
@@ -18275,6 +18762,7 @@ return {
         ["MovementBehavior"] = "Squid",
     },
     ["Mackerel"] = {
+        ["Icon"] = "rbxassetid://125312151333166",
         ["WeightPool"] = { 10, 40 },
         ["Chance"] = 100,
         ["Rarity"] = "Common",
@@ -18336,6 +18824,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Moby"] = {
+        ["Icon"] = "rbxassetid://123806916051858",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 1000000, 2000000 },
         ["Chance"] = 0.02,
@@ -18355,6 +18844,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Moonfish"] = {
+        ["Icon"] = "rbxassetid://134645657552069",
         ["WeightPool"] = { 2500, 5000 },
         ["Chance"] = 0.2,
         ["Rarity"] = "Legendary",
@@ -18398,6 +18888,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Mullet"] = {
+        ["Icon"] = "rbxassetid://78638423432911",
         ["WeightPool"] = { 5, 20 },
         ["Chance"] = 80,
         ["Rarity"] = "Common",
@@ -18415,6 +18906,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Mussel"] = {
+        ["Icon"] = "rbxassetid://88213852395754",
         ["WeightPool"] = { 1, 2 },
         ["Chance"] = 55,
         ["Rarity"] = "Common",
@@ -18432,6 +18924,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Mustard"] = {
+        ["Icon"] = "rbxassetid://74703202359586",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 10, 40 },
         ["Chance"] = 0.03,
@@ -18450,6 +18943,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Mythic Fish"] = {
+        ["Icon"] = "rbxassetid://71038781217820",
         ["WeightPool"] = { 6, 14 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -18492,6 +18986,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Nurse Shark"] = {
+        ["Icon"] = "rbxassetid://75203943512842",
         ["WeightPool"] = { 1000, 1500 },
         ["Chance"] = 35,
         ["Rarity"] = "Unusual",
@@ -18510,6 +19005,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Oarfish"] = {
+        ["Icon"] = "rbxassetid://96356137972330",
         ["WeightPool"] = { 1500, 2500 },
         ["Chance"] = 0.02,
         ["Rarity"] = "Mythical",
@@ -18528,6 +19024,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Orca"] = {
+        ["Icon"] = "rbxassetid://73157122545396",
         ["WeightPool"] = { 10000, 15000 },
         ["Chance"] = 10,
         ["Rarity"] = "Exotic",
@@ -18546,6 +19043,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Oyster"] = {
+        ["Icon"] = "rbxassetid://126435425793906",
         ["WeightPool"] = { 2, 5 },
         ["Chance"] = 50,
         ["Rarity"] = "Uncommon",
@@ -18563,6 +19061,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Porgy"] = {
+        ["Icon"] = "rbxassetid://97997533666749",
         ["WeightPool"] = { 5, 30 },
         ["Chance"] = 60,
         ["Rarity"] = "Common",
@@ -18581,6 +19080,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Prawn"] = {
+        ["Icon"] = "rbxassetid://119633006355504",
         ["WeightPool"] = { 1, 5 },
         ["Chance"] = 40,
         ["Rarity"] = "Uncommon",
@@ -18599,6 +19099,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Pufferfish"] = {
+        ["Icon"] = "rbxassetid://109395014539464",
         ["WeightPool"] = { 5, 20 },
         ["Chance"] = 45,
         ["Rarity"] = "Rare",
@@ -18616,6 +19117,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Rabbitfish"] = {
+        ["Icon"] = "rbxassetid://139668042974291",
         ["WeightPool"] = { 25, 60 },
         ["Chance"] = 1,
         ["Rarity"] = "Legendary",
@@ -18634,6 +19136,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sailfish"] = {
+        ["Icon"] = "rbxassetid://92191606858752",
         ["WeightPool"] = { 400, 600 },
         ["Chance"] = 16,
         ["Rarity"] = "Rare",
@@ -18652,6 +19155,7 @@ return {
         ["ViewportSizeOffset"] = 0.9,
     },
     ["Salmon"] = {
+        ["Icon"] = "rbxassetid://86159030321722",
         ["WeightPool"] = { 40, 100 },
         ["Chance"] = 70,
         ["Rarity"] = "Uncommon",
@@ -18669,6 +19173,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sand Dollar"] = {
+        ["Icon"] = "rbxassetid://123747518243588",
         ["WeightPool"] = { 1, 2 },
         ["Chance"] = 55,
         ["Rarity"] = "Common",
@@ -18686,6 +19191,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sardine"] = {
+        ["Icon"] = "rbxassetid://74769662355093",
         ["WeightPool"] = { 1, 3 },
         ["Chance"] = 90,
         ["Rarity"] = "Common",
@@ -18704,6 +19210,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sawfish"] = {
+        ["Icon"] = "rbxassetid://80694582579919",
         ["WeightPool"] = { 4000, 6000 },
         ["Chance"] = 0.7,
         ["Rarity"] = "Legendary",
@@ -18722,6 +19229,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Scallop"] = {
+        ["Icon"] = "rbxassetid://74640015742035",
         ["WeightPool"] = { 2, 5 },
         ["Chance"] = 40,
         ["Rarity"] = "Uncommon",
@@ -18739,6 +19247,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sea Bass"] = {
+        ["Icon"] = "rbxassetid://113664763186427",
         ["WeightPool"] = { 20, 60 },
         ["Chance"] = 75,
         ["Rarity"] = "Common",
@@ -18756,6 +19265,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sea Pickle"] = {
+        ["Icon"] = "rbxassetid://135046768157056",
         ["WeightPool"] = { 4, 10 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -18774,6 +19284,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sea Urchin"] = {
+        ["Icon"] = "rbxassetid://91656322906475",
         ["WeightPool"] = { 2, 9 },
         ["Chance"] = 15,
         ["Rarity"] = "Rare",
@@ -18791,6 +19302,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Shrimp"] = {
+        ["Icon"] = "rbxassetid://95360349063980",
         ["WeightPool"] = { 1, 2 },
         ["Chance"] = 45,
         ["Rarity"] = "Common",
@@ -18809,6 +19321,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Stingray"] = {
+        ["Icon"] = "rbxassetid://76210593726994",
         ["WeightPool"] = { 150, 300 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -18827,6 +19340,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Swordfish"] = {
+        ["Icon"] = "rbxassetid://98060696455876",
         ["WeightPool"] = { 1000, 2500 },
         ["Chance"] = 15,
         ["Rarity"] = "Rare",
@@ -18869,6 +19383,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Whale Shark"] = {
+        ["Icon"] = "rbxassetid://123258075251559",
         ["WeightPool"] = { 100000, 150000 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -19144,6 +19659,7 @@ return {
 
     -- Overgrowth Caves
     ["Frigid Antlers"] = {
+        ["Icon"] = "rbxassetid://117866594973312",
         ["WeightPool"] = { 500, 1000 },
         ["Chance"] = 1,
         ["Rarity"] = "Legendary",
@@ -19164,6 +19680,7 @@ return {
         ["NonFish"] = true,
     },
     ["Frigid Crab"] = {
+        ["Icon"] = "rbxassetid://88779624280410",
         ["WeightPool"] = { 15, 35 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -19182,6 +19699,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Frozen Walnut"] = {
+        ["Icon"] = "rbxassetid://82687698664410",
         ["WeightPool"] = { 500, 1000 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -19202,6 +19720,7 @@ return {
         ["NonFish"] = true,
     },
     ["Glass Diamond"] = {
+        ["Icon"] = "rbxassetid://95839450063599",
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -19220,6 +19739,7 @@ return {
         ["NonFish"] = true,
     },
     ["Ice Anchovy"] = {
+        ["Icon"] = "rbxassetid://87022849974226",
         ["WeightPool"] = { 2, 6 },
         ["Chance"] = 65,
         ["Rarity"] = "Uncommon",
@@ -19238,6 +19758,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Icy Carp"] = {
+        ["Icon"] = "rbxassetid://77101168567992",
         ["WeightPool"] = { 30, 70 },
         ["Chance"] = 45,
         ["Rarity"] = "Unusual",
@@ -19256,6 +19777,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Icy Goldfish"] = {
+        ["Icon"] = "rbxassetid://70592905529822",
         ["WeightPool"] = { 200, 400 },
         ["Chance"] = 10,
         ["Rarity"] = "Rare",
@@ -19274,6 +19796,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Icy Salmon"] = {
+        ["Icon"] = "rbxassetid://71189549121503",
         ["WeightPool"] = { 40, 100 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -19292,6 +19815,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Icy Tuna"] = {
+        ["Icon"] = "rbxassetid://89186329318129",
         ["WeightPool"] = { 100, 250 },
         ["Chance"] = 25,
         ["Rarity"] = "Rare",
@@ -19550,6 +20074,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Alligator Gar"] = {
+        ["Icon"] = "rbxassetid://86377387939726",
         ["WeightPool"] = { 200, 450 },
         ["Chance"] = 45,
         ["Rarity"] = "Rare",
@@ -19567,6 +20092,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Angelfish"] = {
+        ["Icon"] = "rbxassetid://120013805461001",
         ["WeightPool"] = { 5, 20 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -19584,6 +20110,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Arapaima"] = {
+        ["Icon"] = "rbxassetid://73699058349742",
         ["WeightPool"] = { 1000, 2000 },
         ["Chance"] = 15,
         ["Rarity"] = "Rare",
@@ -19601,6 +20128,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Aurora Pearl"] = {
+        ["Icon"] = "rbxassetid://109430205824830",
         ["WeightPool"] = { 1, 4 },
         ["Chance"] = 2.5,
         ["Rarity"] = "Mythical",
@@ -19620,6 +20148,7 @@ return {
         ["NonFish"] = true,
     },
     ["Axolotl"] = {
+        ["Icon"] = "rbxassetid://82755591857542",
         ["WeightPool"] = { 5, 15 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Legendary",
@@ -19640,6 +20169,7 @@ return {
         ["ViewportSizeOffset"] = 2,
     },
     ["Blue Tang"] = {
+        ["Icon"] = "rbxassetid://95701325966138",
         ["WeightPool"] = { 3, 15 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -19658,6 +20188,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Butterflyfish"] = {
+        ["Icon"] = "rbxassetid://79308659571343",
         ["WeightPool"] = { 2, 15 },
         ["Chance"] = 40,
         ["Rarity"] = "Uncommon",
@@ -19676,6 +20207,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Chub"] = {
+        ["Icon"] = "rbxassetid://103108365413120",
         ["WeightPool"] = { 10, 30 },
         ["Chance"] = 100,
         ["Rarity"] = "Common",
@@ -19694,6 +20226,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Clam"] = {
+        ["Icon"] = "rbxassetid://76478815682293",
         ["WeightPool"] = { 9, 10 },
         ["Chance"] = 60,
         ["Rarity"] = "Unusual",
@@ -19711,6 +20244,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Clownfish"] = {
+        ["Icon"] = "rbxassetid://85796634928142",
         ["WeightPool"] = { 1, 6 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -19728,6 +20262,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Deep Pearl"] = {
+        ["Icon"] = "rbxassetid://90042561533358",
         ["WeightPool"] = { 1, 4 },
         ["Chance"] = 5,
         ["Rarity"] = "Legendary",
@@ -19747,6 +20282,7 @@ return {
         ["NonFish"] = true,
     },
     ["Dumbo Octopus"] = {
+        ["Icon"] = "rbxassetid://120587001815614",
         ["WeightPool"] = { 15, 40 },
         ["Chance"] = 0.5,
         ["Rarity"] = "Legendary",
@@ -19766,6 +20302,7 @@ return {
         ["MovementBehavior"] = "Squid",
     },
     ["Gilded Pearl"] = {
+        ["Icon"] = "rbxassetid://119666835553990",
         ["WeightPool"] = { 1, 4 },
         ["Chance"] = 25,
         ["Rarity"] = "Unusual",
@@ -19785,6 +20322,7 @@ return {
         ["NonFish"] = true,
     },
     ["Golden Sea Pearl"] = {
+        ["Icon"] = "rbxassetid://75917851065724",
         ["WeightPool"] = { 1, 4 },
         ["Chance"] = 0.2,
         ["Rarity"] = "Exotic",
@@ -19805,6 +20343,7 @@ return {
         ["NonFish"] = true,
     },
     ["Manta Ray"] = {
+        ["Icon"] = "rbxassetid://123563269176200",
         ["WeightPool"] = { 7750, 10000 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -19824,6 +20363,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Mauve Pearl"] = {
+        ["Icon"] = "rbxassetid://137967361878691",
         ["WeightPool"] = { 1, 4 },
         ["Chance"] = 10,
         ["Rarity"] = "Rare",
@@ -19843,6 +20383,7 @@ return {
         ["NonFish"] = true,
     },
     ["Minnow"] = {
+        ["Icon"] = "rbxassetid://121872035238897",
         ["WeightPool"] = { 1, 6 },
         ["Chance"] = 60,
         ["Rarity"] = "Common",
@@ -19860,6 +20401,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Pearl"] = {
+        ["Icon"] = "rbxassetid://82956871047620",
         ["WeightPool"] = { 1, 4 },
         ["Chance"] = 60,
         ["Rarity"] = "Common",
@@ -19879,6 +20421,7 @@ return {
         ["NonFish"] = true,
     },
     ["Perch"] = {
+        ["Icon"] = "rbxassetid://134267766583612",
         ["WeightPool"] = { 2, 12 },
         ["Chance"] = 80,
         ["Rarity"] = "Common",
@@ -19896,6 +20439,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Pumpkinseed"] = {
+        ["Icon"] = "rbxassetid://137888519352104",
         ["WeightPool"] = { 1, 5 },
         ["Chance"] = 65,
         ["Rarity"] = "Uncommon",
@@ -19913,6 +20457,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ribbon Eel"] = {
+        ["Icon"] = "rbxassetid://132156779487662",
         ["WeightPool"] = { 5, 150 },
         ["Chance"] = 12,
         ["Rarity"] = "Unusual",
@@ -19930,6 +20475,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Rose Pearl"] = {
+        ["Icon"] = "rbxassetid://75597454527346",
         ["WeightPool"] = { 1, 4 },
         ["Chance"] = 25,
         ["Rarity"] = "Unusual",
@@ -19949,6 +20495,7 @@ return {
         ["NonFish"] = true,
     },
     ["Squid"] = {
+        ["Icon"] = "rbxassetid://110886718682112",
         ["WeightPool"] = { 5, 25 },
         ["Chance"] = 25,
         ["Rarity"] = "Unusual",
@@ -19968,6 +20515,7 @@ return {
         ["MovementBehavior"] = "Squid",
     },
     ["Suckermouth Catfish"] = {
+        ["Icon"] = "rbxassetid://127255491397698",
         ["WeightPool"] = { 95, 170 },
         ["Chance"] = 35,
         ["Rarity"] = "Rare",
@@ -20007,6 +20555,7 @@ return {
         ["NonFish"] = true,
     },
     ["Yellow Boxfish"] = {
+        ["Icon"] = "rbxassetid://117550551898150",
         ["WeightPool"] = { 5, 20 },
         ["Chance"] = 18,
         ["Rarity"] = "Unusual",
@@ -20047,6 +20596,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Basalt"] = {
+        ["Icon"] = "rbxassetid://101725211275513",
         ["WeightPool"] = { 150, 210 },
         ["Chance"] = 55,
         ["Rarity"] = "Trash",
@@ -20065,6 +20615,7 @@ return {
         ["NonFish"] = true,
     },
     ["Ember Perch"] = {
+        ["Icon"] = "rbxassetid://75873398995718",
         ["WeightPool"] = { 4, 15 },
         ["Chance"] = 80,
         ["Rarity"] = "Unusual",
@@ -20082,6 +20633,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ember Snapper"] = {
+        ["Icon"] = "rbxassetid://128647854853128",
         ["WeightPool"] = { 60, 120 },
         ["Chance"] = 50,
         ["Rarity"] = "Unusual",
@@ -20099,6 +20651,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Inferno Wood"] = {
+        ["Icon"] = "rbxassetid://92421144373379",
         ["WeightPool"] = { 1, 2 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -20117,6 +20670,7 @@ return {
         ["NonFish"] = true,
     },
     ["Magma Tang"] = {
+        ["Icon"] = "rbxassetid://89609525645454",
         ["WeightPool"] = { 6, 30 },
         ["Chance"] = 50,
         ["Rarity"] = "Uncommon",
@@ -20135,6 +20689,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Molten Banshee"] = {
+        ["Icon"] = "rbxassetid://88502443201196",
         ["WeightPool"] = { 3000, 5500 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Exotic",
@@ -20176,6 +20731,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Obsidian Salmon"] = {
+        ["Icon"] = "rbxassetid://92916384837902",
         ["WeightPool"] = { 40, 180 },
         ["Chance"] = 3,
         ["Rarity"] = "Legendary",
@@ -20195,6 +20751,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Obsidian Swordfish"] = {
+        ["Icon"] = "rbxassetid://92046130738206",
         ["WeightPool"] = { 1000, 2500 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -20214,6 +20771,7 @@ return {
         ["ViewportSizeOffset"] = 0.9,
     },
     ["Pyrogrub"] = {
+        ["Icon"] = "rbxassetid://125641921378813",
         ["WeightPool"] = { 300, 600 },
         ["Chance"] = 25,
         ["Rarity"] = "Rare",
@@ -20232,6 +20790,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Volcanic Geode"] = {
+        ["Icon"] = "rbxassetid://127915296895763",
         ["WeightPool"] = { 200, 200 },
         ["Chance"] = 17,
         ["Rarity"] = "Rare",
@@ -20843,6 +21402,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Azureback Haddock School"] = {
+        ["Icon"] = "rbxassetid://124419208111637",
         ["WeightPool"] = { 180, 750 },
         ["Chance"] = 80,
         ["Rarity"] = "Extinct",
@@ -20885,6 +21445,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Bearded Toadfish"] = {
+        ["Icon"] = "rbxassetid://104405182811038",
         ["WeightPool"] = { 40, 180 },
         ["Chance"] = 20,
         ["Rarity"] = "Extinct",
@@ -20990,6 +21551,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Blobfish School"] = {
+        ["Icon"] = "rbxassetid://139647511597980",
         ["WeightPool"] = { 200, 880 },
         ["Chance"] = 3,
         ["Rarity"] = "Extinct",
@@ -21054,6 +21616,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Bluefin Tuna School"] = {
+        ["Icon"] = "rbxassetid://89051721792963",
         ["WeightPool"] = { 125, 400 },
         ["Chance"] = 90,
         ["Rarity"] = "Extinct",
@@ -21260,6 +21823,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Coralwing Guppy School"] = {
+        ["Icon"] = "rbxassetid://115690172153442",
         ["WeightPool"] = { 180, 580 },
         ["Chance"] = 30,
         ["Rarity"] = "Extinct",
@@ -21465,6 +22029,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Duskwave Herring School"] = {
+        ["Icon"] = "rbxassetid://80596635309885",
         ["WeightPool"] = { 230, 620 },
         ["Chance"] = 10,
         ["Rarity"] = "Extinct",
@@ -21692,6 +22257,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Giant Moray"] = {
+        ["Icon"] = "rbxassetid://108027912883108",
         ["WeightPool"] = { 110, 400 },
         ["Chance"] = 5,
         ["Rarity"] = "Extinct",
@@ -21795,6 +22361,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Gulf Toadfish"] = {
+        ["Icon"] = "rbxassetid://120911881462980",
         ["WeightPool"] = { 90, 300 },
         ["Chance"] = 100,
         ["Rarity"] = "Extinct",
@@ -21938,6 +22505,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Infernal Halibut School"] = {
+        ["Icon"] = "rbxassetid://106137419254752",
         ["WeightPool"] = { 250, 670 },
         ["Chance"] = 5,
         ["Rarity"] = "Extinct",
@@ -22062,6 +22630,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Lagoon Lobster"] = {
+        ["Icon"] = "rbxassetid://123424783775238",
         ["WeightPool"] = { 12, 50 },
         ["Chance"] = 80,
         ["Rarity"] = "Extinct",
@@ -22124,6 +22693,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Lobster King"] = {
+        ["Icon"] = "rbxassetid://88550323745527",
         ["WeightPool"] = { 900000, 4000000 },
         ["Chance"] = 1,
         ["Rarity"] = "Extinct",
@@ -22207,6 +22777,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Moonveil Salmon School"] = {
+        ["Icon"] = "rbxassetid://102188495614197",
         ["WeightPool"] = { 235, 615 },
         ["Chance"] = 45,
         ["Rarity"] = "Extinct",
@@ -22331,6 +22902,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Oyster toadfish"] = {
+        ["Icon"] = "rbxassetid://129763069913029",
         ["WeightPool"] = { 37, 115 },
         ["Chance"] = 80,
         ["Rarity"] = "Extinct",
@@ -22500,6 +23072,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Pufferling School"] = {
+        ["Icon"] = "rbxassetid://104635378575167",
         ["WeightPool"] = { 190, 570 },
         ["Chance"] = 30,
         ["Rarity"] = "Extinct",
@@ -22731,6 +23304,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Rock Lobster"] = {
+        ["Icon"] = "rbxassetid://84724865412760",
         ["WeightPool"] = { 20, 68 },
         ["Chance"] = 50,
         ["Rarity"] = "Extinct",
@@ -22773,6 +23347,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Sardines School"] = {
+        ["Icon"] = "rbxassetid://84734690763032",
         ["WeightPool"] = { 50, 350 },
         ["Chance"] = 90,
         ["Rarity"] = "Extinct",
@@ -22834,6 +23409,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Sea Leviathan"] = {
+        ["Icon"] = "rbxassetid://95834591079279",
         ["WeightPool"] = { 22000, 60000 },
         ["Chance"] = 1,
         ["Rarity"] = "Extinct",
@@ -22874,6 +23450,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Seaspawn Shrimp School"] = {
+        ["Icon"] = "rbxassetid://110922464953672",
         ["WeightPool"] = { 350, 1500 },
         ["Chance"] = 1,
         ["Rarity"] = "Extinct",
@@ -22915,6 +23492,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Shiver Swarmfish School"] = {
+        ["Icon"] = "rbxassetid://91595132055135",
         ["WeightPool"] = { 200, 600 },
         ["Chance"] = 45,
         ["Rarity"] = "Extinct",
@@ -22936,6 +23514,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Slipper Lobster"] = {
+        ["Icon"] = "rbxassetid://109855346313530",
         ["WeightPool"] = { 90, 280 },
         ["Chance"] = 10,
         ["Rarity"] = "Extinct",
@@ -22997,6 +23576,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Smooth toadfish"] = {
+        ["Icon"] = "rbxassetid://116172175735128",
         ["WeightPool"] = { 33, 110 },
         ["Chance"] = 60,
         ["Rarity"] = "Extinct",
@@ -23078,6 +23658,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Splendid toadfish"] = {
+        ["Icon"] = "rbxassetid://120989404679750",
         ["WeightPool"] = { 35, 120 },
         ["Chance"] = 40,
         ["Rarity"] = "Extinct",
@@ -23201,6 +23782,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Studster"] = {
+        ["Icon"] = "rbxassetid://126612516958454",
         ["WeightPool"] = { 200, 650 },
         ["Chance"] = 5,
         ["Rarity"] = "Extinct",
@@ -23494,6 +24076,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Veinfin Tetra School"] = {
+        ["Icon"] = "rbxassetid://121136277399746",
         ["WeightPool"] = { 220, 660 },
         ["Chance"] = 80,
         ["Rarity"] = "Extinct",
@@ -23682,6 +24265,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Waveborne Lobster"] = {
+        ["Icon"] = "rbxassetid://138402596112270",
         ["WeightPool"] = { 130, 480 },
         ["Chance"] = 30,
         ["Rarity"] = "Extinct",
@@ -23703,6 +24287,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Western Rock Lobster"] = {
+        ["Icon"] = "rbxassetid://74809893648814",
         ["WeightPool"] = { 19, 50 },
         ["Chance"] = 90,
         ["Rarity"] = "Extinct",
@@ -24314,6 +24899,7 @@ return {
 
     -- Snowcap
     ["Arctic Char"] = {
+        ["Icon"] = "rbxassetid://89667676602310",
         ["WeightPool"] = { 20, 60 },
         ["Chance"] = 40,
         ["Rarity"] = "Uncommon",
@@ -24331,6 +24917,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Baby Pond Emperor"] = {
+        ["Icon"] = "rbxassetid://133380935500735",
         ["WeightPool"] = { 5, 20 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Exotic",
@@ -24350,6 +24937,7 @@ return {
         ["MovementBehavior"] = "RunAway",
     },
     ["Blackfish"] = {
+        ["Icon"] = "rbxassetid://92747267097166",
         ["WeightPool"] = { 5, 20 },
         ["Chance"] = 80,
         ["Rarity"] = "Uncommon",
@@ -24368,6 +24956,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Bluegill"] = {
+        ["Icon"] = "rbxassetid://134980924933363",
         ["WeightPool"] = { 1, 6 },
         ["Chance"] = 85,
         ["Rarity"] = "Common",
@@ -24385,6 +24974,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Burbot"] = {
+        ["Icon"] = "rbxassetid://117724825165306",
         ["WeightPool"] = { 10, 35 },
         ["Chance"] = 50,
         ["Rarity"] = "Uncommon",
@@ -24402,6 +24992,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Glacier Pike"] = {
+        ["Icon"] = "rbxassetid://75136774728763",
         ["WeightPool"] = { 12, 35 },
         ["Chance"] = 45,
         ["Rarity"] = "Unusual",
@@ -24419,6 +25010,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Glacierfish"] = {
+        ["Icon"] = "rbxassetid://132576571211125",
         ["WeightPool"] = { 400, 600 },
         ["Chance"] = 0.02,
         ["Rarity"] = "Mythical",
@@ -24438,6 +25030,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Grayling"] = {
+        ["Icon"] = "rbxassetid://115648986558608",
         ["WeightPool"] = { 5, 20 },
         ["Chance"] = 75,
         ["Rarity"] = "Common",
@@ -24456,6 +25049,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Herring"] = {
+        ["Icon"] = "rbxassetid://135209765490371",
         ["WeightPool"] = { 5, 11 },
         ["Chance"] = 80,
         ["Rarity"] = "Common",
@@ -24474,6 +25068,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ice"] = {
+        ["Icon"] = "rbxassetid://99074600801668",
         ["WeightPool"] = { 40, 60 },
         ["Chance"] = 35,
         ["Rarity"] = "Trash",
@@ -24492,6 +25087,7 @@ return {
         ["NonFish"] = true,
     },
     ["Lingcod"] = {
+        ["Icon"] = "rbxassetid://135104653634634",
         ["WeightPool"] = { 40, 140 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -24511,6 +25107,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Moon Wood"] = {
+        ["Icon"] = "rbxassetid://116347502392784",
         ["WeightPool"] = { 1, 2 },
         ["Chance"] = 0.25,
         ["Rarity"] = "Legendary",
@@ -24529,6 +25126,7 @@ return {
         ["NonFish"] = true,
     },
     ["Pollock"] = {
+        ["Icon"] = "rbxassetid://92633788539761",
         ["WeightPool"] = { 10, 50 },
         ["Chance"] = 80,
         ["Rarity"] = "Common",
@@ -24546,6 +25144,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Pond Emperor"] = {
+        ["Icon"] = "rbxassetid://108853379320218",
         ["WeightPool"] = { 1000, 2500 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Legendary",
@@ -24564,6 +25163,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Red Drum"] = {
+        ["Icon"] = "rbxassetid://92169937093564",
         ["WeightPool"] = { 10, 25 },
         ["Chance"] = 40,
         ["Rarity"] = "Common",
@@ -24581,6 +25181,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ringle"] = {
+        ["Icon"] = "rbxassetid://99049970144719",
         ["WeightPool"] = { 1, 4 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -24600,6 +25201,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Skipjack Tuna"] = {
+        ["Icon"] = "rbxassetid://133955993136119",
         ["WeightPool"] = { 70, 160 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -24617,6 +25219,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sturgeon"] = {
+        ["Icon"] = "rbxassetid://124641627018288",
         ["WeightPool"] = { 200, 800 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -24855,6 +25458,7 @@ return {
 
     -- Sunstone
     ["Ancient Wood"] = {
+        ["Icon"] = "rbxassetid://99107351483847",
         ["WeightPool"] = { 1, 2 },
         ["Chance"] = 0.5,
         ["Rarity"] = "Legendary",
@@ -24873,6 +25477,7 @@ return {
         ["NonFish"] = true,
     },
     ["Chinfish"] = {
+        ["Icon"] = "rbxassetid://110619686736160",
         ["WeightPool"] = { 20, 40 },
         ["Chance"] = 70,
         ["Rarity"] = "Uncommon",
@@ -24934,6 +25539,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Glassfish"] = {
+        ["Icon"] = "rbxassetid://119874770664035",
         ["WeightPool"] = { 1, 4 },
         ["Chance"] = 90,
         ["Rarity"] = "Common",
@@ -24951,6 +25557,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Longtail Bass"] = {
+        ["Icon"] = "rbxassetid://90152780740331",
         ["WeightPool"] = { 20, 40 },
         ["Chance"] = 50,
         ["Rarity"] = "Uncommon",
@@ -24968,6 +25575,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Mahi Mahi"] = {
+        ["Icon"] = "rbxassetid://119810541354128",
         ["WeightPool"] = { 70, 150 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -24985,6 +25593,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Napoleonfish"] = {
+        ["Icon"] = "rbxassetid://71617558032230",
         ["WeightPool"] = { 250, 350 },
         ["Chance"] = 19,
         ["Rarity"] = "Rare",
@@ -25003,6 +25612,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Red Tang"] = {
+        ["Icon"] = "rbxassetid://118113847375038",
         ["WeightPool"] = { 3, 15 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -25020,6 +25630,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Speed Core"] = {
+        ["Icon"] = "rbxassetid://90089428071383",
         ["WeightPool"] = { 12, 13 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Exotic",
@@ -25040,6 +25651,7 @@ return {
         ["FinalChanceDivisor"] = 2,
     },
     ["Sunfish"] = {
+        ["Icon"] = "rbxassetid://70946374431106",
         ["WeightPool"] = { 4000, 10000 },
         ["Chance"] = 1,
         ["Rarity"] = "Legendary",
@@ -25059,6 +25671,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sweetfish"] = {
+        ["Icon"] = "rbxassetid://131028553799417",
         ["WeightPool"] = { 2, 5 },
         ["Chance"] = 75,
         ["Rarity"] = "Common",
@@ -25096,6 +25709,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Trumpetfish"] = {
+        ["Icon"] = "rbxassetid://85228908936043",
         ["WeightPool"] = { 9, 20 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -25114,6 +25728,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Voltfish"] = {
+        ["Icon"] = "rbxassetid://99937502560802",
         ["WeightPool"] = { 8, 16 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -25133,6 +25748,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Wiifish"] = {
+        ["Icon"] = "rbxassetid://118799830415860",
         ["WeightPool"] = { 200, 400 },
         ["Chance"] = 1,
         ["Rarity"] = "Legendary",
@@ -25153,6 +25769,7 @@ return {
 
     -- Terrapin
     ["Chinook Salmon"] = {
+        ["Icon"] = "rbxassetid://130270833190603",
         ["WeightPool"] = { 100, 400 },
         ["Chance"] = 30,
         ["Rarity"] = "Unusual",
@@ -25170,6 +25787,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Golden Smallmouth Bass"] = {
+        ["Icon"] = "rbxassetid://77826094093078",
         ["WeightPool"] = { 15, 45 },
         ["Chance"] = 4,
         ["Rarity"] = "Legendary",
@@ -25188,6 +25806,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Gudgeon"] = {
+        ["Icon"] = "rbxassetid://128884761503125",
         ["WeightPool"] = { 1, 3 },
         ["Chance"] = 80,
         ["Rarity"] = "Common",
@@ -25206,6 +25825,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["King Oyster"] = {
+        ["Icon"] = "rbxassetid://122292054528670",
         ["WeightPool"] = { 4, 10 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -25245,6 +25865,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Olm"] = {
+        ["Icon"] = "rbxassetid://124530512882124",
         ["WeightPool"] = { 1, 4 },
         ["Chance"] = 2,
         ["Rarity"] = "Legendary",
@@ -25265,6 +25886,7 @@ return {
         ["ViewportSizeOffset"] = 2,
     },
     ["Redeye Bass"] = {
+        ["Icon"] = "rbxassetid://90259947845286",
         ["WeightPool"] = { 3, 15 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -25283,6 +25905,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sea Turtle"] = {
+        ["Icon"] = "rbxassetid://80000825518254",
         ["WeightPool"] = { 700, 1500 },
         ["Chance"] = 0.005,
         ["Rarity"] = "Mythical",
@@ -25302,6 +25925,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Smallmouth Bass"] = {
+        ["Icon"] = "rbxassetid://99514720486382",
         ["WeightPool"] = { 5, 17 },
         ["Chance"] = 75,
         ["Rarity"] = "Common",
@@ -25319,6 +25943,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Walleye"] = {
+        ["Icon"] = "rbxassetid://82042278581426",
         ["WeightPool"] = { 18, 40 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -25336,6 +25961,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["White Bass"] = {
+        ["Icon"] = "rbxassetid://114770507767719",
         ["WeightPool"] = { 3, 25 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -25356,6 +25982,7 @@ return {
 
     -- The Depths
     ["Ancient Depth Serpent"] = {
+        ["Icon"] = "rbxassetid://136140238861566",
         ["WeightPool"] = { 5000, 10000 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Exotic",
@@ -25375,6 +26002,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Ancient Eel"] = {
+        ["Icon"] = "rbxassetid://136873113063948",
         ["WeightPool"] = { 1000, 2000 },
         ["Chance"] = 0.4,
         ["Rarity"] = "Legendary",
@@ -25394,6 +26022,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Barreleye Fish"] = {
+        ["Icon"] = "rbxassetid://122641886273039",
         ["WeightPool"] = { 50, 150 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -25413,6 +26042,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Black Dragon Fish"] = {
+        ["Icon"] = "rbxassetid://128898212722578",
         ["WeightPool"] = { 150, 400 },
         ["Chance"] = 10,
         ["Rarity"] = "Rare",
@@ -25431,6 +26061,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Deep-sea Dragonfish"] = {
+        ["Icon"] = "rbxassetid://80616346441176",
         ["WeightPool"] = { 8, 40 },
         ["Chance"] = 100,
         ["Rarity"] = "Common",
@@ -25449,6 +26080,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Deep-sea Hatchetfish"] = {
+        ["Icon"] = "rbxassetid://125602882869264",
         ["WeightPool"] = { 5, 35 },
         ["Chance"] = 100,
         ["Rarity"] = "Common",
@@ -25467,6 +26099,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Depth Octopus"] = {
+        ["Icon"] = "rbxassetid://102206901212561",
         ["WeightPool"] = { 30, 80 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -25486,6 +26119,7 @@ return {
         ["MovementBehavior"] = "Squid",
     },
     ["Frilled Shark"] = {
+        ["Icon"] = "rbxassetid://111234701172950",
         ["WeightPool"] = { 40, 90 },
         ["Chance"] = 50,
         ["Rarity"] = "Unusual",
@@ -25504,6 +26138,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Goblin Shark"] = {
+        ["Icon"] = "rbxassetid://113013933159921",
         ["WeightPool"] = { 200, 450 },
         ["Chance"] = 25,
         ["Rarity"] = "Rare",
@@ -25522,6 +26157,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Luminescent Minnow"] = {
+        ["Icon"] = "rbxassetid://124663748297661",
         ["WeightPool"] = { 2, 8 },
         ["Chance"] = 60,
         ["Rarity"] = "Unusual",
@@ -25540,6 +26176,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Mutated Shark"] = {
+        ["Icon"] = "rbxassetid://139042783011521",
         ["WeightPool"] = { 2000, 4000 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Mythical",
@@ -25559,6 +26196,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Nautilus"] = {
+        ["Icon"] = "rbxassetid://103284081142706",
         ["WeightPool"] = { 400, 800 },
         ["Chance"] = 0.2,
         ["Rarity"] = "Legendary",
@@ -25578,6 +26216,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sea Snake"] = {
+        ["Icon"] = "rbxassetid://130688343568753",
         ["WeightPool"] = { 300, 800 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Mythical",
@@ -25597,6 +26236,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Small Spine Chimera"] = {
+        ["Icon"] = "rbxassetid://136521749900878",
         ["WeightPool"] = { 800, 1500 },
         ["Chance"] = 0.2,
         ["Rarity"] = "Legendary",
@@ -25616,6 +26256,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Spider Crab"] = {
+        ["Icon"] = "rbxassetid://102996183591314",
         ["WeightPool"] = { 80, 250 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -25634,6 +26275,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Three-eyed Fish"] = {
+        ["Icon"] = "rbxassetid://82391816848468",
         ["WeightPool"] = { 20, 60 },
         ["Chance"] = 40,
         ["Rarity"] = "Unusual",
@@ -25739,7 +26381,7 @@ return {
         ["Resilience"] = 300,
         ["Description"] = "A giant piece of slate that fell from the roof of Tidefall, nobody knows how a rod could ever pick this up...",
         ["Hint"] = "Found in shallow rockpools and caves.",
-        ["FavouriteBait"] = "Magnet",
+        ["FavouriteBait"] = { "Magnet", "Boulder" },
         ["FavouriteTime"] = "None",
         ["Price"] = 550,
         ["XP"] = 2,
@@ -26293,6 +26935,7 @@ return {
 
     -- Treasure Island
     ["Bluegem Angelfish"] = {
+        ["Icon"] = "rbxassetid://73399114692439",
         ["WeightPool"] = { 30, 100 },
         ["Chance"] = 105,
         ["Rarity"] = "Common",
@@ -26311,6 +26954,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Coin Piranha"] = {
+        ["Icon"] = "rbxassetid://92825070422298",
         ["WeightPool"] = { 100, 300 },
         ["Chance"] = 31,
         ["Rarity"] = "Rare",
@@ -26330,6 +26974,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Coin Squid"] = {
+        ["Icon"] = "rbxassetid://139452250592470",
         ["WeightPool"] = { 100, 300 },
         ["Chance"] = 37,
         ["Rarity"] = "Unusual",
@@ -26350,6 +26995,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Coin Triggerfish"] = {
+        ["Icon"] = "rbxassetid://94470620269081",
         ["WeightPool"] = { 28, 90 },
         ["Chance"] = 95,
         ["Rarity"] = "Common",
@@ -26368,6 +27014,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Crowned Royal Gramma"] = {
+        ["Icon"] = "rbxassetid://131516589405784",
         ["WeightPool"] = { 90, 300 },
         ["Chance"] = 90,
         ["Rarity"] = "Common",
@@ -26386,6 +27033,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Emerald Angelfish"] = {
+        ["Icon"] = "rbxassetid://132891845019654",
         ["WeightPool"] = { 43, 129 },
         ["Chance"] = 85,
         ["Rarity"] = "Common",
@@ -26404,6 +27052,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Gem Anchovy"] = {
+        ["Icon"] = "rbxassetid://92309821029896",
         ["WeightPool"] = { 8, 20 },
         ["Chance"] = 87,
         ["Rarity"] = "Common",
@@ -26422,6 +27071,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Gem Blobfish"] = {
+        ["Icon"] = "rbxassetid://73789030633518",
         ["WeightPool"] = { 10, 100 },
         ["Chance"] = 0.03,
         ["Rarity"] = "Secret",
@@ -26441,6 +27091,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Gem Dolphin"] = {
+        ["Icon"] = "rbxassetid://123229505506162",
         ["WeightPool"] = { 80, 280 },
         ["Chance"] = 16,
         ["Rarity"] = "Legendary",
@@ -26460,6 +27111,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Gem Eel"] = {
+        ["Icon"] = "rbxassetid://72113469054438",
         ["WeightPool"] = { 18, 50 },
         ["Chance"] = 64,
         ["Rarity"] = "Uncommon",
@@ -26478,6 +27130,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Gem Marlin"] = {
+        ["Icon"] = "rbxassetid://81291540301689",
         ["WeightPool"] = { 50000, 180000 },
         ["Chance"] = 4,
         ["Rarity"] = "Mythical",
@@ -26497,6 +27150,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Gem Salmon"] = {
+        ["Icon"] = "rbxassetid://112856628277515",
         ["WeightPool"] = { 30, 110 },
         ["Chance"] = 100,
         ["Rarity"] = "Common",
@@ -26515,6 +27169,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Gemscale Mandarinfish"] = {
+        ["Icon"] = "rbxassetid://82911858095303",
         ["WeightPool"] = { 40, 110 },
         ["Chance"] = 70,
         ["Rarity"] = "Uncommon",
@@ -26533,6 +27188,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Gemstone Whale Shark"] = {
+        ["Icon"] = "rbxassetid://107385677419297",
         ["WeightPool"] = { 1200, 4000 },
         ["Chance"] = 5,
         ["Rarity"] = "Mythical",
@@ -26552,6 +27208,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Goldband Butterflyfish"] = {
+        ["Icon"] = "rbxassetid://86987606579529",
         ["WeightPool"] = { 70, 220 },
         ["Chance"] = 65,
         ["Rarity"] = "Uncommon",
@@ -26570,6 +27227,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Golden Dorado"] = {
+        ["Icon"] = "rbxassetid://108119408514637",
         ["WeightPool"] = { 30, 100 },
         ["Chance"] = 39,
         ["Rarity"] = "Unusual",
@@ -26588,6 +27246,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Goldfin Octopus"] = {
+        ["Icon"] = "rbxassetid://98226244617062",
         ["WeightPool"] = { 300, 1000 },
         ["Chance"] = 0.05,
         ["Rarity"] = "Exotic",
@@ -26608,6 +27267,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Hidden Filefish"] = {
+        ["Icon"] = "rbxassetid://132914187035996",
         ["WeightPool"] = { 60, 190 },
         ["Chance"] = 38,
         ["Rarity"] = "Unusual",
@@ -26626,6 +27286,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Net Wolffish"] = {
+        ["Icon"] = "rbxassetid://91934224701591",
         ["WeightPool"] = { 400, 1500 },
         ["Chance"] = 30,
         ["Rarity"] = "Rare",
@@ -26644,6 +27305,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Queen Angelfish"] = {
+        ["Icon"] = "rbxassetid://112122331893041",
         ["WeightPool"] = { 24, 80 },
         ["Chance"] = 25,
         ["Rarity"] = "Rare",
@@ -26662,6 +27324,7 @@ return {
         ["Worlds"] = { "Sea 1" },
     },
     ["Ruby Lionfish"] = {
+        ["Icon"] = "rbxassetid://91225024831267",
         ["WeightPool"] = { 55, 170 },
         ["Chance"] = 15,
         ["Rarity"] = "Legendary",
@@ -26706,6 +27369,7 @@ return {
 
     -- Unknown
     ["Ancient Algae"] = {
+        ["Icon"] = "rbxassetid://133407272693826",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 40,
@@ -26728,6 +27392,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Ancient Lobster"] = {
+        ["Icon"] = "rbxassetid://76941138554068",
         ["WeightPool"] = { 200, 650 },
         ["Chance"] = 5,
         ["Rarity"] = "Extinct",
@@ -26747,32 +27412,8 @@ return {
         ["UtilityTier"] = 3,
         ["UtilityType"] = "lobster",
     },
-    ["Doubloon"] = {
-        ["Icon"] = "rbxassetid://127178645380965",
-        ["WeightPool"] = { 2, 2 },
-        ["Chance"] = inf,
-        ["Rarity"] = "Common",
-        ["Resilience"] = 120,
-        ["ProgressEfficiency"] = 1.05,
-        ["Description"] = "",
-        ["Hint"] = "",
-        ["FavouriteBait"] = "",
-        ["FavouriteTime"] = "",
-        ["Price"] = 50,
-        ["XP"] = 30,
-        ["Seasons"] = { "Summer" },
-        ["Weather"] = { "Clear" },
-        ["Quips"] = {},
-        ["SparkleColor"] = Color3.fromRGB(255, 142, 28),
-        ["HoldAnimation"] = "[userdata]",
-        ["BlockCatchMessage"] = true,
-        ["RemoveMutations"] = true,
-        ["RemoveShiny"] = true,
-        ["RemoveSparkling"] = true,
-        ["Unregistered"] = true,
-        ["Worlds"] = { "Sea 1" },
-    },
     ["Eyefestation"] = {
+        ["Icon"] = "rbxassetid://131317124437026",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 4800, 6500 },
         ["Chance"] = 0,
@@ -26793,6 +27434,7 @@ return {
         ["HideInBestiary"] = true,
     },
     ["Forsaken Algae"] = {
+        ["Icon"] = "rbxassetid://95879629381520",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 40,
@@ -26815,6 +27457,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Langoustine"] = {
+        ["Icon"] = "rbxassetid://135742598537104",
         ["WeightPool"] = { 3, 10 },
         ["Chance"] = 8,
         ["Rarity"] = "Extinct",
@@ -26835,6 +27478,7 @@ return {
         ["UtilityType"] = "lobster",
     },
     ["Mushgrove Algae"] = {
+        ["Icon"] = "rbxassetid://93260841241624",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 40,
@@ -26929,6 +27573,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Roslit Ray Lobster"] = {
+        ["Icon"] = "rbxassetid://120283038423605",
         ["WeightPool"] = { 13, 40 },
         ["Chance"] = 50,
         ["Rarity"] = "Extinct",
@@ -26948,6 +27593,7 @@ return {
         ["UtilityType"] = "lobster",
     },
     ["Scalloped Spiny Lobster"] = {
+        ["Icon"] = "rbxassetid://129365549760766",
         ["WeightPool"] = { 45, 120 },
         ["Chance"] = 30,
         ["Rarity"] = "Extinct",
@@ -26968,6 +27614,7 @@ return {
         ["UtilityType"] = "lobster",
     },
     ["Snowcap Algae"] = {
+        ["Icon"] = "rbxassetid://130729468008773",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 25, 50 },
         ["Chance"] = 40,
@@ -26990,6 +27637,7 @@ return {
         ["Unregistered"] = true,
     },
     ["Snowcap Lobster"] = {
+        ["Icon"] = "rbxassetid://78965941656261",
         ["WeightPool"] = { 10, 30 },
         ["Chance"] = 45,
         ["Rarity"] = "Extinct",
@@ -27009,6 +27657,7 @@ return {
         ["UtilityType"] = "lobster",
     },
     ["Spiny Sunstone Lobster"] = {
+        ["Icon"] = "rbxassetid://92403298462741",
         ["WeightPool"] = { 45, 170 },
         ["Chance"] = 85,
         ["Rarity"] = "Extinct",
@@ -27028,6 +27677,7 @@ return {
         ["UtilityType"] = "lobster",
     },
     ["Terrapin Lobster"] = {
+        ["Icon"] = "rbxassetid://110789637027358",
         ["WeightPool"] = { 18, 58 },
         ["Chance"] = 35,
         ["Rarity"] = "Extinct",
@@ -27050,6 +27700,7 @@ return {
 
     -- Valentides
     ["Lovestorm Eel"] = {
+        ["Icon"] = "rbxassetid://111931437002688",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 35000, 70000 },
         ["Chance"] = 0.0001,
@@ -27071,6 +27722,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Lovestorm Eel Supercharged"] = {
+        ["Icon"] = "rbxassetid://99717594501068",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 60000, 105000 },
         ["Chance"] = 0.001,
@@ -27094,6 +27746,7 @@ return {
 
     -- Valentides 2
     ["Box of Chocolate"] = {
+        ["Icon"] = "rbxassetid://81141135026408",
         ["WeightPool"] = { 15, 15 },
         ["Chance"] = 0,
         ["Rarity"] = "Limited",
@@ -27119,6 +27772,7 @@ return {
         ["NonFish"] = true,
     },
     ["Cupid Crab"] = {
+        ["Icon"] = "rbxassetid://125536421886923",
         ["WeightPool"] = { 5, 14 },
         ["Chance"] = 30,
         ["ChanceGroup"] = "Legendary",
@@ -27140,6 +27794,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Cupid Relic"] = {
+        ["Icon"] = "rbxassetid://97308381159700",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 150, 150 },
         ["Chance"] = 1,
@@ -27173,6 +27828,7 @@ return {
         ["RelicOfferType"] = "Limited",
     },
     ["Dove"] = {
+        ["Icon"] = "rbxassetid://117654217491917",
         ["WeightPool"] = { 8, 16 },
         ["Chance"] = 3,
         ["ChanceGroup"] = "Secret",
@@ -27196,6 +27852,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Fischversation Hearts Box"] = {
+        ["Icon"] = "rbxassetid://120798321399000",
         ["WeightPool"] = { 5, 5 },
         ["Chance"] = 0,
         ["Rarity"] = "Limited",
@@ -27222,6 +27879,7 @@ return {
         ["NonFish"] = true,
     },
     ["Heart Balloon"] = {
+        ["Icon"] = "rbxassetid://87013308136543",
         ["WeightPool"] = { 1, 3 },
         ["Chance"] = 0,
         ["Rarity"] = "Limited",
@@ -27242,6 +27900,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Heart Cookie"] = {
+        ["Icon"] = "rbxassetid://73160067804662",
         ["WeightPool"] = { 2, 6 },
         ["Chance"] = 30,
         ["ChanceGroup"] = "Legendary",
@@ -27263,6 +27922,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Heart Sand Dollar"] = {
+        ["Icon"] = "rbxassetid://78796300209092",
         ["WeightPool"] = { 4, 12 },
         ["Chance"] = 30,
         ["ChanceGroup"] = "Mythical",
@@ -27284,6 +27944,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Heartbreak Herring"] = {
+        ["Icon"] = "rbxassetid://80814074313065",
         ["WeightPool"] = { 4, 12 },
         ["Chance"] = 10,
         ["ChanceGroup"] = "Exotic",
@@ -27306,6 +27967,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Kissing Gourami"] = {
+        ["Icon"] = "rbxassetid://112126256742502",
         ["WeightPool"] = { 6, 15 },
         ["Chance"] = 30,
         ["ChanceGroup"] = "Legendary",
@@ -27328,6 +27990,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Love Letter Long Pike"] = {
+        ["Icon"] = "rbxassetid://103693352148832",
         ["WeightPool"] = { 20, 45 },
         ["Chance"] = 3,
         ["ChanceGroup"] = "Secret",
@@ -27350,6 +28013,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Lovestorm Turtle"] = {
+        ["Icon"] = "rbxassetid://82712760916297",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 75000, 80000 },
         ["Chance"] = 2,
@@ -27374,6 +28038,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Lovestorm Turtle Supercharged"] = {
+        ["Icon"] = "rbxassetid://79799511320828",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 110000, 120000 },
         ["Chance"] = 1,
@@ -27398,6 +28063,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Pink Betta"] = {
+        ["Icon"] = "rbxassetid://137215712699193",
         ["WeightPool"] = { 3, 9 },
         ["Chance"] = 10,
         ["ChanceGroup"] = "Mythical",
@@ -27420,6 +28086,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Rose Bouquet"] = {
+        ["Icon"] = "rbxassetid://77279718753699",
         ["WeightPool"] = { 2, 8 },
         ["Chance"] = 30,
         ["ChanceGroup"] = "Legendary",
@@ -27441,6 +28108,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Rose Rockfish"] = {
+        ["Icon"] = "rbxassetid://138102881788172",
         ["WeightPool"] = { 8, 18 },
         ["Chance"] = 10,
         ["ChanceGroup"] = "Mythical",
@@ -27462,6 +28130,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Roseveil Koi"] = {
+        ["Icon"] = "rbxassetid://134169573386830",
         ["WeightPool"] = { 12, 28 },
         ["Chance"] = 3,
         ["ChanceGroup"] = "Secret",
@@ -27484,6 +28153,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sacred Lovestorm Turtle"] = {
+        ["Icon"] = "rbxassetid://136102565067356",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 150000, 160000 },
         ["Chance"] = 1,
@@ -27509,6 +28179,7 @@ return {
         ["FinalChanceDivisor"] = 3,
     },
     ["Stuffed Bear"] = {
+        ["Icon"] = "rbxassetid://115868757636846",
         ["WeightPool"] = { 10, 12 },
         ["Chance"] = 30,
         ["ChanceGroup"] = "Legendary",
@@ -27530,6 +28201,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Sweetheart Seahorse"] = {
+        ["Icon"] = "rbxassetid://88832669685369",
         ["WeightPool"] = { 15, 20 },
         ["Chance"] = 1,
         ["ChanceGroup"] = "Exotic",
@@ -27552,6 +28224,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Valentine's Relic"] = {
+        ["Icon"] = "rbxassetid://122197441886376",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 350, 350 },
         ["Chance"] = 0,
@@ -27585,6 +28258,7 @@ return {
 
     -- Veil of the Forsaken
     ["Cyclone Scorpionfish"] = {
+        ["Icon"] = "rbxassetid://84654935628606",
         ["WeightPool"] = { 460, 1200 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -27603,6 +28277,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Gorgon Grouper"] = {
+        ["Icon"] = "rbxassetid://86560091290996",
         ["WeightPool"] = { 600, 1650 },
         ["Chance"] = 25,
         ["Rarity"] = "Unusual",
@@ -27621,6 +28296,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Hydra Haddock"] = {
+        ["Icon"] = "rbxassetid://81106626617827",
         ["WeightPool"] = { 210, 470 },
         ["Chance"] = 65,
         ["Rarity"] = "Common",
@@ -27638,6 +28314,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Kraken Koi"] = {
+        ["Icon"] = "rbxassetid://103106232945361",
         ["WeightPool"] = { 1000, 2800 },
         ["Chance"] = 45,
         ["Rarity"] = "Uncommon",
@@ -27656,6 +28333,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Scylla"] = {
+        ["Icon"] = "rbxassetid://124361765249229",
         ["BlockPassiveCapture"] = true,
         ["WeightPool"] = { 2000000, 5000000 },
         ["Chance"] = 0.1,
@@ -27676,6 +28354,7 @@ return {
         ["ClientFishingPassives"] = {},
     },
     ["Serpent Surgeonfish"] = {
+        ["Icon"] = "rbxassetid://114025143740938",
         ["WeightPool"] = { 850, 2100 },
         ["Chance"] = 55,
         ["Rarity"] = "Uncommon",
@@ -27694,6 +28373,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Siren Sculpin"] = {
+        ["Icon"] = "rbxassetid://87947529730337",
         ["WeightPool"] = { 900, 2500 },
         ["Chance"] = 10,
         ["Rarity"] = "Rare",
@@ -27712,6 +28392,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Twilight Tentaclefish"] = {
+        ["Icon"] = "rbxassetid://76744713992670",
         ["WeightPool"] = { 2800, 7500 },
         ["Chance"] = 3,
         ["Rarity"] = "Mythical",
@@ -27730,6 +28411,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Typhoon Tailfin"] = {
+        ["Icon"] = "rbxassetid://115489125608436",
         ["WeightPool"] = { 12000, 34000 },
         ["Chance"] = 5,
         ["Rarity"] = "Legendary",
@@ -27750,6 +28432,7 @@ return {
 
     -- Vertigo
     ["Abyssacuda"] = {
+        ["Icon"] = "rbxassetid://77110976410673",
         ["WeightPool"] = { 55, 110 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -27767,6 +28450,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Fangborn Gar"] = {
+        ["Icon"] = "rbxassetid://139278731627561",
         ["WeightPool"] = { 170, 380 },
         ["Chance"] = 50,
         ["Rarity"] = "Unusual",
@@ -27784,6 +28468,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Isonade"] = {
+        ["Icon"] = "rbxassetid://124547630879869",
         ["WeightPool"] = { 6000, 13000 },
         ["Chance"] = 0.1,
         ["Rarity"] = "Mythical",
@@ -27802,6 +28487,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Night Shrimp"] = {
+        ["Icon"] = "rbxassetid://94964803157748",
         ["WeightPool"] = { 1, 2 },
         ["Chance"] = 45,
         ["Rarity"] = "Common",
@@ -27820,6 +28506,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Rubber Ducky"] = {
+        ["Icon"] = "rbxassetid://140319106810546",
         ["WeightPool"] = { 1, 7 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Legendary",
@@ -27838,6 +28525,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Spiderfish"] = {
+        ["Icon"] = "rbxassetid://79765737484373",
         ["WeightPool"] = { 3, 10 },
         ["Chance"] = 90,
         ["Rarity"] = "Common",
@@ -27855,6 +28543,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["The Depths Key"] = {
+        ["Icon"] = "rbxassetid://120296260873604",
         ["WeightPool"] = { 500, 1000 },
         ["Chance"] = 1,
         ["Rarity"] = "Exotic",
@@ -27875,6 +28564,7 @@ return {
         ["NonFish"] = true,
     },
     ["Twilight Eel"] = {
+        ["Icon"] = "rbxassetid://120751818313580",
         ["WeightPool"] = { 100, 200 },
         ["Chance"] = 70,
         ["Rarity"] = "Uncommon",
@@ -27892,6 +28582,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Voidfin Mahi"] = {
+        ["Icon"] = "rbxassetid://72487121876231",
         ["WeightPool"] = { 75, 155 },
         ["Chance"] = 10,
         ["Rarity"] = "Rare",
@@ -27931,6 +28622,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Embertail Eel"] = {
+        ["Icon"] = "rbxassetid://107474561207101",
         ["WeightPool"] = { 18, 40 },
         ["Chance"] = 60,
         ["Rarity"] = "Uncommon",
@@ -27949,6 +28641,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Hellfire Haddock"] = {
+        ["Icon"] = "rbxassetid://108940917051166",
         ["WeightPool"] = { 25, 60 },
         ["Chance"] = 70,
         ["Rarity"] = "Common",
@@ -28028,6 +28721,7 @@ return {
         ["FinalChanceDivisor"] = 4,
     },
     ["Molten Moray"] = {
+        ["Icon"] = "rbxassetid://107984634616930",
         ["WeightPool"] = { 80, 230 },
         ["Chance"] = 15,
         ["Rarity"] = "Rare",
@@ -28045,6 +28739,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Pyrite Pufferfish"] = {
+        ["Icon"] = "rbxassetid://81515131738279",
         ["WeightPool"] = { 75, 190 },
         ["Chance"] = 20,
         ["Rarity"] = "Rare",
@@ -28063,6 +28758,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Scalding Swordfish"] = {
+        ["Icon"] = "rbxassetid://98394397575228",
         ["WeightPool"] = { 10000, 25000 },
         ["Chance"] = 0.005,
         ["Rarity"] = "Legendary",
@@ -28082,6 +28778,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Smoldering Stingray"] = {
+        ["Icon"] = "rbxassetid://88001534705018",
         ["WeightPool"] = { 80, 170 },
         ["Chance"] = 35,
         ["Rarity"] = "Unusual",
@@ -28102,6 +28799,7 @@ return {
 
     -- Winter's Edge
     ["Crystal Carp"] = {
+        ["Icon"] = "rbxassetid://79214680453231",
         ["WeightPool"] = { 10, 18 },
         ["Chance"] = 15,
         ["Rarity"] = "Limited",
@@ -28123,6 +28821,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Frozen Fangfish"] = {
+        ["Icon"] = "rbxassetid://134712796324932",
         ["WeightPool"] = { 50, 80 },
         ["Chance"] = 1,
         ["Rarity"] = "Limited",
@@ -28144,6 +28843,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Glacier Glowfish"] = {
+        ["Icon"] = "rbxassetid://80903007566463",
         ["WeightPool"] = { 80, 150 },
         ["Chance"] = 0.01,
         ["Rarity"] = "Limited",
@@ -28165,6 +28865,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Hollow Flake Catfish"] = {
+        ["Icon"] = "rbxassetid://71627848347039",
         ["WeightPool"] = { 20, 50 },
         ["Chance"] = 7,
         ["Rarity"] = "Limited",
@@ -28186,6 +28887,7 @@ return {
         ["HoldAnimation"] = "[userdata]",
     },
     ["Hollyscale Trout"] = {
+        ["Icon"] = "rbxassetid://78865554767607",
         ["WeightPool"] = { 5, 10 },
         ["Chance"] = 30,
         ["Rarity"] = "Limited",
