@@ -30447,7 +30447,7 @@ return {
         ["Seasons"] = { "Autumn", "Winter" },
         ["Weather"] = { "Stormy" },
         ["Quips"] = { "THUNDERCLAP!", "That snap was loud!", "Watch those claws!" },
-    },a
+    },
     ["Voltstripe Carp"] = {
         ["Icon"] = "rbxassetid://131958525104524",
         ["WeightPool"] = { 10, 30 },
