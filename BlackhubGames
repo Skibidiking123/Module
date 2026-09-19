@@ -17,4 +17,6 @@ getgenv().Games = {
     [75159314259063] = "a38a6a9901dd6a7dafd2c3a5d8d29f4c", -- SP
     [130167267952199] = "a38a6a9901dd6a7dafd2c3a5d8d29f4c", -- SP
     [98826438856089] = "a38a6a9901dd6a7dafd2c3a5d8d29f4c", -- SP
+    [16205713724] = "35b29b4824f2e7ebb6df105df7a639a7", -- PS
+    [136406881576517] = "35b29b4824f2e7ebb6df105df7a639a7", -- PS
 }
