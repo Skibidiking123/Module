@@ -1048,20 +1048,17 @@ type IconModule = {
     GetAsset: (Name: string) -> Icon?,
 }
 
-local FetchIcons, Icons = pcall(function()
-    return (loadstring(
-        game:HttpGet("https://gitlab.com/upio/lucide-roblox-direct/-/raw/main/source.lua")
-    ) :: () -> IconModule)()
-end)
+local FetchIcons = false
+local Icons: IconModule | nil = nil
 
 function Library:GetIcon(IconName: string)
-    if not FetchIcons then
-        return
+    if not FetchIcons or not Icons then
+        return nil
     end
 
     local Success, Icon = pcall(Icons.GetAsset, IconName)
     if not Success then
-        return
+        return nil
     end
     return Icon
 end
@@ -2099,6 +2096,28 @@ function Library:SetIconModule(module: IconModule)
     ResizeIcon = Library:GetIcon("move-diagonal-2")
     KeyIcon = Library:GetIcon("key")
     MoveIcon = Library:GetIcon("move")
+end
+
+local OnlineFetchIcons, OnlineIcons = pcall(function()
+    return (loadstring(
+        game:HttpGet("https://raw.githubusercontent.com/notpoiu/Molto/refs/heads/main/source.lua")
+    ) :: () -> IconModule)()
+end)
+do
+    if OnlineFetchIcons and OnlineIcons then
+        pcall(OnlineIcons.SetProvider, "lucide")
+        Library:SetIconModule(OnlineIcons)
+    else
+        OnlineFetchIcons, OnlineIcons = pcall(function()
+            return (loadstring(
+                game:HttpGet("https://raw.githubusercontent.com/notpoiu/lucide-roblox-direct/refs/heads/main/source.lua")
+            ) :: () -> IconModule)()
+        end)
+
+        if OnlineFetchIcons and OnlineIcons then
+            Library:SetIconModule(OnlineIcons)
+        end
+    end
 end
 
 local BaseAddons = {}
